@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: salesforce_lead_base
+    database: integrity-db
+    schema: test-dbt-base
+    tables:
+     - name: salesforce_lead_base
+  - name: salesforce_contact_base
+    database: integrity-db
+    schema: test-dbt-base
+    tables:
+     - name: salesforce_contact_base
+  - name: salesforce_opportunity_base
+    database: integrity-db
+    schema: test-dbt-base
+    tables:
+     - name: salesforce_opportunity_base
+  - name: lead_intermediate
+    database: integrity-db
+    schema: test-dbt-intermediate
+    tables:
+     - name: lead_intermediate

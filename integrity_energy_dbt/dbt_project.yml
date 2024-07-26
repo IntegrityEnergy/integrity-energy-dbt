@@ -1,0 +1,31 @@
+name: 'integrity_energy_dbt'
+version: '1.0.0'
+config-version: 2
+
+profile: integrity_energy_dbt
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  integrity_energy_dbt:
+    test-dbt-base:
+      +schema: test-dbt-base
+    test-dbt-intermediate:
+      +schema: test-dbt-intermediate
+    test-dbt-mart:
+      +schema: test-dbt-mart
+    prod-dbt-base:
+      +schema: prod-dbt-base
+    prod-dbt-intermediate:
+      +schema: prod-dbt-intermediate
+    prod-dbt-mart:
+      +schema: prod-dbt-mart
