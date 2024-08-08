@@ -1,16 +1,12 @@
 name: "dbt prd pipeline"
 
-# Triggers
 on:
-# Triggers the workflow on push to main branch
-push:
-	branches:
-	- main
-# Triggers the workflow manually from GUI
+	push:
+		branches:
+- main
 workflow_dispatch:
 
 jobs:
-# Build job
 build:
 	runs-on: ubuntu-latest
 	environment: prd
