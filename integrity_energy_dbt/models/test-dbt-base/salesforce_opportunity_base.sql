@@ -1,4 +1,4 @@
-{{ config( tags=["opportunity","salesforce"] ) }}
+{{ config( tags=["base","opportunity","salesforce"] ) }}
 
 select
     id,
@@ -10,6 +10,9 @@ select
     ownerid,
     rate__c,
     term__c,
+    team__c,
+    source__c,
+    marketing_generator__c,
     isclosed,
     notes__c,
     accountid,

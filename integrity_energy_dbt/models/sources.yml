@@ -16,8 +16,65 @@ sources:
     schema: test-dbt-base
     tables:
      - name: salesforce_opportunity_base
+  - name: salesforce_meter_number_base
+    database: integrity-db
+    schema: test-dbt-base
+    tables:
+     - name: salesforce_meter_number_base
+  - name: salesforce_account_base
+    database: integrity-db
+    schema: test-dbt-base
+    tables:
+     - name: salesforce_account_base
+  - name: bing_ads_daily_base
+    database: integrity-db
+    schema: test-dbt-base
+    tables:
+     - name: bing_ads_daily_base
+  - name: hubspot_daily_base
+    database: integrity-db
+    schema: test-dbt-base
+    tables:
+     - name: hubspot_daily_base
+  - name: facebook_daily_base
+    database: integrity-db
+    schema: test-dbt-base
+    tables:
+     - name: facebook_daily_base
+  - name: utility_lead_base
+    database: integrity-db
+    schema: test-dbt-base
+    tables:
+     - name: utility_lead_base
+
+  - name: utility_lead_intermediate
+    database: integrity-db
+    schema: test-dbt-intermediate
+    tables:
+     - name: utility_lead_intermediate
   - name: lead_intermediate
     database: integrity-db
     schema: test-dbt-intermediate
     tables:
      - name: lead_intermediate
+  - name: marketing_intermediate
+    database: integrity-db
+    schema: test-dbt-intermediate
+    tables:
+     - name: marketing_intermediate
+
+  - name: lead_prod
+    database: integrity-db
+    schema: test-dbt-prod
+    tables:
+     - name: lead_prod
+  - name: utility_lead_prod
+    database: integrity-db
+    schema: test-dbt-prod
+    tables:
+     - name: utility_lead_prod
+  - name: marketing_prod
+    database: integrity-db
+    schema: test-dbt-prod
+    tables:
+     - name: marketing_prod
