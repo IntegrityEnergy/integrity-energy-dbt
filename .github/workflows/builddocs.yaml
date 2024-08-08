@@ -1,9 +1,10 @@
 name: "dbt prd pipeline"
 
 on:
-	push:
+push:
 		branches:
-- main
+		- main
+		
 workflow_dispatch:
 
 jobs:
