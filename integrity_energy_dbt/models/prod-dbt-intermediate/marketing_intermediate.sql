@@ -1,5 +1,15 @@
 {{ config( tags=["marketing","bing","hubspot","opportunity","intermediate"] ) }}
 
+with google_ads as (
+    select
+        activity_date,
+        sum(googleads_impressions) as googleads_impressions,
+        ROUND((sum(googleads_cost) / 1000000),2) as googleads_cost,
+        sum(googleads_clicks) as googleads_clicks
+    from {{ source('google_ads_daily_base') }}
+    group by activity_date
+)
+
 with bing_ads as (
     select
         timeperiod,
@@ -57,7 +67,10 @@ group by sold_date__c
 )
 
 select 
-    COALESCE(o.sold_date__c, b.timeperiod, h.converted_date, f.date_start ) as activity_date,
+    COALESCE(o.sold_date__c, b.timeperiod, h.converted_date, f.date_start, g.activity_date ) as activity_date,
+    g.googleads_cost,
+    g.googleads_impressions,
+    g.googleads_clicks,
     b.bing_spend,
     b.bing_impressions,
     b.bing_clicks,
@@ -91,3 +104,4 @@ from opportunity_sold as o
 left outer join hubspot as h on o.sold_date__c = h.converted_date
 left outer join bing_ads as b on b.timeperiod = o.sold_date__c
 left outer join facebook as f on f.date_start = o.sold_date__c
+left outer join google_ads as g on g.activity_date = o.sold_date__c

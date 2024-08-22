@@ -31,6 +31,11 @@ sources:
     schema: prod-dbt-base
     tables:
      - name: bing_ads_daily_base
+  - name: google_ads_daily_base
+    database: integrity-db
+    schema: prod-dbt-base
+    tables:
+     - name: google_ads_daily_base 
   - name: hubspot_daily_base
     database: integrity-db
     schema: prod-dbt-base
