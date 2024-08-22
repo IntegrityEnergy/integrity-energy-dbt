@@ -6,11 +6,11 @@ with google_ads as (
         sum(googleads_impressions) as googleads_impressions,
         ROUND((sum(googleads_cost) / 1000000),2) as googleads_cost,
         sum(googleads_clicks) as googleads_clicks
-    from {{ source('google_ads_daily_base') }}
+    from {{ source('google_ads_daily_base', 'google_ads_daily_base') }}
     group by activity_date
-)
+),
 
-with bing_ads as (
+bing_ads as (
     select
         timeperiod,
         sum(spend) as bing_spend,

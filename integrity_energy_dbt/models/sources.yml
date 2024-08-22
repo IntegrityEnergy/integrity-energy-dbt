@@ -1,6 +1,7 @@
 version: 2
 
 sources:
+# Base Models
   - name: salesforce_lead_base
     database: integrity-db
     schema: prod-dbt-base
@@ -52,6 +53,7 @@ sources:
     tables:
      - name: utility_lead_base
 
+# Intermediate Models
   - name: utility_lead_intermediate
     database: integrity-db
     schema: prod-dbt-intermediate
@@ -67,7 +69,18 @@ sources:
     schema: prod-dbt-intermediate
     tables:
      - name: marketing_intermediate
+  - name: deal_intermediate
+    database: integrity-db
+    schema: prod-dbt-intermediate
+    tables:
+     - name: deal_intermediate
 
+# Prod Models
+  - name: deal_prod
+    database: integrity-db
+    schema: prod-dbt-mart
+    tables:
+     - name: deal_prod
   - name: lead_prod
     database: integrity-db
     schema: prod-dbt-mart

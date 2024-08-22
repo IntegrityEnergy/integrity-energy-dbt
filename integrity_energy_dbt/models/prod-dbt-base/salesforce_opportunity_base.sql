@@ -1,4 +1,4 @@
-{{ config( tags=["base","opportunity","salesforce"] ) }}
+{{ config( tags=["base","deal","opportunity","salesforce"] ) }}
 
 select
     id,
@@ -54,7 +54,7 @@ select
     owner_title__c,
     real_points__c,
     total_usage__c,
-    dl_start_gas__c
+    dl_start_gas__c,
     dl_usage_gas__c,
     do_not_renew__c,
     renewal_date__c,
