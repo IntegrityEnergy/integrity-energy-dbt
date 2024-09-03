@@ -58,16 +58,24 @@ opportunity_sold as (
     sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Microsoft' then 1 else 0 end) as microsoft_won_opportunities,
     sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Microsoft' then points__c else 0 end) as microsoft_won_points,
     sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Email' then 1 else 0 end) as email_won_opportunities,
-    sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Email' then points__c else 0 end) as email_won_points,
-    sum(case when iswon = true and status__c = 'Cancelled' then 1 else 0 end) as total_cancelled_opportunities,
-    sum(case when iswon = true and status__c = 'Cancelled' then cancelled_points__c else 0 end) as total_cancelled_points
+    sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Email' then points__c else 0 end) as email_won_points
 from {{ source('salesforce_opportunity_base','salesforce_opportunity_base')}}
 where marketing_generator__c = '0035f00000G8KYcAAN'
 group by sold_date__c
+),
+
+opportunity_cancelled as (
+SELECT
+    cancel_date__c,
+    sum(case when iswon = true and status__c = 'Cancelled' then 1 else 0 end) as total_cancelled_opportunities,
+    sum(case when iswon = true and cancel_date__c <> NULL then cancelled_points__c else 0 end) as total_cancelled_points
+from {{ source('salesforce_opportunity_base','salesforce_opportunity_base')}}
+where marketing_generator__c = '0035f00000G8KYcAAN'
+group by cancel_date__c
 )
 
 select 
-    COALESCE(o.sold_date__c, b.timeperiod, h.converted_date, f.date_start, g.activity_date ) as activity_date,
+    COALESCE(o.sold_date__c, b.timeperiod, h.converted_date, f.date_start, g.activity_date, c.cancel_date__c) as activity_date,
     g.googleads_cost,
     g.googleads_impressions,
     g.googleads_clicks,
@@ -98,10 +106,19 @@ select
     o.microsoft_won_points,
     o.email_won_opportunities,
     o.email_won_points,
-    o.total_cancelled_opportunities,
-    o.total_cancelled_points
+    c.total_cancelled_opportunities,
+    c.total_cancelled_points,
+    NVL(SUM(g.googleads_cost + b.bing_spend + f.facebook_spend),0) as total_spend,
+    NVL(SUM(g.googleads_clicks + b.bing_clicks + f.facebook_clicks),0) as total_clicks,
+    NVL(SUM(g.googleads_impressions + b.bing_impressions + f.facebook_impressions),0) as total_impressions,
+    SUM(g.googleads_cost + b.bing_spend + f.facebook_spend)/NVL(SUM(g.googleads_clicks + b.bing_clicks + f.facebook_clicks),0) as cost_per_click,
+    SUM(g.googleads_cost + b.bing_spend + f.facebook_spend)/NVL(SUM(g.googleads_impressions + b.bing_impressions + f.facebook_impressions),0) as cost_per_impressions,
+    SUM(g.googleads_cost + b.bing_spend + f.facebook_spend)/NVL(SUM(o.total_won_opportunities),0) as cost_per_deal,
+    NVL((SUM(o.total_won_points)*100),0)/NULLIF(NVL(SUM(g.googleads_cost + b.bing_spend + f.facebook_spend),0),0) as return_on_investment
 from opportunity_sold as o
 left outer join hubspot as h on o.sold_date__c = h.converted_date
 left outer join bing_ads as b on b.timeperiod = o.sold_date__c
 left outer join facebook as f on f.date_start = o.sold_date__c
 left outer join google_ads as g on g.activity_date = o.sold_date__c
+left outer join opportunity_cancelled as c on c.cancel_date__c = o.sold_date__c
+group by 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33

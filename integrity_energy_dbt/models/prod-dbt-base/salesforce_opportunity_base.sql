@@ -49,6 +49,7 @@ select
     dl_3500_kwh__c,
     dl_rate_gas__c,
     dl_term_gas__c,
+    dl_owner_alias__c,
     lost_reason__c,
     meter_usage__c,
     owner_title__c,

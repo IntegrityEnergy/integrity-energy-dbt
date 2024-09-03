@@ -43,6 +43,7 @@ with salesforce_opportunities as (
         usage_type__c,
         cancel_date__c,
         dl_rate_gas__c,
+        dl_owner_alias__c,
         dl_term_gas__c,
         lost_reason__c,
         meter_usage__c,
