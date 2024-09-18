@@ -52,7 +52,11 @@ sources:
     schema: prod-dbt-base
     tables:
      - name: utility_lead_base
-
+  - name: marketing_cost_base
+    database: integrity-db
+    schema: prod-dbt-base
+    tables:
+     - name: marketing_cost_base
 # Intermediate Models
   - name: utility_lead_intermediate
     database: integrity-db
