@@ -12,5 +12,7 @@ select
     createddate,
     service_address__c,
     status__c,
-    account__c
+    account__c,
+    dl_account__c,
+    account_number__c
 from salesforce.meter_number__c

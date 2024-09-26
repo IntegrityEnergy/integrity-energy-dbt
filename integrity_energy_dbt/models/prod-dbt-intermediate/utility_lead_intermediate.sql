@@ -87,6 +87,7 @@ select
     MIN(u.ratecode) as utility_ratecode,
     MIN(u.firstname) as utility_firstname,
     MIN(u.lastname) as utility_lastname,
+    MIN(u.title) as utility_title,
     MIN(u.phone) as utility_phone,
     MIN(u.email) as utility_email
 from meter_number as m

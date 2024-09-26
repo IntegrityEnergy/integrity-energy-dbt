@@ -57,6 +57,12 @@ sources:
     schema: prod-dbt-base
     tables:
      - name: marketing_cost_base
+  - name: zoominfo_base
+    database: integrity-db
+    schema: prod-dbt-base
+    tables:
+     - name: zoominfo_base
+
 # Intermediate Models
   - name: utility_lead_intermediate
     database: integrity-db

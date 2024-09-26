@@ -65,6 +65,15 @@ salesforce_opportunities as (
         sum((case when isclosed = true then 1 else 0 end)) as closed_opportunities
     from {{ source('salesforce_opportunity_base','salesforce_opportunity_base')}}
     group by opp_contract_signer
+),
+
+utility_lead as (
+    select
+        companyname as utility_companyname,
+        serviceaddress as utility_serviceaddress,
+        servicecity as utility_servicecity,
+        servicezip as utility_servicezip,
+    from {{ source('utility_lead_base','utility_lead_base')}}
 )
 
 select
@@ -72,3 +81,4 @@ select
 from salesforce_leads as l
 left join salesforce_contacts as c on l.lead_convertedcontactid = c.contact_id
 left join salesforce_opportunities as o on l.lead_convertedcontactid = o.opp_contract_signer
+left join utility_lead as u on l.company = u.companyname

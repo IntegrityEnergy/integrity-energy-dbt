@@ -18,7 +18,7 @@ select
 from utility_leads.utilitylead as u
 left join utility_leads.enriched as e 
 on u.companyname = e.companyname 
-AND u.serviceaddress = e.serviceaddress 
+AND u.serviceaddress = e.serviceaddress
 AND u.utility = e.utility
 AND u.servicecity = e.servicecity
 AND u.servicestate = e.servicestate
