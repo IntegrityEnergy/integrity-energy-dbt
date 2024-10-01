@@ -19,6 +19,7 @@ select
     leadsource,
     postalcode,
     createddate,
+    CAST(createddate as DATE) as createdday,
     isconverted,
     commodity__c,
     converteddate,

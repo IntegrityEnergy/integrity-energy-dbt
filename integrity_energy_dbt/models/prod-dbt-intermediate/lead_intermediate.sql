@@ -20,6 +20,7 @@ with salesforce_leads as (
         leadsource as lead_leadsource,
         postalcode as lead_postalcode,
         createddate as lead_createddate,
+        createdday as lead_createdday,
         isconverted as lead_isconverted,
         commodity__c as lead_commodity,
         converteddate as lead_converteddate,
@@ -29,7 +30,8 @@ with salesforce_leads as (
         average_bill_amount__c as lead_average_bill_amount,
         convertedopportunityid as lead_convertedopportunityid,
         marketing_generator__c as lead_marketing_generator,
-        new_ready_to_work_date__c as lead_new_ready_to_work_date
+        new_ready_to_work_date__c as lead_new_ready_to_work_date,
+        Concat(company,regexp_substr(street, '^[0-9]+')) as util_join
     from {{ source('salesforce_lead_base','salesforce_lead_base') }}
 ),
 
@@ -73,12 +75,15 @@ utility_lead as (
         serviceaddress as utility_serviceaddress,
         servicecity as utility_servicecity,
         servicezip as utility_servicezip,
+        phone as utility_phone,
+        Concat(companyname,regexp_substr(serviceaddress, '^[0-9]+')) as lead_join
     from {{ source('utility_lead_base','utility_lead_base')}}
 )
 
 select
+(NVL(l.lead_id,'-') || NVL(c.contact_id,'-') || NVL(u.lead_join,'-')) as lead_master_id,
 *
 from salesforce_leads as l
-left join salesforce_contacts as c on l.lead_convertedcontactid = c.contact_id
-left join salesforce_opportunities as o on l.lead_convertedcontactid = o.opp_contract_signer
-left join utility_lead as u on l.company = u.companyname
+full join salesforce_contacts as c on l.lead_convertedcontactid = c.contact_id
+full join utility_lead as u on l.util_join = u.lead_join
+left join salesforce_opportunities as o on c.contact_id = o.opp_contract_signer

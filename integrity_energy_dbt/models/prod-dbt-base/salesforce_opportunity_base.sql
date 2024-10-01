@@ -1,4 +1,4 @@
-{{ config( tags=["base","deal","opportunity","salesforce"] ) }}
+{{ config( tags=["base","deal","lead","opportunity","salesforce"] ) }}
 
 select
     id,

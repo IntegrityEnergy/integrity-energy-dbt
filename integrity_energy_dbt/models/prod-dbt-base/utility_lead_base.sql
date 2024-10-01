@@ -1,4 +1,4 @@
-{{ config( tags=["base","utility_lead"] ) }}
+{{ config( tags=["base","lead","utility_lead"] ) }}
 
 select
         u.companyname,
