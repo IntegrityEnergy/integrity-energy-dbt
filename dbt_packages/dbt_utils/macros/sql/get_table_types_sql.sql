@@ -20,13 +20,3 @@
                 else lower(table_type)
             end as {{ adapter.quote('table_type') }}
 {% endmacro %}
-
-
-{% macro databricks__get_table_types_sql() %}
-            case table_type
-                when 'MANAGED' then 'table'
-                when 'BASE TABLE' then 'table'
-                when 'MATERIALIZED VIEW' then 'materializedview'
-                else lower(table_type)
-            end as {{ adapter.quote('table_type') }}
-{% endmacro %}
