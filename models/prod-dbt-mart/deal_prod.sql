@@ -2,4 +2,4 @@
 
 select
     *
-from {{source('deal_intermediate','deal_intermediate')}}
+from {{ ref('deal_intermediate') }}

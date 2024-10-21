@@ -1,4 +1,4 @@
-{{ config( tags=["deal","salesforce","intermediate"] ) }}
+
 
 with salesforce_opportunities as (
     select
@@ -75,7 +75,7 @@ with salesforce_opportunities as (
         contract_signer_email__c,
         contract_signer_phone_email__c,
         contract_signer_facilitator__c
-    from {{ ref('salesforce_opportunity_base')}}
+    from "integrity-db"."prod-dbt-base"."salesforce_opportunity_base"
 ),
 
 salesforce_contacts as (
@@ -96,7 +96,7 @@ salesforce_contacts as (
         rep_last_first__c as contact_rep_last_first,
         customer_account_number__c as contact_customer_account_number,
         contract_signer_phone_email__c as contact_contract_signer_phone_email
-    from {{ ref('salesforce_contact_base') }}
+    from "integrity-db"."prod-dbt-base"."salesforce_contact_base"
 ),
 
 salesforce_leads as (
@@ -129,7 +129,7 @@ salesforce_leads as (
         convertedopportunityid as lead_convertedopportunityid,
         marketing_generator__c as lead_marketing_generator,
         new_ready_to_work_date__c as lead_new_ready_to_work_date
-    from {{ ref('salesforce_lead_base') }}
+    from "integrity-db"."prod-dbt-base"."salesforce_lead_base"
 )
 
 select

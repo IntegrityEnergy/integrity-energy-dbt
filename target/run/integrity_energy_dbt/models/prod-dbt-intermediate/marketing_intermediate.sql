@@ -1,4 +1,7 @@
-{{ config( tags=["marketing","bing","hubspot","opportunity","intermediate"] ) }}
+
+
+  create view "integrity-db-dev"."prod-dbt-intermediate"."marketing_intermediate__dbt_tmp" as (
+    
 
 with google_ads as (
     select
@@ -6,7 +9,7 @@ with google_ads as (
         sum(googleads_impressions) as googleads_impressions,
         ROUND((sum(googleads_cost) / 1000000),2) as googleads_cost,
         sum(googleads_clicks) as googleads_clicks
-    from {{ ref('google_ads_daily_base') }}
+    from "integrity-db"."prod-dbt-base"."google_ads_daily_base"
     group by activity_date
 ),
 
@@ -16,7 +19,7 @@ bing_ads as (
         sum(spend) as bing_spend,
         sum(impressions) as bing_impressions,
         sum(clicks) as bing_clicks
-    from {{ ref('bing_ads_daily_base') }}
+    from "integrity-db"."prod-dbt-base"."bing_ads_daily_base"
     group by timeperiod
 ),
 
@@ -28,7 +31,7 @@ hubspot as (
         clicks as hubspot_clicks,
         bounces as hubspot_bounces,
         spam_reports as hubspot_spam_reports
-    from {{ ref('hubspot_daily_base')}}
+    from "integrity-db"."prod-dbt-base"."hubspot_daily_base"
 ),
 
 facebook as (
@@ -39,7 +42,7 @@ facebook as (
         facebook_spend, 
         facebook_clicks,
         facebook_unique_clicks
-    from {{ ref('facebook_daily_base')}}
+    from "integrity-db"."prod-dbt-base"."facebook_daily_base"
 ),
 
 opportunity_sold as (
@@ -59,7 +62,7 @@ opportunity_sold as (
     sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Microsoft' then points__c else 0 end) as microsoft_won_points,
     sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Email' then 1 else 0 end) as email_won_opportunities,
     sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Email' then points__c else 0 end) as email_won_points
-from {{ ref('salesforce_opportunity_base')}}
+from "integrity-db"."prod-dbt-base"."salesforce_opportunity_base"
 where marketing_generator__c = '0035f00000G8KYcAAN'
 group by sold_date__c
 ),
@@ -69,7 +72,7 @@ SELECT
     cancel_date__c,
     sum(case when iswon = true and status__c = 'Cancelled' then 1 else 0 end) as total_cancelled_opportunities,
     sum(case when iswon = true and cancel_date__c <> NULL then cancelled_points__c else 0 end) as total_cancelled_points
-from {{ ref('salesforce_opportunity_base')}}
+from "integrity-db"."prod-dbt-base"."salesforce_opportunity_base"
 where marketing_generator__c = '0035f00000G8KYcAAN'
 group by cancel_date__c
 ),
@@ -93,7 +96,7 @@ select
     crowd_content_costs,
     email_contractor_costs,
     hubspot_contractor_costs
-from {{ ref('marketing_cost_base')}}
+from "integrity-db"."prod-dbt-base"."marketing_cost_base"
 ),
 
 base_dates as (
@@ -183,3 +186,4 @@ left outer join google_ads as g on g.activity_date = d.date
 left outer join opportunity_cancelled as c on c.cancel_date__c = d.date
 left outer join marketing_cost as m on d.date = m.month
 group by 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50
+  ) ;

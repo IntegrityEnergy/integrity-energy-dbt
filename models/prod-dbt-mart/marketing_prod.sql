@@ -2,5 +2,5 @@
 
 select
     *
-from {{source('marketing_intermediate','marketing_intermediate')}}
+from {{ ref('marketing_intermediate') }}
 where activity_date IS NOT NULL

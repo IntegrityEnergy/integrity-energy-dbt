@@ -2,4 +2,4 @@
 
 select
     *
-from {{source('lead_intermediate','lead_intermediate')}}
+from {{ ref('lead_intermediate') }}
