@@ -18,5 +18,5 @@ select
     account__c,
     dl_account__c,
     account_number__c
-from salesforce.meter_number__c
+from "integrity-db"."salesforce"."meter_number__c"
   ) ;

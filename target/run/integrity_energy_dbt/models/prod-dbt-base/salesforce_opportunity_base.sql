@@ -83,5 +83,5 @@ select
     contract_signer_email__c,
     contract_signer_phone_email__c,
     contract_signer_facilitator__c
-from salesforce.opportunity
+from "integrity-db"."salesforce"."opportunity"
   ) ;

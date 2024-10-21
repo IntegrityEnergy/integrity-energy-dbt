@@ -16,5 +16,5 @@ select
     billingstreet,
     main_phone__c
     --utility_company__c
-from salesforce.account
+from "integrity-db"."salesforce"."account"
   ) ;

@@ -7,7 +7,7 @@ with hubspot_daily as (
     SELECT
         (TIMESTAMP 'epoch' + created / 1000 * INTERVAL '1 second')::DATE AS converted_date,
         type
-    FROM "integrity-db"."hubspot"."email_events")
+    FROM "integrity-db"."hubspot"."email_events"
 
 SELECT
     converted_date,
