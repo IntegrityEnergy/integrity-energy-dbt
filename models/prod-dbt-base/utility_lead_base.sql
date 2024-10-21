@@ -15,7 +15,7 @@ select
         e."eru titledesc" as title,
         e."be telephone number10" as phone,
         e."bee email addr80" as email
-from utility_leads.utilitylead as u
+from {{ source('utility_leads', 'utilitylead') }} as u
 left join utility_leads.enriched as e 
 on u.companyname = e.companyname 
 AND u.serviceaddress = e.serviceaddress

@@ -1,6 +1,6 @@
 
 
-  create view "integrity-db-dev"."prod-dbt-base"."bing_ads_daily_base__dbt_tmp" as (
+  create view "integrity-db-dev"."integrity-dev"."bing_ads_daily_base__dbt_tmp" as (
     
 
 select

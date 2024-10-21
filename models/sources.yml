@@ -1,108 +1,99 @@
 version: 2
 
 sources:
-# Base Models
-  - name: salesforce_lead_base
+  - name: bing_ads
     database: integrity-db
-    schema: prod-dbt-base
+    schema: bing_ads
     tables:
-     - name: salesforce_lead_base
-  - name: salesforce_contact_base
-    database: integrity-db
-    schema: prod-dbt-base
-    tables:
-     - name: salesforce_contact_base
-  - name: salesforce_opportunity_base
-    database: integrity-db
-    schema: prod-dbt-base
-    tables:
-     - name: salesforce_opportunity_base
-  - name: salesforce_meter_number_base
-    database: integrity-db
-    schema: prod-dbt-base
-    tables:
-     - name: salesforce_meter_number_base
-  - name: salesforce_account_base
-    database: integrity-db
-    schema: prod-dbt-base
-    tables:
-     - name: salesforce_account_base
-  - name: bing_ads_daily_base
-    database: integrity-db
-    schema: prod-dbt-base
-    tables:
-     - name: bing_ads_daily_base
-  - name: google_ads_daily_base
-    database: integrity-db
-    schema: prod-dbt-base
-    tables:
-     - name: google_ads_daily_base 
-  - name: hubspot_daily_base
-    database: integrity-db
-    schema: prod-dbt-base
-    tables:
-     - name: hubspot_daily_base
-  - name: facebook_daily_base
-    database: integrity-db
-    schema: prod-dbt-base
-    tables:
-     - name: facebook_daily_base
-  - name: utility_lead_base
-    database: integrity-db
-    schema: prod-dbt-base
-    tables:
-     - name: utility_lead_base
-  - name: marketing_cost_base
-    database: integrity-db
-    schema: prod-dbt-base
-    tables:
-     - name: marketing_cost_base
-  - name: zoominfo_base
-    database: integrity-db
-    schema: prod-dbt-base
-    tables:
-     - name: zoominfo_base
+      - name: account_performance_report_daily
+      - name: accounts
+      - name: ad_group_performance_report_daily
+      - name: ad_groups
+      - name: ad_performance_report_daily
+      - name: campaign_performance_report_daily
+      - name: campaigns
 
-# Intermediate Models
-  - name: utility_lead_intermediate
+  - name: facebook
     database: integrity-db
-    schema: prod-dbt-intermediate
+    schema: facebook
     tables:
-     - name: utility_lead_intermediate
-  - name: lead_intermediate
-    database: integrity-db
-    schema: prod-dbt-intermediate
-    tables:
-     - name: lead_intermediate
-  - name: marketing_intermediate
-    database: integrity-db
-    schema: prod-dbt-intermediate
-    tables:
-     - name: marketing_intermediate
-  - name: deal_intermediate
-    database: integrity-db
-    schema: prod-dbt-intermediate
-    tables:
-     - name: deal_intermediate
+      - name: activities
+      - name: ad_creatives
+      - name: ads
+      - name: ads_insights
 
-# Prod Models
-  - name: deal_prod
+  - name: google_ads
     database: integrity-db
-    schema: prod-dbt-mart
+    schema: google_ads
     tables:
-     - name: deal_prod
-  - name: lead_prod
+      - name: ads_campaignbasicstats_7446470445
+
+  - name: google_ads_api
     database: integrity-db
-    schema: prod-dbt-mart
+    schema: google_ads_api
     tables:
-     - name: lead_prod
-  - name: utility_lead_prod
+      - name: account_performance_report
+      - name: click_view
+
+  - name: google_sheets
     database: integrity-db
-    schema: prod-dbt-mart
+    schema: google_sheets
     tables:
-     - name: utility_lead_prod
-  - name: marketing_prod
+      - name: dates
+      - name: monthly_cost
+
+  - name: hubspot
     database: integrity-db
-    schema: prod-dbt-mart
+    schema: hubspot
     tables:
-     - name: marketing_prod
+      - name: campaigns
+      - name: companies
+      - name: contacts
+      - name: contacts_form_submissions
+      - name: contacts_list_memberships
+      - name: contacts_merged_audit
+      - name: contacts_property_history
+      - name: deal_pipelines
+      - name: deals
+      - name: email_events
+      - name: engagements
+
+  - name: linkedin_ads
+    database: integrity-db
+    schema: linkedin_ads
+    tables:
+      - name: account_users
+      - name: accounts
+      - name: ad_campaign_analytics
+      - name: ad_creative_analytics
+      - name: campaign_groups
+      - name: campaigns
+      - name: creatives
+
+  - name: salesforce
+    database: integrity-db
+    schema: salesforce
+    tables:
+      - name: account
+      - name: commission__c
+      - name: contact
+      - name: contract
+      - name: event
+      - name: lead
+      - name: meter_number__c
+      - name: opportunity
+      - name: task
+
+  - name: utility_leads
+    database: integrity-db
+    schema: utility_leads
+    tables:
+      - name: aes
+      - name: enriched
+      - name: utilitylead
+
+  - name: zoominfo
+    database: integrity-db
+    schema: zoominfo
+    tables:
+     - name: zoominfo_upload_09202024

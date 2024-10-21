@@ -1,6 +1,6 @@
 
 
-  create view "integrity-db-dev"."prod-dbt-base"."salesforce_contact_base__dbt_tmp" as (
+  create view "integrity-db-dev"."integrity-dev"."salesforce_contact_base__dbt_tmp" as (
     
 
 select

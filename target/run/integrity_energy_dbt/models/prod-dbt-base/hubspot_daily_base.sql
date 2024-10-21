@@ -1,6 +1,6 @@
 
 
-  create view "integrity-db-dev"."prod-dbt-base"."hubspot_daily_base__dbt_tmp" as (
+  create view "integrity-db-dev"."integrity-dev"."hubspot_daily_base__dbt_tmp" as (
     
 
 with hubspot_daily as (

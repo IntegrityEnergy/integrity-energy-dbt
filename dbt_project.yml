@@ -19,10 +19,10 @@ models:
   integrity_energy_dbt:
     prod-dbt-base:
       +tags: [daily]
-      +schema: prod-dbt-base
+#      +schema: prod-dbt-base
     prod-dbt-intermediate:
       +tags: [daily]
-      +schema: prod-dbt-intermediate
+#      +schema: prod-dbt-intermediate
     prod-dbt-mart:
       +tags: [daily]
-      +schema: prod-dbt-mart
+#      +schema: prod-dbt-mart

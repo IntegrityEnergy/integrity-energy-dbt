@@ -1,6 +1,6 @@
 
 
-  create view "integrity-db-dev"."prod-dbt-base"."facebook_daily_base__dbt_tmp" as (
+  create view "integrity-db-dev"."integrity-dev"."facebook_daily_base__dbt_tmp" as (
     
 
 select

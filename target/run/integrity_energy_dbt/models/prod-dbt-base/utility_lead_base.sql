@@ -1,6 +1,6 @@
 
 
-  create view "integrity-db-dev"."prod-dbt-base"."utility_lead_base__dbt_tmp" as (
+  create view "integrity-db-dev"."integrity-dev"."utility_lead_base__dbt_tmp" as (
     
 
 select
