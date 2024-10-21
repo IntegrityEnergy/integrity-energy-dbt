@@ -1,1 +1,5 @@
-.idea/
+
+target/
+dbt_packages/
+logs/
+IntegrityDBT
