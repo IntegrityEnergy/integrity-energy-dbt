@@ -5,8 +5,17 @@ integrity_energy_dbt:
       host: integrity-energy.cm7f5da54gqs.us-east-1.redshift.amazonaws.com
       password: Integrity123
       port: 5439
-      schema: prod-dbt-base
+      schema: integrity-prod
       threads: 4
       type: redshift
       user: integrityadmin
-  target: prod
+    dev:
+      dbname: integrity-db-dev
+      host: integrity-energy.cm7f5da54gqs.us-east-1.redshift.amazonaws.com
+      password: Integrity123
+      port: 5439
+      schema: integrity-dev
+      threads: 4
+      type: redshift
+      user: integrityadmin
+  target: dev
