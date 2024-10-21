@@ -1,9 +1,12 @@
 
-
-  create view "integrity-db-dev"."integrity-dev"."facebook_daily_base__dbt_tmp" as (
-    
-
-select
+        create materialized view "integrity-db-prod"."dbt-base"."facebook_daily_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
     date_start, 
     sum(impressions) as facebook_impressions,
     sum(reach) as facebook_reach,
@@ -12,4 +15,7 @@ select
     sum(unique_clicks) as facebook_unique_clicks
 from "integrity-db"."facebook"."ads_insights"
 group by date_start
-  ) ;
+    )
+
+
+    

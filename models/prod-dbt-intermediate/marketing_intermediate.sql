@@ -1,4 +1,4 @@
-{{ config( tags=["marketing","bing","hubspot","opportunity","intermediate"] ) }}
+{{ config( tags=["marketing","bing","hubspot","opportunity","intermediate"], materialized='materialized_view' ) }}
 
 with google_ads as (
     select
@@ -99,7 +99,7 @@ from {{ ref('marketing_cost_base')}}
 base_dates as (
     select
         CAST(date as date)
-    from google_sheets.dates
+    from {{ source('google_sheets', 'dates') }}
 )
 
 select 

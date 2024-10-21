@@ -1,9 +1,12 @@
 
-
-  create view "integrity-db-dev"."integrity-dev"."salesforce_account_base__dbt_tmp" as (
-    
-
-select
+        create materialized view "integrity-db-prod"."dbt-base"."salesforce_account_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
     id,
     name,
     type,
@@ -17,4 +20,7 @@ select
     main_phone__c
     --utility_company__c
 from "integrity-db"."salesforce"."account"
-  ) ;
+    )
+
+
+    

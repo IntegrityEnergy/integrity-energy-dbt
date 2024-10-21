@@ -1,8 +1,16 @@
 
-
-  create view "integrity-db-dev"."integrity-dev"."zoominfo_base__dbt_tmp" as (
-    select
+        create materialized view "integrity-db-prod"."dbt-base"."zoominfo_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
     *
 from
     "integrity-db"."zoominfo"."zoominfo_upload_09202024"
-  ) ;
+    )
+
+
+    

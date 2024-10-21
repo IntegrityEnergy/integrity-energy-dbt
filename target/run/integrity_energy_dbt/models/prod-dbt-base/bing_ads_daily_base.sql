@@ -1,9 +1,12 @@
 
-
-  create view "integrity-db-dev"."integrity-dev"."bing_ads_daily_base__dbt_tmp" as (
-    
-
-select
+        create materialized view "integrity-db-prod"."dbt-base"."bing_ads_daily_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
     spend,
     impressions,
     clicks,
@@ -11,4 +14,7 @@ select
     adgroupname,
     campaignname
 from "integrity-db"."bing_ads"."ad_performance_report_daily"
-  ) ;
+    )
+
+
+    

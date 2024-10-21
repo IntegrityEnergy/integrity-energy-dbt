@@ -3,7 +3,7 @@
     
 
   create  table
-    "integrity-db-dev"."prod-dbt-mart"."marketing_prod__dbt_tmp"
+    "integrity-db-prod"."dbt-mart"."marketing_prod__dbt_tmp"
     
     
     
@@ -12,7 +12,7 @@
 
 select
     *
-from "integrity-db"."prod-dbt-intermediate"."marketing_intermediate"
+from "integrity-db-prod"."dbt-intermediate"."marketing_intermediate"
 where activity_date IS NOT NULL
   );
   

@@ -1,3 +1,5 @@
+{{ config( tags=["base","zoom","zoominfo"] ) }}
+
 select
     *
 from

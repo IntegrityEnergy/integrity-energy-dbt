@@ -1,9 +1,12 @@
 
-
-  create view "integrity-db-dev"."integrity-dev"."salesforce_opportunity_base__dbt_tmp" as (
-    
-
-select
+        create materialized view "integrity-db-prod"."dbt-base"."salesforce_opportunity_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
     id,
     name,
     type,
@@ -84,4 +87,7 @@ select
     contract_signer_phone_email__c,
     contract_signer_facilitator__c
 from "integrity-db"."salesforce"."opportunity"
-  ) ;
+    )
+
+
+    

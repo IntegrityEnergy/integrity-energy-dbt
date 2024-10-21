@@ -1,4 +1,4 @@
-{{ config(materialized='table', tags=["deal","salesforce","prod"] ) }}
+{{ config( tags=["deal","salesforce","prod"] ) }}
 
 select
     *

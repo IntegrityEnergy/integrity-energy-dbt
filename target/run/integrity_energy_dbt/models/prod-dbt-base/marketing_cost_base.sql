@@ -1,9 +1,12 @@
 
-
-  create view "integrity-db-dev"."integrity-dev"."marketing_cost_base__dbt_tmp" as (
-    
-
-select
+        create materialized view "integrity-db-prod"."dbt-base"."marketing_cost_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
     team,
     CAST(month as date) as month,
     CAST(REPLACE(hom_cost, ',', '') as decimal(10,2)) as hom_cost,
@@ -22,4 +25,7 @@ select
     CAST(REPLACE(email_contractor_costs, ',', '') as decimal(10,2)) as email_contractor_costs,
     CAST(REPLACE(hubspot_contractor_costs, ',', '') as decimal(10,2)) as hubspot_contractor_costs
 from "integrity-db"."google_sheets"."monthly_cost"
-  ) ;
+    )
+
+
+    

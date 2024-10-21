@@ -1,4 +1,4 @@
-{{ config(materialized='table', tags=["marketing","prod"] ) }}
+{{ config( tags=["marketing","prod"] ) }}
 
 select
     *
