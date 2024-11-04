@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dbt and dependencies
         run: |
-          pip install dbt
+          pip install dbt-redshift
 
       - name: Generate dbt docs
         run: |
