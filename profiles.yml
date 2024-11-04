@@ -18,4 +18,4 @@ integrity_energy_dbt:
       threads: 4
       type: redshift
       user: integrityadmin
-  target: dev
+  target: prod
