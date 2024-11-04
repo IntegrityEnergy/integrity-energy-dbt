@@ -96,4 +96,4 @@ sources:
     database: integrity-db
     schema: zoominfo
     tables:
-     - name: zoominfo_upload_09202024
+      - name: zoominfo_upload_09202024
