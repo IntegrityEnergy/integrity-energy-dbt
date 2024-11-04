@@ -1,0 +1,1471 @@
+[0m11:09:02.941623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF0E87E090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF0E87DD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF0E87E390>]}
+
+
+============================== 11:09:02.950131 | 6f6378b2-0136-43a3-aab1-cfc44085e12c ==============================
+[0m11:09:02.950131 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:09:02.951128 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\integrity_energy_dbt\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\integrity_energy_dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt deps', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:09:03.078302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6f6378b2-0136-43a3-aab1-cfc44085e12c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF0E8C1010>]}
+[0m11:09:03.155897 [debug] [MainThread]: Set downloads directory='C:\Users\2ewol\AppData\Local\Temp\dbt-downloads-xy90r0ey'
+[0m11:09:03.155897 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m11:09:03.813378 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m11:09:03.813378 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m11:09:04.187441 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m11:09:04.194046 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m11:09:04.971017 [info ] [MainThread]: Installed from version 1.0.0
+[0m11:09:04.972121 [info ] [MainThread]: Updated version available: 1.3.0
+[0m11:09:04.972636 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '6f6378b2-0136-43a3-aab1-cfc44085e12c', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF0E919C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF0DC83D10>]}
+[0m11:09:04.972636 [info ] [MainThread]: 
+[0m11:09:04.972636 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m11:09:04.972636 [debug] [MainThread]: Command `dbt deps` succeeded at 11:09:04.972636 after 2.11 seconds
+[0m11:09:04.972636 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF08255ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF0830FDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF0830FE10>]}
+[0m11:09:04.972636 [debug] [MainThread]: Flushing usage events
+[0m11:09:05.684323 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:09:23.234824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A3B8CE1D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A3BAB3ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A3BAB35D0>]}
+
+
+============================== 11:09:23.238731 | 53c60c38-ef51-4e3e-a789-14e093f96768 ==============================
+[0m11:09:23.238731 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:09:23.239733 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\integrity_energy_dbt', 'log_path': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\integrity_energy_dbt\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt docs generate', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:09:23.564685 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m11:09:23.564685 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m11:09:23.738641 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '53c60c38-ef51-4e3e-a789-14e093f96768', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A3C36FC50>]}
+[0m11:09:23.783167 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '53c60c38-ef51-4e3e-a789-14e093f96768', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A38B6CD50>]}
+[0m11:09:23.786008 [info ] [MainThread]: Registered adapter: redshift=1.8.1
+[0m11:09:23.798994 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m11:09:23.799994 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m11:09:23.800994 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '53c60c38-ef51-4e3e-a789-14e093f96768', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A3C48C1D0>]}
+[0m11:09:24.980834 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '53c60c38-ef51-4e3e-a789-14e093f96768', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A3C44F610>]}
+[0m11:09:25.006465 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '53c60c38-ef51-4e3e-a789-14e093f96768', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A3D893F90>]}
+[0m11:09:25.007475 [info ] [MainThread]: Found 20 models, 20 sources, 602 macros
+[0m11:09:25.007475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '53c60c38-ef51-4e3e-a789-14e093f96768', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A3D83A710>]}
+[0m11:09:25.009864 [info ] [MainThread]: 
+[0m11:09:25.010871 [info ] [MainThread]: Concurrency: 4 threads (target='prod')
+[0m11:09:25.010871 [info ] [MainThread]: 
+[0m11:09:25.012027 [debug] [MainThread]: Acquiring new redshift connection 'master'
+[0m11:09:25.016047 [debug] [ThreadPool]: Acquiring new redshift connection 'list_integrity-db_prod-dbt-base'
+[0m11:09:25.017048 [debug] [ThreadPool]: Acquiring new redshift connection 'list_integrity-db_prod-dbt-mart'
+[0m11:09:25.017048 [debug] [ThreadPool]: Acquiring new redshift connection 'list_integrity-db_prod-dbt-intermediate'
+[0m11:09:25.030146 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod-dbt-base"
+[0m11:09:25.033399 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod-dbt-mart"
+[0m11:09:25.036410 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod-dbt-intermediate"
+[0m11:09:25.037409 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-base: BEGIN
+[0m11:09:25.037409 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-mart: BEGIN
+[0m11:09:25.037409 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-intermediate: BEGIN
+[0m11:09:25.038408 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:09:25.038408 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:09:25.038408 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:09:25.042585 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:09:25.042585 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:09:25.042585 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:09:25.043872 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:09:25.043872 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:09:25.044992 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:09:26.090349 [debug] [ThreadPool]: SQL status: SUCCESS in 1.052 seconds
+[0m11:09:26.091349 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod-dbt-mart"
+[0m11:09:26.091349 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-mart: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "list_integrity-db_prod-dbt-mart"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'prod-dbt-mart'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'prod-dbt-mart'
+[0m11:09:26.185617 [debug] [ThreadPool]: SQL status: SUCCESS in 1.146 seconds
+[0m11:09:26.186611 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod-dbt-intermediate"
+[0m11:09:26.186611 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "list_integrity-db_prod-dbt-intermediate"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'prod-dbt-intermediate'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'prod-dbt-intermediate'
+[0m11:09:26.207446 [debug] [ThreadPool]: SQL status: SUCCESS in 1.169 seconds
+[0m11:09:26.208466 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod-dbt-base"
+[0m11:09:26.209016 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "list_integrity-db_prod-dbt-base"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'prod-dbt-base'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'prod-dbt-base'
+[0m11:09:26.239480 [debug] [ThreadPool]: SQL status: SUCCESS in 0.147 seconds
+[0m11:09:26.241529 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-mart: ROLLBACK
+[0m11:09:26.349041 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-mart: Close
+[0m11:09:26.368621 [debug] [ThreadPool]: SQL status: SUCCESS in 0.181 seconds
+[0m11:09:26.369621 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-intermediate: ROLLBACK
+[0m11:09:26.386303 [debug] [ThreadPool]: SQL status: SUCCESS in 0.177 seconds
+[0m11:09:26.387506 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-base: ROLLBACK
+[0m11:09:26.487547 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-intermediate: Close
+[0m11:09:26.510788 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-base: Close
+[0m11:09:26.522310 [debug] [MainThread]: Using redshift connection "master"
+[0m11:09:26.523310 [debug] [MainThread]: On master: BEGIN
+[0m11:09:26.523310 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:09:26.524313 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:09:26.524313 [debug] [MainThread]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:09:27.265022 [debug] [MainThread]: SQL status: SUCCESS in 0.741 seconds
+[0m11:09:27.266013 [debug] [MainThread]: Using redshift connection "master"
+[0m11:09:27.266013 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "master"} */
+with
+    relation as (
+        select
+            pg_class.oid as relation_id,
+            pg_class.relname as relation_name,
+            pg_class.relnamespace as schema_id,
+            pg_namespace.nspname as schema_name,
+            pg_class.relkind as relation_type
+        from pg_class
+        join pg_namespace
+          on pg_class.relnamespace = pg_namespace.oid
+        where pg_namespace.nspname != 'information_schema'
+          and pg_namespace.nspname not like 'pg\_%'
+    ),
+    dependency as (
+        select distinct
+            coalesce(pg_rewrite.ev_class, pg_depend.objid) as dep_relation_id,
+            pg_depend.refobjid as ref_relation_id,
+            pg_depend.refclassid as ref_class_id
+        from pg_depend
+        left join pg_rewrite
+          on pg_depend.objid = pg_rewrite.oid
+        where coalesce(pg_rewrite.ev_class, pg_depend.objid) != pg_depend.refobjid
+    )
+
+select distinct
+    dep.schema_name as dependent_schema,
+    dep.relation_name as dependent_name,
+    ref.schema_name as referenced_schema,
+    ref.relation_name as referenced_name
+from dependency
+join relation ref
+    on dependency.ref_relation_id = ref.relation_id
+join relation dep
+    on dependency.dep_relation_id = dep.relation_id
+[0m11:09:27.469828 [debug] [MainThread]: SQL status: SUCCESS in 0.203 seconds
+[0m11:09:27.474480 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '53c60c38-ef51-4e3e-a789-14e093f96768', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A3C5B8150>]}
+[0m11:09:27.475503 [debug] [MainThread]: On master: ROLLBACK
+[0m11:09:27.599143 [debug] [MainThread]: On master: Close
+[0m11:09:27.613417 [debug] [Thread-1 (]: Began running node model.integrity_energy_dbt.bing_ads_daily_base
+[0m11:09:27.613921 [debug] [Thread-2 (]: Began running node model.integrity_energy_dbt.deal_intermediate
+[0m11:09:27.613921 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.deal_prod
+[0m11:09:27.614928 [debug] [Thread-4 (]: Began running node model.integrity_energy_dbt.facebook_daily_base
+[0m11:09:27.614928 [debug] [Thread-1 (]: Acquiring new redshift connection 'model.integrity_energy_dbt.bing_ads_daily_base'
+[0m11:09:27.615928 [debug] [Thread-2 (]: Acquiring new redshift connection 'model.integrity_energy_dbt.deal_intermediate'
+[0m11:09:27.615928 [debug] [Thread-3 (]: Acquiring new redshift connection 'model.integrity_energy_dbt.deal_prod'
+[0m11:09:27.616927 [debug] [Thread-4 (]: Acquiring new redshift connection 'model.integrity_energy_dbt.facebook_daily_base'
+[0m11:09:27.616927 [debug] [Thread-1 (]: Began compiling node model.integrity_energy_dbt.bing_ads_daily_base
+[0m11:09:27.617928 [debug] [Thread-2 (]: Began compiling node model.integrity_energy_dbt.deal_intermediate
+[0m11:09:27.617928 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.deal_prod
+[0m11:09:27.618928 [debug] [Thread-4 (]: Began compiling node model.integrity_energy_dbt.facebook_daily_base
+[0m11:09:27.620928 [debug] [Thread-1 (]: Writing injected SQL for node "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:09:27.623927 [debug] [Thread-2 (]: Writing injected SQL for node "model.integrity_energy_dbt.deal_intermediate"
+[0m11:09:27.626926 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.deal_prod"
+[0m11:09:27.628929 [debug] [Thread-4 (]: Writing injected SQL for node "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:09:27.630932 [debug] [Thread-1 (]: Began executing node model.integrity_energy_dbt.bing_ads_daily_base
+[0m11:09:27.631928 [debug] [Thread-4 (]: Began executing node model.integrity_energy_dbt.facebook_daily_base
+[0m11:09:27.631928 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.deal_prod
+[0m11:09:27.632926 [debug] [Thread-1 (]: Finished running node model.integrity_energy_dbt.bing_ads_daily_base
+[0m11:09:27.632926 [debug] [Thread-2 (]: Began executing node model.integrity_energy_dbt.deal_intermediate
+[0m11:09:27.632926 [debug] [Thread-4 (]: Finished running node model.integrity_energy_dbt.facebook_daily_base
+[0m11:09:27.633926 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.deal_prod
+[0m11:09:27.633926 [debug] [Thread-1 (]: Began running node model.integrity_energy_dbt.google_ads_daily_base
+[0m11:09:27.634928 [debug] [Thread-2 (]: Finished running node model.integrity_energy_dbt.deal_intermediate
+[0m11:09:27.634928 [debug] [Thread-4 (]: Began running node model.integrity_energy_dbt.hubspot_daily_base
+[0m11:09:27.635928 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.lead_intermediate
+[0m11:09:27.635928 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.bing_ads_daily_base, now model.integrity_energy_dbt.google_ads_daily_base)
+[0m11:09:27.636927 [debug] [Thread-2 (]: Began running node model.integrity_energy_dbt.lead_prod
+[0m11:09:27.636927 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.facebook_daily_base, now model.integrity_energy_dbt.hubspot_daily_base)
+[0m11:09:27.636927 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.deal_prod, now model.integrity_energy_dbt.lead_intermediate)
+[0m11:09:27.637926 [debug] [Thread-1 (]: Began compiling node model.integrity_energy_dbt.google_ads_daily_base
+[0m11:09:27.637926 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.deal_intermediate, now model.integrity_energy_dbt.lead_prod)
+[0m11:09:27.637926 [debug] [Thread-4 (]: Began compiling node model.integrity_energy_dbt.hubspot_daily_base
+[0m11:09:27.638927 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.lead_intermediate
+[0m11:09:27.640926 [debug] [Thread-1 (]: Writing injected SQL for node "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:09:27.640926 [debug] [Thread-2 (]: Began compiling node model.integrity_energy_dbt.lead_prod
+[0m11:09:27.642931 [debug] [Thread-4 (]: Writing injected SQL for node "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:09:27.645931 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.lead_intermediate"
+[0m11:09:27.648931 [debug] [Thread-2 (]: Writing injected SQL for node "model.integrity_energy_dbt.lead_prod"
+[0m11:09:27.648931 [debug] [Thread-1 (]: Began executing node model.integrity_energy_dbt.google_ads_daily_base
+[0m11:09:27.649932 [debug] [Thread-4 (]: Began executing node model.integrity_energy_dbt.hubspot_daily_base
+[0m11:09:27.650937 [debug] [Thread-1 (]: Finished running node model.integrity_energy_dbt.google_ads_daily_base
+[0m11:09:27.650937 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.lead_intermediate
+[0m11:09:27.650937 [debug] [Thread-2 (]: Began executing node model.integrity_energy_dbt.lead_prod
+[0m11:09:27.651932 [debug] [Thread-4 (]: Finished running node model.integrity_energy_dbt.hubspot_daily_base
+[0m11:09:27.651932 [debug] [Thread-1 (]: Began running node model.integrity_energy_dbt.marketing_cost_base
+[0m11:09:27.652932 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.lead_intermediate
+[0m11:09:27.653932 [debug] [Thread-2 (]: Finished running node model.integrity_energy_dbt.lead_prod
+[0m11:09:27.653932 [debug] [Thread-4 (]: Began running node model.integrity_energy_dbt.marketing_intermediate
+[0m11:09:27.653932 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.google_ads_daily_base, now model.integrity_energy_dbt.marketing_cost_base)
+[0m11:09:27.654931 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.marketing_prod
+[0m11:09:27.654931 [debug] [Thread-2 (]: Began running node model.integrity_energy_dbt.salesforce_account_base
+[0m11:09:27.654931 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.hubspot_daily_base, now model.integrity_energy_dbt.marketing_intermediate)
+[0m11:09:27.654931 [debug] [Thread-1 (]: Began compiling node model.integrity_energy_dbt.marketing_cost_base
+[0m11:09:27.656436 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.lead_intermediate, now model.integrity_energy_dbt.marketing_prod)
+[0m11:09:27.656436 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.lead_prod, now model.integrity_energy_dbt.salesforce_account_base)
+[0m11:09:27.656436 [debug] [Thread-4 (]: Began compiling node model.integrity_energy_dbt.marketing_intermediate
+[0m11:09:27.660447 [debug] [Thread-1 (]: Writing injected SQL for node "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:09:27.660447 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.marketing_prod
+[0m11:09:27.661443 [debug] [Thread-2 (]: Began compiling node model.integrity_energy_dbt.salesforce_account_base
+[0m11:09:27.665441 [debug] [Thread-4 (]: Writing injected SQL for node "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:09:27.667442 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.marketing_prod"
+[0m11:09:27.671444 [debug] [Thread-2 (]: Writing injected SQL for node "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:09:27.671444 [debug] [Thread-1 (]: Began executing node model.integrity_energy_dbt.marketing_cost_base
+[0m11:09:27.673442 [debug] [Thread-1 (]: Finished running node model.integrity_energy_dbt.marketing_cost_base
+[0m11:09:27.673442 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.marketing_prod
+[0m11:09:27.673442 [debug] [Thread-4 (]: Began executing node model.integrity_energy_dbt.marketing_intermediate
+[0m11:09:27.674442 [debug] [Thread-1 (]: Began running node model.integrity_energy_dbt.salesforce_contact_base
+[0m11:09:27.674442 [debug] [Thread-2 (]: Began executing node model.integrity_energy_dbt.salesforce_account_base
+[0m11:09:27.674442 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.marketing_prod
+[0m11:09:27.675442 [debug] [Thread-4 (]: Finished running node model.integrity_energy_dbt.marketing_intermediate
+[0m11:09:27.676442 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.marketing_cost_base, now model.integrity_energy_dbt.salesforce_contact_base)
+[0m11:09:27.676442 [debug] [Thread-2 (]: Finished running node model.integrity_energy_dbt.salesforce_account_base
+[0m11:09:27.677443 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.salesforce_lead_base
+[0m11:09:27.677443 [debug] [Thread-4 (]: Began running node model.integrity_energy_dbt.salesforce_meter_number_base
+[0m11:09:27.677443 [debug] [Thread-1 (]: Began compiling node model.integrity_energy_dbt.salesforce_contact_base
+[0m11:09:27.678442 [debug] [Thread-2 (]: Began running node model.integrity_energy_dbt.salesforce_opportunity_base
+[0m11:09:27.678442 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.marketing_prod, now model.integrity_energy_dbt.salesforce_lead_base)
+[0m11:09:27.679442 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.marketing_intermediate, now model.integrity_energy_dbt.salesforce_meter_number_base)
+[0m11:09:27.681441 [debug] [Thread-1 (]: Writing injected SQL for node "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:09:27.681441 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.salesforce_account_base, now model.integrity_energy_dbt.salesforce_opportunity_base)
+[0m11:09:27.682441 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.salesforce_lead_base
+[0m11:09:27.682441 [debug] [Thread-4 (]: Began compiling node model.integrity_energy_dbt.salesforce_meter_number_base
+[0m11:09:27.683442 [debug] [Thread-2 (]: Began compiling node model.integrity_energy_dbt.salesforce_opportunity_base
+[0m11:09:27.685441 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:09:27.685441 [debug] [Thread-1 (]: Began executing node model.integrity_energy_dbt.salesforce_contact_base
+[0m11:09:27.688441 [debug] [Thread-4 (]: Writing injected SQL for node "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:09:27.690441 [debug] [Thread-2 (]: Writing injected SQL for node "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:09:27.691442 [debug] [Thread-1 (]: Finished running node model.integrity_energy_dbt.salesforce_contact_base
+[0m11:09:27.692443 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.salesforce_lead_base
+[0m11:09:27.692443 [debug] [Thread-1 (]: Began running node model.integrity_energy_dbt.utility_lead_base
+[0m11:09:27.692443 [debug] [Thread-4 (]: Began executing node model.integrity_energy_dbt.salesforce_meter_number_base
+[0m11:09:27.693934 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.salesforce_lead_base
+[0m11:09:27.693934 [debug] [Thread-2 (]: Began executing node model.integrity_energy_dbt.salesforce_opportunity_base
+[0m11:09:27.694437 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.salesforce_contact_base, now model.integrity_energy_dbt.utility_lead_base)
+[0m11:09:27.694437 [debug] [Thread-4 (]: Finished running node model.integrity_energy_dbt.salesforce_meter_number_base
+[0m11:09:27.695443 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.utility_lead_intermediate
+[0m11:09:27.695443 [debug] [Thread-2 (]: Finished running node model.integrity_energy_dbt.salesforce_opportunity_base
+[0m11:09:27.696443 [debug] [Thread-1 (]: Began compiling node model.integrity_energy_dbt.utility_lead_base
+[0m11:09:27.696443 [debug] [Thread-4 (]: Began running node model.integrity_energy_dbt.utility_lead_prod
+[0m11:09:27.696443 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.salesforce_lead_base, now model.integrity_energy_dbt.utility_lead_intermediate)
+[0m11:09:27.697443 [debug] [Thread-2 (]: Began running node model.integrity_energy_dbt.zoominfo_base
+[0m11:09:27.699442 [debug] [Thread-1 (]: Writing injected SQL for node "model.integrity_energy_dbt.utility_lead_base"
+[0m11:09:27.699442 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.salesforce_meter_number_base, now model.integrity_energy_dbt.utility_lead_prod)
+[0m11:09:27.700442 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.utility_lead_intermediate
+[0m11:09:27.700442 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.salesforce_opportunity_base, now model.integrity_energy_dbt.zoominfo_base)
+[0m11:09:27.701444 [debug] [Thread-4 (]: Began compiling node model.integrity_energy_dbt.utility_lead_prod
+[0m11:09:27.703442 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.utility_lead_intermediate"
+[0m11:09:27.704442 [debug] [Thread-1 (]: Began executing node model.integrity_energy_dbt.utility_lead_base
+[0m11:09:27.704442 [debug] [Thread-2 (]: Began compiling node model.integrity_energy_dbt.zoominfo_base
+[0m11:09:27.706993 [debug] [Thread-4 (]: Writing injected SQL for node "model.integrity_energy_dbt.utility_lead_prod"
+[0m11:09:27.708003 [debug] [Thread-1 (]: Finished running node model.integrity_energy_dbt.utility_lead_base
+[0m11:09:27.709997 [debug] [Thread-2 (]: Writing injected SQL for node "model.integrity_energy_dbt.zoominfo_base"
+[0m11:09:27.710997 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.utility_lead_intermediate
+[0m11:09:27.711999 [debug] [Thread-4 (]: Began executing node model.integrity_energy_dbt.utility_lead_prod
+[0m11:09:27.711999 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.utility_lead_intermediate
+[0m11:09:27.713010 [debug] [Thread-4 (]: Finished running node model.integrity_energy_dbt.utility_lead_prod
+[0m11:09:27.713010 [debug] [Thread-2 (]: Began executing node model.integrity_energy_dbt.zoominfo_base
+[0m11:09:27.713010 [debug] [Thread-2 (]: Finished running node model.integrity_energy_dbt.zoominfo_base
+[0m11:09:27.715019 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:09:27.715019 [debug] [MainThread]: Connection 'list_integrity-db_prod-dbt-base' was properly closed.
+[0m11:09:27.716025 [debug] [MainThread]: Connection 'list_integrity-db_prod-dbt-mart' was properly closed.
+[0m11:09:27.716025 [debug] [MainThread]: Connection 'list_integrity-db_prod-dbt-intermediate' was properly closed.
+[0m11:09:27.716025 [debug] [MainThread]: Connection 'model.integrity_energy_dbt.utility_lead_base' was properly closed.
+[0m11:09:27.717025 [debug] [MainThread]: Connection 'model.integrity_energy_dbt.zoominfo_base' was properly closed.
+[0m11:09:27.717025 [debug] [MainThread]: Connection 'model.integrity_energy_dbt.utility_lead_intermediate' was properly closed.
+[0m11:09:27.717025 [debug] [MainThread]: Connection 'model.integrity_energy_dbt.utility_lead_prod' was properly closed.
+[0m11:09:27.720024 [debug] [MainThread]: Command end result
+[0m11:09:27.788085 [debug] [MainThread]: Acquiring new redshift connection 'generate_catalog'
+[0m11:09:27.788085 [info ] [MainThread]: Building catalog
+[0m11:09:27.798919 [debug] [ThreadPool]: Acquiring new redshift connection 'integrity-db.information_schema'
+[0m11:09:27.827951 [debug] [ThreadPool]: Using redshift connection "integrity-db.information_schema"
+[0m11:09:27.828951 [debug] [ThreadPool]: On integrity-db.information_schema: BEGIN
+[0m11:09:27.828951 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:09:27.829953 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:09:27.829953 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:09:28.519988 [debug] [ThreadPool]: SQL status: SUCCESS in 0.690 seconds
+[0m11:09:28.520972 [debug] [ThreadPool]: Using redshift connection "integrity-db.information_schema"
+[0m11:09:28.520972 [debug] [ThreadPool]: On integrity-db.information_schema: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "integrity-db.information_schema"} */
+with
+            late_binding as (
+    
+    select
+        table_schema,
+        table_name,
+        'LATE BINDING VIEW'::varchar as table_type,
+        null::text as table_comment,
+        column_name,
+        column_index,
+        column_type,
+        null::text as column_comment
+    from pg_get_late_binding_view_cols()
+        cols(
+            table_schema name,
+            table_name name,
+            column_name name,
+            column_type varchar,
+            column_index int
+        )
+
+    where ((
+                upper(table_schema) = upper('prod-dbt-mart')
+            and upper(table_name) = upper('marketing_prod')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-intermediate')
+            and upper(table_name) = upper('marketing_intermediate')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-intermediate')
+            and upper(table_name) = upper('lead_intermediate')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('utility_lead_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('facebook_daily_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('marketing_cost_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-mart')
+            and upper(table_name) = upper('utility_lead_prod')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('google_ads_daily_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-mart')
+            and upper(table_name) = upper('deal_prod')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('salesforce_opportunity_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('salesforce_account_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('salesforce_contact_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-mart')
+            and upper(table_name) = upper('lead_prod')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-intermediate')
+            and upper(table_name) = upper('deal_intermediate')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('salesforce_meter_number_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('salesforce_lead_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('zoominfo_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('bing_ads_daily_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-intermediate')
+            and upper(table_name) = upper('utility_lead_intermediate')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('hubspot_daily_base')
+            ))
+),
+            early_binding as (
+    
+    select
+        sch.nspname as table_schema,
+        tbl.relname as table_name,
+        case
+            when tbl.relkind = 'v' and mat_views.table_name is not null then 'MATERIALIZED VIEW'
+            when tbl.relkind = 'v' then 'VIEW'
+            else 'BASE TABLE'
+        end as table_type,
+        tbl_desc.description as table_comment,
+        col.attname as column_name,
+        col.attnum as column_index,
+        pg_catalog.format_type(col.atttypid, col.atttypmod) as column_type,
+        col_desc.description as column_comment
+    from pg_catalog.pg_namespace sch
+    join pg_catalog.pg_class tbl
+        on tbl.relnamespace = sch.oid
+    join pg_catalog.pg_attribute col
+        on col.attrelid = tbl.oid
+    left outer join pg_catalog.pg_description tbl_desc
+        on tbl_desc.objoid = tbl.oid
+        and tbl_desc.objsubid = 0
+    left outer join pg_catalog.pg_description col_desc
+        on col_desc.objoid = tbl.oid
+        and col_desc.objsubid = col.attnum
+    left outer join information_schema.views mat_views
+        on mat_views.table_schema = sch.nspname
+        and mat_views.table_name = tbl.relname
+        and mat_views.view_definition ilike '%create materialized view%'
+        and mat_views.table_catalog = 'integrity-db'
+    where tbl.relkind in ('r', 'v', 'f', 'p')
+    and col.attnum > 0
+    and not col.attisdropped
+
+    and ((
+                upper(sch.nspname) = upper('prod-dbt-mart')
+            and upper(tbl.relname) = upper('marketing_prod')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-intermediate')
+            and upper(tbl.relname) = upper('marketing_intermediate')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-intermediate')
+            and upper(tbl.relname) = upper('lead_intermediate')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('utility_lead_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('facebook_daily_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('marketing_cost_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-mart')
+            and upper(tbl.relname) = upper('utility_lead_prod')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('google_ads_daily_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-mart')
+            and upper(tbl.relname) = upper('deal_prod')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('salesforce_opportunity_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('salesforce_account_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('salesforce_contact_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-mart')
+            and upper(tbl.relname) = upper('lead_prod')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-intermediate')
+            and upper(tbl.relname) = upper('deal_intermediate')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('salesforce_meter_number_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('salesforce_lead_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('zoominfo_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('bing_ads_daily_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-intermediate')
+            and upper(tbl.relname) = upper('utility_lead_intermediate')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('hubspot_daily_base')
+            ))
+),
+            unioned as (select * from early_binding union all select * from late_binding),
+            table_owners as (
+    select
+        schemaname as table_schema,
+        tablename as table_name,
+        tableowner as table_owner
+    from pg_tables
+    union all
+    select
+        schemaname as table_schema,
+        viewname as table_name,
+        viewowner as table_owner
+    from pg_views
+)
+        select 'integrity-db' as table_database, *
+        from unioned
+        join table_owners using (table_schema, table_name)
+        order by "column_index"
+[0m11:09:29.165005 [debug] [ThreadPool]: SQL status: SUCCESS in 0.643 seconds
+[0m11:09:29.176514 [debug] [ThreadPool]: Using redshift connection "integrity-db.information_schema"
+[0m11:09:29.177527 [debug] [ThreadPool]: On integrity-db.information_schema: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "integrity-db.information_schema"} */
+select has_table_privilege(current_user, 'svv_table_info', 'SELECT') as can_select
+[0m11:09:29.313803 [debug] [ThreadPool]: SQL status: SUCCESS in 0.136 seconds
+[0m11:09:29.332708 [debug] [ThreadPool]: Using redshift connection "integrity-db.information_schema"
+[0m11:09:29.333712 [debug] [ThreadPool]: On integrity-db.information_schema: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "integrity-db.information_schema"} */
+
+    select
+        "schema" as table_schema,
+        "table" as table_name,
+
+        'Encoded'::text as "stats:encoded:label",
+        encoded as "stats:encoded:value",
+        'Indicates whether any column in the table has compression encoding defined.'::text as "stats:encoded:description",
+        true as "stats:encoded:include",
+
+        'Dist Style' as "stats:diststyle:label",
+        diststyle as "stats:diststyle:value",
+        'Distribution style or distribution key column, if key distribution is defined.'::text as "stats:diststyle:description",
+        true as "stats:diststyle:include",
+
+        'Sort Key 1' as "stats:sortkey1:label",
+        -- handle 0xFF byte in response for interleaved sort styles
+        case
+            when sortkey1 like 'INTERLEAVED%' then 'INTERLEAVED'::text
+            else sortkey1
+        end as "stats:sortkey1:value",
+        'First column in the sort key.'::text as "stats:sortkey1:description",
+        (sortkey1 is not null) as "stats:sortkey1:include",
+
+        'Max Varchar' as "stats:max_varchar:label",
+        max_varchar as "stats:max_varchar:value",
+        'Size of the largest column that uses a VARCHAR data type.'::text as "stats:max_varchar:description",
+        true as "stats:max_varchar:include",
+
+        -- exclude this, as the data is strangely returned with null-byte characters
+        'Sort Key 1 Encoding' as "stats:sortkey1_enc:label",
+        sortkey1_enc as "stats:sortkey1_enc:value",
+        'Compression encoding of the first column in the sort key.' as "stats:sortkey1_enc:description",
+        false as "stats:sortkey1_enc:include",
+
+        '# Sort Keys' as "stats:sortkey_num:label",
+        sortkey_num as "stats:sortkey_num:value",
+        'Number of columns defined as sort keys.' as "stats:sortkey_num:description",
+        (sortkey_num > 0) as "stats:sortkey_num:include",
+
+        'Approximate Size' as "stats:size:label",
+        size * 1000000 as "stats:size:value",
+        'Approximate size of the table, calculated from a count of 1MB blocks'::text as "stats:size:description",
+        true as "stats:size:include",
+
+        'Disk Utilization' as "stats:pct_used:label",
+        pct_used / 100.0 as "stats:pct_used:value",
+        'Percent of available space that is used by the table.'::text as "stats:pct_used:description",
+        true as "stats:pct_used:include",
+
+        'Unsorted %' as "stats:unsorted:label",
+        unsorted / 100.0 as "stats:unsorted:value",
+        'Percent of unsorted rows in the table.'::text as "stats:unsorted:description",
+        (unsorted is not null) as "stats:unsorted:include",
+
+        'Stats Off' as "stats:stats_off:label",
+        stats_off as "stats:stats_off:value",
+        'Number that indicates how stale the table statistics are; 0 is current, 100 is out of date.'::text as "stats:stats_off:description",
+        true as "stats:stats_off:include",
+
+        'Approximate Row Count' as "stats:rows:label",
+        tbl_rows as "stats:rows:value",
+        'Approximate number of rows in the table. This value includes rows marked for deletion, but not yet vacuumed.'::text as "stats:rows:description",
+        true as "stats:rows:include",
+
+        'Sort Key Skew' as "stats:skew_sortkey1:label",
+        skew_sortkey1 as "stats:skew_sortkey1:value",
+        'Ratio of the size of the largest non-sort key column to the size of the first column of the sort key.'::text as "stats:skew_sortkey1:description",
+        (skew_sortkey1 is not null) as "stats:skew_sortkey1:include",
+
+        'Skew Rows' as "stats:skew_rows:label",
+        skew_rows as "stats:skew_rows:value",
+        'Ratio of the number of rows in the slice with the most rows to the number of rows in the slice with the fewest rows.'::text as "stats:skew_rows:description",
+        (skew_rows is not null) as "stats:skew_rows:include"
+
+    from svv_table_info
+
+        where ((
+                    upper("schema") = upper('prod-dbt-mart')
+                and upper("table") = upper('marketing_prod')
+                ) or (
+                    upper("schema") = upper('prod-dbt-intermediate')
+                and upper("table") = upper('marketing_intermediate')
+                ) or (
+                    upper("schema") = upper('prod-dbt-intermediate')
+                and upper("table") = upper('lead_intermediate')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('utility_lead_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('facebook_daily_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('marketing_cost_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-mart')
+                and upper("table") = upper('utility_lead_prod')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('google_ads_daily_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-mart')
+                and upper("table") = upper('deal_prod')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('salesforce_opportunity_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('salesforce_account_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('salesforce_contact_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-mart')
+                and upper("table") = upper('lead_prod')
+                ) or (
+                    upper("schema") = upper('prod-dbt-intermediate')
+                and upper("table") = upper('deal_intermediate')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('salesforce_meter_number_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('salesforce_lead_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('zoominfo_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('bing_ads_daily_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-intermediate')
+                and upper("table") = upper('utility_lead_intermediate')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('hubspot_daily_base')
+                ))
+[0m11:09:37.822977 [debug] [ThreadPool]: SQL status: SUCCESS in 8.490 seconds
+[0m11:09:37.883906 [debug] [ThreadPool]: On integrity-db.information_schema: ROLLBACK
+[0m11:09:38.021650 [debug] [ThreadPool]: On integrity-db.information_schema: Close
+[0m11:09:38.448860 [info ] [MainThread]: Catalog written to C:\Users\2ewol\Documents\Clients\Integrity_Energy\integrity-energy-dbt\integrity_energy_dbt\target\catalog.json
+[0m11:09:38.450588 [debug] [MainThread]: Command `dbt docs generate` succeeded at 11:09:38.450588 after 15.29 seconds
+[0m11:09:38.451595 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m11:09:38.451595 [debug] [MainThread]: Connection 'integrity-db.information_schema' was properly closed.
+[0m11:09:38.451595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A3B7A0190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A38EA6410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012A354D85D0>]}
+[0m11:09:38.452600 [debug] [MainThread]: Flushing usage events
+[0m11:09:38.878532 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:13:48.515526 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D19FCDF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D19F8B950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D19F8A3D0>]}
+
+
+============================== 11:13:48.519038 | e09ade9b-57b7-4749-b1ee-5e09cb482407 ==============================
+[0m11:13:48.519038 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:13:48.520037 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\integrity_energy_dbt\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\integrity_energy_dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt docs serve --host 54.224.85.205', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:13:48.644478 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m11:13:48.645479 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m11:13:48.771187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e09ade9b-57b7-4749-b1ee-5e09cb482407', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D19F8A210>]}
+[0m11:13:48.813953 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e09ade9b-57b7-4749-b1ee-5e09cb482407', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D17090BD0>]}
+[0m11:13:48.910746 [error] [MainThread]: Encountered an error:
+[WinError 10049] The requested address is not valid in its context
+[0m11:13:48.918274 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\requires.py", line 235, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\requires.py", line 264, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\requires.py", line 311, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\main.py", line 301, in docs_serve
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\task\docs\serve.py", line 24, in run
+    with socketserver.TCPServer((host, port), SimpleHTTPRequestHandler) as httpd:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\AppData\Local\Programs\Python\Python311\Lib\socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "C:\Users\2ewol\AppData\Local\Programs\Python\Python311\Lib\socketserver.py", line 472, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [WinError 10049] The requested address is not valid in its context
+
+[0m11:13:48.919269 [debug] [MainThread]: Command `dbt docs serve` failed at 11:13:48.919269 after 0.48 seconds
+[0m11:13:48.920275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D19DEDB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D19F89290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D19F89D50>]}
+[0m11:13:48.920275 [debug] [MainThread]: Flushing usage events
+[0m11:13:49.522363 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:14:23.170185 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017D837293D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017D83564310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017D8357E290>]}
+
+
+============================== 11:14:23.173191 | 3d80ea2f-5496-498a-9450-dd4da452f77c ==============================
+[0m11:14:23.173191 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:14:23.174194 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\integrity_energy_dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\integrity_energy_dbt\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt docs serve --host ec2-54-224-85-205.compute-1.amazonaws.com', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:14:23.299016 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m11:14:23.299016 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m11:14:23.427122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3d80ea2f-5496-498a-9450-dd4da452f77c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017D840F8F50>]}
+[0m11:14:23.470524 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3d80ea2f-5496-498a-9450-dd4da452f77c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017D808A0B50>]}
+[0m11:14:23.622192 [error] [MainThread]: Encountered an error:
+[WinError 10049] The requested address is not valid in its context
+[0m11:14:23.625198 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\requires.py", line 235, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\requires.py", line 264, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\requires.py", line 311, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\main.py", line 301, in docs_serve
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\task\docs\serve.py", line 24, in run
+    with socketserver.TCPServer((host, port), SimpleHTTPRequestHandler) as httpd:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\AppData\Local\Programs\Python\Python311\Lib\socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "C:\Users\2ewol\AppData\Local\Programs\Python\Python311\Lib\socketserver.py", line 472, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [WinError 10049] The requested address is not valid in its context
+
+[0m11:14:23.627217 [debug] [MainThread]: Command `dbt docs serve` failed at 11:14:23.627217 after 0.53 seconds
+[0m11:14:23.628283 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017D8357E810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017D83729F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017D8372BBD0>]}
+[0m11:14:23.628283 [debug] [MainThread]: Flushing usage events
+[0m11:14:24.120146 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:26:36.401953 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018883228590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000188832494D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001888322BB50>]}
+
+
+============================== 11:26:36.404461 | dc64fce4-038f-4379-9ddf-f8306cbf0c16 ==============================
+[0m11:26:36.404461 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:26:36.405461 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\integrity_energy_dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\integrity_energy_dbt\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt docs serve --host http://dbt-docs-integrity.s3-website-us-east-1.amazonaws.com', 'send_anonymous_usage_stats': 'True'}
+[0m11:26:36.527821 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m11:26:36.527821 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m11:26:36.654616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'dc64fce4-038f-4379-9ddf-f8306cbf0c16', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018883278D50>]}
+[0m11:26:36.697750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'dc64fce4-038f-4379-9ddf-f8306cbf0c16', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000188FFA81150>]}
+[0m11:26:36.778019 [error] [MainThread]: Encountered an error:
+[Errno 11001] getaddrinfo failed
+[0m11:26:36.780435 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\requires.py", line 235, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\requires.py", line 264, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\requires.py", line 311, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\cli\main.py", line 301, in docs_serve
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\2ewol\.virtualenvs\integrity-energy-dbt-Q9NM3Gxc\Lib\site-packages\dbt\task\docs\serve.py", line 24, in run
+    with socketserver.TCPServer((host, port), SimpleHTTPRequestHandler) as httpd:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\2ewol\AppData\Local\Programs\Python\Python311\Lib\socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "C:\Users\2ewol\AppData\Local\Programs\Python\Python311\Lib\socketserver.py", line 472, in server_bind
+    self.socket.bind(self.server_address)
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+[0m11:26:36.781461 [debug] [MainThread]: Command `dbt docs serve` failed at 11:26:36.781461 after 0.45 seconds
+[0m11:26:36.782475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001888326FED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000188832A3FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001888327BD10>]}
+[0m11:26:36.782475 [debug] [MainThread]: Flushing usage events
+[0m11:26:37.315560 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:47:00.752670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002368EB05610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002368EB35410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002368EB3F990>]}
+
+
+============================== 11:47:00.755674 | d26f23f6-726c-40c9-8542-24659751e4ba ==============================
+[0m11:47:00.755674 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:47:00.756675 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\integrity_energy_dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\integrity_energy_dbt\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt docs generate', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:47:00.904396 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m11:47:00.904396 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m11:47:01.037155 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd26f23f6-726c-40c9-8542-24659751e4ba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002368F43D450>]}
+[0m11:47:01.082349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd26f23f6-726c-40c9-8542-24659751e4ba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002368BC00410>]}
+[0m11:47:01.084346 [info ] [MainThread]: Registered adapter: redshift=1.8.1
+[0m11:47:01.102723 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m11:47:01.253953 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m11:47:01.253953 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m11:47:01.279955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd26f23f6-726c-40c9-8542-24659751e4ba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236905DB9D0>]}
+[0m11:47:01.290957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd26f23f6-726c-40c9-8542-24659751e4ba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236906F1810>]}
+[0m11:47:01.291958 [info ] [MainThread]: Found 20 models, 20 sources, 602 macros
+[0m11:47:01.291958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd26f23f6-726c-40c9-8542-24659751e4ba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002369067F110>]}
+[0m11:47:01.295051 [info ] [MainThread]: 
+[0m11:47:01.295051 [info ] [MainThread]: Concurrency: 4 threads (target='prod')
+[0m11:47:01.296044 [info ] [MainThread]: 
+[0m11:47:01.296044 [debug] [MainThread]: Acquiring new redshift connection 'master'
+[0m11:47:01.304522 [debug] [ThreadPool]: Acquiring new redshift connection 'list_integrity-db_prod-dbt-base'
+[0m11:47:01.307512 [debug] [ThreadPool]: Acquiring new redshift connection 'list_integrity-db_prod-dbt-mart'
+[0m11:47:01.327253 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod-dbt-base"
+[0m11:47:01.327253 [debug] [ThreadPool]: Acquiring new redshift connection 'list_integrity-db_prod-dbt-intermediate'
+[0m11:47:01.331965 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod-dbt-mart"
+[0m11:47:01.331965 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-base: BEGIN
+[0m11:47:01.335518 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod-dbt-intermediate"
+[0m11:47:01.336520 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-mart: BEGIN
+[0m11:47:01.336520 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:47:01.336520 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-intermediate: BEGIN
+[0m11:47:01.336520 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:47:01.339872 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:47:01.340872 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:47:01.340872 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:47:01.342075 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:47:01.342579 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:47:01.342579 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:47:01.344083 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:47:02.746559 [debug] [ThreadPool]: SQL status: SUCCESS in 1.410 seconds
+[0m11:47:02.746559 [debug] [ThreadPool]: SQL status: SUCCESS in 1.410 seconds
+[0m11:47:02.747744 [debug] [ThreadPool]: SQL status: SUCCESS in 1.407 seconds
+[0m11:47:02.747744 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod-dbt-base"
+[0m11:47:02.748826 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod-dbt-mart"
+[0m11:47:02.748826 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod-dbt-intermediate"
+[0m11:47:02.748826 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "list_integrity-db_prod-dbt-base"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'prod-dbt-base'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'prod-dbt-base'
+[0m11:47:02.748826 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-mart: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "list_integrity-db_prod-dbt-mart"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'prod-dbt-mart'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'prod-dbt-mart'
+[0m11:47:02.750130 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "list_integrity-db_prod-dbt-intermediate"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'prod-dbt-intermediate'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'prod-dbt-intermediate'
+[0m11:47:02.917505 [debug] [ThreadPool]: SQL status: SUCCESS in 0.167 seconds
+[0m11:47:02.920483 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-mart: ROLLBACK
+[0m11:47:02.956937 [debug] [ThreadPool]: SQL status: SUCCESS in 0.207 seconds
+[0m11:47:02.958934 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-base: ROLLBACK
+[0m11:47:02.960537 [debug] [ThreadPool]: SQL status: SUCCESS in 0.209 seconds
+[0m11:47:02.961597 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-intermediate: ROLLBACK
+[0m11:47:03.044407 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-mart: Close
+[0m11:47:03.096322 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-base: Close
+[0m11:47:03.099930 [debug] [ThreadPool]: On list_integrity-db_prod-dbt-intermediate: Close
+[0m11:47:03.109823 [debug] [MainThread]: Using redshift connection "master"
+[0m11:47:03.109823 [debug] [MainThread]: On master: BEGIN
+[0m11:47:03.110824 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:47:03.110824 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:47:03.111823 [debug] [MainThread]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:47:03.826444 [debug] [MainThread]: SQL status: SUCCESS in 0.716 seconds
+[0m11:47:03.827419 [debug] [MainThread]: Using redshift connection "master"
+[0m11:47:03.827419 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "master"} */
+with
+    relation as (
+        select
+            pg_class.oid as relation_id,
+            pg_class.relname as relation_name,
+            pg_class.relnamespace as schema_id,
+            pg_namespace.nspname as schema_name,
+            pg_class.relkind as relation_type
+        from pg_class
+        join pg_namespace
+          on pg_class.relnamespace = pg_namespace.oid
+        where pg_namespace.nspname != 'information_schema'
+          and pg_namespace.nspname not like 'pg\_%'
+    ),
+    dependency as (
+        select distinct
+            coalesce(pg_rewrite.ev_class, pg_depend.objid) as dep_relation_id,
+            pg_depend.refobjid as ref_relation_id,
+            pg_depend.refclassid as ref_class_id
+        from pg_depend
+        left join pg_rewrite
+          on pg_depend.objid = pg_rewrite.oid
+        where coalesce(pg_rewrite.ev_class, pg_depend.objid) != pg_depend.refobjid
+    )
+
+select distinct
+    dep.schema_name as dependent_schema,
+    dep.relation_name as dependent_name,
+    ref.schema_name as referenced_schema,
+    ref.relation_name as referenced_name
+from dependency
+join relation ref
+    on dependency.ref_relation_id = ref.relation_id
+join relation dep
+    on dependency.dep_relation_id = dep.relation_id
+[0m11:47:04.029624 [debug] [MainThread]: SQL status: SUCCESS in 0.201 seconds
+[0m11:47:04.034102 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd26f23f6-726c-40c9-8542-24659751e4ba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002369082F010>]}
+[0m11:47:04.034102 [debug] [MainThread]: On master: ROLLBACK
+[0m11:47:04.184736 [debug] [MainThread]: On master: Close
+[0m11:47:04.192975 [debug] [Thread-1 (]: Began running node model.integrity_energy_dbt.bing_ads_daily_base
+[0m11:47:04.192975 [debug] [Thread-2 (]: Began running node model.integrity_energy_dbt.deal_intermediate
+[0m11:47:04.193990 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.deal_prod
+[0m11:47:04.193990 [debug] [Thread-4 (]: Began running node model.integrity_energy_dbt.facebook_daily_base
+[0m11:47:04.194998 [debug] [Thread-1 (]: Acquiring new redshift connection 'model.integrity_energy_dbt.bing_ads_daily_base'
+[0m11:47:04.194998 [debug] [Thread-2 (]: Acquiring new redshift connection 'model.integrity_energy_dbt.deal_intermediate'
+[0m11:47:04.196003 [debug] [Thread-3 (]: Acquiring new redshift connection 'model.integrity_energy_dbt.deal_prod'
+[0m11:47:04.196003 [debug] [Thread-4 (]: Acquiring new redshift connection 'model.integrity_energy_dbt.facebook_daily_base'
+[0m11:47:04.197002 [debug] [Thread-1 (]: Began compiling node model.integrity_energy_dbt.bing_ads_daily_base
+[0m11:47:04.197644 [debug] [Thread-2 (]: Began compiling node model.integrity_energy_dbt.deal_intermediate
+[0m11:47:04.197644 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.deal_prod
+[0m11:47:04.198760 [debug] [Thread-4 (]: Began compiling node model.integrity_energy_dbt.facebook_daily_base
+[0m11:47:04.200970 [debug] [Thread-1 (]: Writing injected SQL for node "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:47:04.203976 [debug] [Thread-2 (]: Writing injected SQL for node "model.integrity_energy_dbt.deal_intermediate"
+[0m11:47:04.205980 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.deal_prod"
+[0m11:47:04.208977 [debug] [Thread-4 (]: Writing injected SQL for node "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:47:04.209982 [debug] [Thread-1 (]: Began executing node model.integrity_energy_dbt.bing_ads_daily_base
+[0m11:47:04.209982 [debug] [Thread-2 (]: Began executing node model.integrity_energy_dbt.deal_intermediate
+[0m11:47:04.210978 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.deal_prod
+[0m11:47:04.210978 [debug] [Thread-1 (]: Finished running node model.integrity_energy_dbt.bing_ads_daily_base
+[0m11:47:04.211980 [debug] [Thread-4 (]: Began executing node model.integrity_energy_dbt.facebook_daily_base
+[0m11:47:04.211980 [debug] [Thread-2 (]: Finished running node model.integrity_energy_dbt.deal_intermediate
+[0m11:47:04.212981 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.deal_prod
+[0m11:47:04.212981 [debug] [Thread-1 (]: Began running node model.integrity_energy_dbt.google_ads_daily_base
+[0m11:47:04.214287 [debug] [Thread-4 (]: Finished running node model.integrity_energy_dbt.facebook_daily_base
+[0m11:47:04.214487 [debug] [Thread-2 (]: Began running node model.integrity_energy_dbt.hubspot_daily_base
+[0m11:47:04.214487 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.lead_intermediate
+[0m11:47:04.215528 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.bing_ads_daily_base, now model.integrity_energy_dbt.google_ads_daily_base)
+[0m11:47:04.215528 [debug] [Thread-4 (]: Began running node model.integrity_energy_dbt.lead_prod
+[0m11:47:04.215528 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.deal_intermediate, now model.integrity_energy_dbt.hubspot_daily_base)
+[0m11:47:04.216535 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.deal_prod, now model.integrity_energy_dbt.lead_intermediate)
+[0m11:47:04.216535 [debug] [Thread-1 (]: Began compiling node model.integrity_energy_dbt.google_ads_daily_base
+[0m11:47:04.217546 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.facebook_daily_base, now model.integrity_energy_dbt.lead_prod)
+[0m11:47:04.217546 [debug] [Thread-2 (]: Began compiling node model.integrity_energy_dbt.hubspot_daily_base
+[0m11:47:04.217546 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.lead_intermediate
+[0m11:47:04.221539 [debug] [Thread-1 (]: Writing injected SQL for node "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:47:04.221539 [debug] [Thread-4 (]: Began compiling node model.integrity_energy_dbt.lead_prod
+[0m11:47:04.223538 [debug] [Thread-2 (]: Writing injected SQL for node "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:47:04.226542 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.lead_intermediate"
+[0m11:47:04.229543 [debug] [Thread-4 (]: Writing injected SQL for node "model.integrity_energy_dbt.lead_prod"
+[0m11:47:04.229543 [debug] [Thread-1 (]: Began executing node model.integrity_energy_dbt.google_ads_daily_base
+[0m11:47:04.231136 [debug] [Thread-2 (]: Began executing node model.integrity_energy_dbt.hubspot_daily_base
+[0m11:47:04.231200 [debug] [Thread-1 (]: Finished running node model.integrity_energy_dbt.google_ads_daily_base
+[0m11:47:04.231200 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.lead_intermediate
+[0m11:47:04.232229 [debug] [Thread-4 (]: Began executing node model.integrity_energy_dbt.lead_prod
+[0m11:47:04.232229 [debug] [Thread-2 (]: Finished running node model.integrity_energy_dbt.hubspot_daily_base
+[0m11:47:04.233238 [debug] [Thread-1 (]: Began running node model.integrity_energy_dbt.marketing_cost_base
+[0m11:47:04.233238 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.lead_intermediate
+[0m11:47:04.234237 [debug] [Thread-4 (]: Finished running node model.integrity_energy_dbt.lead_prod
+[0m11:47:04.234237 [debug] [Thread-2 (]: Began running node model.integrity_energy_dbt.marketing_intermediate
+[0m11:47:04.235238 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.google_ads_daily_base, now model.integrity_energy_dbt.marketing_cost_base)
+[0m11:47:04.235238 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.marketing_prod
+[0m11:47:04.235238 [debug] [Thread-4 (]: Began running node model.integrity_energy_dbt.salesforce_account_base
+[0m11:47:04.236240 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.hubspot_daily_base, now model.integrity_energy_dbt.marketing_intermediate)
+[0m11:47:04.236240 [debug] [Thread-1 (]: Began compiling node model.integrity_energy_dbt.marketing_cost_base
+[0m11:47:04.237235 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.lead_intermediate, now model.integrity_energy_dbt.marketing_prod)
+[0m11:47:04.237235 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.lead_prod, now model.integrity_energy_dbt.salesforce_account_base)
+[0m11:47:04.237235 [debug] [Thread-2 (]: Began compiling node model.integrity_energy_dbt.marketing_intermediate
+[0m11:47:04.239239 [debug] [Thread-1 (]: Writing injected SQL for node "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:47:04.240240 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.marketing_prod
+[0m11:47:04.240240 [debug] [Thread-4 (]: Began compiling node model.integrity_energy_dbt.salesforce_account_base
+[0m11:47:04.244234 [debug] [Thread-2 (]: Writing injected SQL for node "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:47:04.247237 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.marketing_prod"
+[0m11:47:04.249450 [debug] [Thread-4 (]: Writing injected SQL for node "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:47:04.249450 [debug] [Thread-1 (]: Began executing node model.integrity_energy_dbt.marketing_cost_base
+[0m11:47:04.250461 [debug] [Thread-2 (]: Began executing node model.integrity_energy_dbt.marketing_intermediate
+[0m11:47:04.251457 [debug] [Thread-1 (]: Finished running node model.integrity_energy_dbt.marketing_cost_base
+[0m11:47:04.251457 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.marketing_prod
+[0m11:47:04.252456 [debug] [Thread-2 (]: Finished running node model.integrity_energy_dbt.marketing_intermediate
+[0m11:47:04.252456 [debug] [Thread-4 (]: Began executing node model.integrity_energy_dbt.salesforce_account_base
+[0m11:47:04.252456 [debug] [Thread-1 (]: Began running node model.integrity_energy_dbt.salesforce_contact_base
+[0m11:47:04.253458 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.marketing_prod
+[0m11:47:04.253458 [debug] [Thread-2 (]: Began running node model.integrity_energy_dbt.salesforce_lead_base
+[0m11:47:04.254457 [debug] [Thread-4 (]: Finished running node model.integrity_energy_dbt.salesforce_account_base
+[0m11:47:04.254457 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.marketing_cost_base, now model.integrity_energy_dbt.salesforce_contact_base)
+[0m11:47:04.255457 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.salesforce_meter_number_base
+[0m11:47:04.255457 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.marketing_intermediate, now model.integrity_energy_dbt.salesforce_lead_base)
+[0m11:47:04.255457 [debug] [Thread-4 (]: Began running node model.integrity_energy_dbt.salesforce_opportunity_base
+[0m11:47:04.256683 [debug] [Thread-1 (]: Began compiling node model.integrity_energy_dbt.salesforce_contact_base
+[0m11:47:04.256683 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.marketing_prod, now model.integrity_energy_dbt.salesforce_meter_number_base)
+[0m11:47:04.256683 [debug] [Thread-2 (]: Began compiling node model.integrity_energy_dbt.salesforce_lead_base
+[0m11:47:04.258072 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.salesforce_account_base, now model.integrity_energy_dbt.salesforce_opportunity_base)
+[0m11:47:04.260135 [debug] [Thread-1 (]: Writing injected SQL for node "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:47:04.260135 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.salesforce_meter_number_base
+[0m11:47:04.262135 [debug] [Thread-2 (]: Writing injected SQL for node "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:47:04.263135 [debug] [Thread-4 (]: Began compiling node model.integrity_energy_dbt.salesforce_opportunity_base
+[0m11:47:04.266003 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:47:04.267007 [debug] [Thread-1 (]: Began executing node model.integrity_energy_dbt.salesforce_contact_base
+[0m11:47:04.269007 [debug] [Thread-4 (]: Writing injected SQL for node "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:47:04.270011 [debug] [Thread-2 (]: Began executing node model.integrity_energy_dbt.salesforce_lead_base
+[0m11:47:04.270011 [debug] [Thread-1 (]: Finished running node model.integrity_energy_dbt.salesforce_contact_base
+[0m11:47:04.271012 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.salesforce_meter_number_base
+[0m11:47:04.271012 [debug] [Thread-2 (]: Finished running node model.integrity_energy_dbt.salesforce_lead_base
+[0m11:47:04.272012 [debug] [Thread-1 (]: Began running node model.integrity_energy_dbt.utility_lead_base
+[0m11:47:04.272012 [debug] [Thread-4 (]: Began executing node model.integrity_energy_dbt.salesforce_opportunity_base
+[0m11:47:04.273009 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.salesforce_meter_number_base
+[0m11:47:04.273009 [debug] [Thread-2 (]: Began running node model.integrity_energy_dbt.utility_lead_intermediate
+[0m11:47:04.273009 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.salesforce_contact_base, now model.integrity_energy_dbt.utility_lead_base)
+[0m11:47:04.274009 [debug] [Thread-4 (]: Finished running node model.integrity_energy_dbt.salesforce_opportunity_base
+[0m11:47:04.274009 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.utility_lead_prod
+[0m11:47:04.275011 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.salesforce_lead_base, now model.integrity_energy_dbt.utility_lead_intermediate)
+[0m11:47:04.275011 [debug] [Thread-1 (]: Began compiling node model.integrity_energy_dbt.utility_lead_base
+[0m11:47:04.275011 [debug] [Thread-4 (]: Began running node model.integrity_energy_dbt.zoominfo_base
+[0m11:47:04.276012 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.salesforce_meter_number_base, now model.integrity_energy_dbt.utility_lead_prod)
+[0m11:47:04.276012 [debug] [Thread-2 (]: Began compiling node model.integrity_energy_dbt.utility_lead_intermediate
+[0m11:47:04.278008 [debug] [Thread-1 (]: Writing injected SQL for node "model.integrity_energy_dbt.utility_lead_base"
+[0m11:47:04.279013 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.salesforce_opportunity_base, now model.integrity_energy_dbt.zoominfo_base)
+[0m11:47:04.279013 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.utility_lead_prod
+[0m11:47:04.282205 [debug] [Thread-2 (]: Writing injected SQL for node "model.integrity_energy_dbt.utility_lead_intermediate"
+[0m11:47:04.282712 [debug] [Thread-4 (]: Began compiling node model.integrity_energy_dbt.zoominfo_base
+[0m11:47:04.285254 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.utility_lead_prod"
+[0m11:47:04.285254 [debug] [Thread-1 (]: Began executing node model.integrity_energy_dbt.utility_lead_base
+[0m11:47:04.287257 [debug] [Thread-4 (]: Writing injected SQL for node "model.integrity_energy_dbt.zoominfo_base"
+[0m11:47:04.287257 [debug] [Thread-2 (]: Began executing node model.integrity_energy_dbt.utility_lead_intermediate
+[0m11:47:04.288259 [debug] [Thread-1 (]: Finished running node model.integrity_energy_dbt.utility_lead_base
+[0m11:47:04.288259 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.utility_lead_prod
+[0m11:47:04.289258 [debug] [Thread-2 (]: Finished running node model.integrity_energy_dbt.utility_lead_intermediate
+[0m11:47:04.289258 [debug] [Thread-4 (]: Began executing node model.integrity_energy_dbt.zoominfo_base
+[0m11:47:04.290259 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.utility_lead_prod
+[0m11:47:04.290259 [debug] [Thread-4 (]: Finished running node model.integrity_energy_dbt.zoominfo_base
+[0m11:47:04.292258 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:47:04.292258 [debug] [MainThread]: Connection 'list_integrity-db_prod-dbt-base' was properly closed.
+[0m11:47:04.292258 [debug] [MainThread]: Connection 'list_integrity-db_prod-dbt-mart' was properly closed.
+[0m11:47:04.293259 [debug] [MainThread]: Connection 'list_integrity-db_prod-dbt-intermediate' was properly closed.
+[0m11:47:04.293259 [debug] [MainThread]: Connection 'model.integrity_energy_dbt.utility_lead_base' was properly closed.
+[0m11:47:04.293259 [debug] [MainThread]: Connection 'model.integrity_energy_dbt.utility_lead_intermediate' was properly closed.
+[0m11:47:04.293259 [debug] [MainThread]: Connection 'model.integrity_energy_dbt.utility_lead_prod' was properly closed.
+[0m11:47:04.294259 [debug] [MainThread]: Connection 'model.integrity_energy_dbt.zoominfo_base' was properly closed.
+[0m11:47:04.296257 [debug] [MainThread]: Command end result
+[0m11:47:04.414733 [debug] [MainThread]: Acquiring new redshift connection 'generate_catalog'
+[0m11:47:04.414786 [info ] [MainThread]: Building catalog
+[0m11:47:04.424818 [debug] [ThreadPool]: Acquiring new redshift connection 'integrity-db.information_schema'
+[0m11:47:04.455587 [debug] [ThreadPool]: Using redshift connection "integrity-db.information_schema"
+[0m11:47:04.455587 [debug] [ThreadPool]: On integrity-db.information_schema: BEGIN
+[0m11:47:04.455587 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:47:04.456589 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:47:04.456589 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:47:05.082514 [debug] [ThreadPool]: SQL status: SUCCESS in 0.626 seconds
+[0m11:47:05.083526 [debug] [ThreadPool]: Using redshift connection "integrity-db.information_schema"
+[0m11:47:05.083526 [debug] [ThreadPool]: On integrity-db.information_schema: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "integrity-db.information_schema"} */
+with
+            late_binding as (
+    
+    select
+        table_schema,
+        table_name,
+        'LATE BINDING VIEW'::varchar as table_type,
+        null::text as table_comment,
+        column_name,
+        column_index,
+        column_type,
+        null::text as column_comment
+    from pg_get_late_binding_view_cols()
+        cols(
+            table_schema name,
+            table_name name,
+            column_name name,
+            column_type varchar,
+            column_index int
+        )
+
+    where ((
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('bing_ads_daily_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-intermediate')
+            and upper(table_name) = upper('deal_intermediate')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('salesforce_contact_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('salesforce_lead_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('hubspot_daily_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-mart')
+            and upper(table_name) = upper('utility_lead_prod')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('salesforce_opportunity_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-intermediate')
+            and upper(table_name) = upper('marketing_intermediate')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('salesforce_account_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('salesforce_meter_number_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('google_ads_daily_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('utility_lead_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-mart')
+            and upper(table_name) = upper('lead_prod')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('zoominfo_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-mart')
+            and upper(table_name) = upper('deal_prod')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-intermediate')
+            and upper(table_name) = upper('lead_intermediate')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-mart')
+            and upper(table_name) = upper('marketing_prod')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-intermediate')
+            and upper(table_name) = upper('utility_lead_intermediate')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('facebook_daily_base')
+            ) or (
+                upper(table_schema) = upper('prod-dbt-base')
+            and upper(table_name) = upper('marketing_cost_base')
+            ))
+),
+            early_binding as (
+    
+    select
+        sch.nspname as table_schema,
+        tbl.relname as table_name,
+        case
+            when tbl.relkind = 'v' and mat_views.table_name is not null then 'MATERIALIZED VIEW'
+            when tbl.relkind = 'v' then 'VIEW'
+            else 'BASE TABLE'
+        end as table_type,
+        tbl_desc.description as table_comment,
+        col.attname as column_name,
+        col.attnum as column_index,
+        pg_catalog.format_type(col.atttypid, col.atttypmod) as column_type,
+        col_desc.description as column_comment
+    from pg_catalog.pg_namespace sch
+    join pg_catalog.pg_class tbl
+        on tbl.relnamespace = sch.oid
+    join pg_catalog.pg_attribute col
+        on col.attrelid = tbl.oid
+    left outer join pg_catalog.pg_description tbl_desc
+        on tbl_desc.objoid = tbl.oid
+        and tbl_desc.objsubid = 0
+    left outer join pg_catalog.pg_description col_desc
+        on col_desc.objoid = tbl.oid
+        and col_desc.objsubid = col.attnum
+    left outer join information_schema.views mat_views
+        on mat_views.table_schema = sch.nspname
+        and mat_views.table_name = tbl.relname
+        and mat_views.view_definition ilike '%create materialized view%'
+        and mat_views.table_catalog = 'integrity-db'
+    where tbl.relkind in ('r', 'v', 'f', 'p')
+    and col.attnum > 0
+    and not col.attisdropped
+
+    and ((
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('bing_ads_daily_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-intermediate')
+            and upper(tbl.relname) = upper('deal_intermediate')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('salesforce_contact_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('salesforce_lead_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('hubspot_daily_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-mart')
+            and upper(tbl.relname) = upper('utility_lead_prod')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('salesforce_opportunity_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-intermediate')
+            and upper(tbl.relname) = upper('marketing_intermediate')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('salesforce_account_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('salesforce_meter_number_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('google_ads_daily_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('utility_lead_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-mart')
+            and upper(tbl.relname) = upper('lead_prod')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('zoominfo_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-mart')
+            and upper(tbl.relname) = upper('deal_prod')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-intermediate')
+            and upper(tbl.relname) = upper('lead_intermediate')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-mart')
+            and upper(tbl.relname) = upper('marketing_prod')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-intermediate')
+            and upper(tbl.relname) = upper('utility_lead_intermediate')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('facebook_daily_base')
+            ) or (
+                upper(sch.nspname) = upper('prod-dbt-base')
+            and upper(tbl.relname) = upper('marketing_cost_base')
+            ))
+),
+            unioned as (select * from early_binding union all select * from late_binding),
+            table_owners as (
+    select
+        schemaname as table_schema,
+        tablename as table_name,
+        tableowner as table_owner
+    from pg_tables
+    union all
+    select
+        schemaname as table_schema,
+        viewname as table_name,
+        viewowner as table_owner
+    from pg_views
+)
+        select 'integrity-db' as table_database, *
+        from unioned
+        join table_owners using (table_schema, table_name)
+        order by "column_index"
+[0m11:47:05.763894 [debug] [ThreadPool]: SQL status: SUCCESS in 0.679 seconds
+[0m11:47:05.775880 [debug] [ThreadPool]: Using redshift connection "integrity-db.information_schema"
+[0m11:47:05.775880 [debug] [ThreadPool]: On integrity-db.information_schema: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "integrity-db.information_schema"} */
+select has_table_privilege(current_user, 'svv_table_info', 'SELECT') as can_select
+[0m11:47:05.915822 [debug] [ThreadPool]: SQL status: SUCCESS in 0.140 seconds
+[0m11:47:05.934059 [debug] [ThreadPool]: Using redshift connection "integrity-db.information_schema"
+[0m11:47:05.935064 [debug] [ThreadPool]: On integrity-db.information_schema: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "integrity-db.information_schema"} */
+
+    select
+        "schema" as table_schema,
+        "table" as table_name,
+
+        'Encoded'::text as "stats:encoded:label",
+        encoded as "stats:encoded:value",
+        'Indicates whether any column in the table has compression encoding defined.'::text as "stats:encoded:description",
+        true as "stats:encoded:include",
+
+        'Dist Style' as "stats:diststyle:label",
+        diststyle as "stats:diststyle:value",
+        'Distribution style or distribution key column, if key distribution is defined.'::text as "stats:diststyle:description",
+        true as "stats:diststyle:include",
+
+        'Sort Key 1' as "stats:sortkey1:label",
+        -- handle 0xFF byte in response for interleaved sort styles
+        case
+            when sortkey1 like 'INTERLEAVED%' then 'INTERLEAVED'::text
+            else sortkey1
+        end as "stats:sortkey1:value",
+        'First column in the sort key.'::text as "stats:sortkey1:description",
+        (sortkey1 is not null) as "stats:sortkey1:include",
+
+        'Max Varchar' as "stats:max_varchar:label",
+        max_varchar as "stats:max_varchar:value",
+        'Size of the largest column that uses a VARCHAR data type.'::text as "stats:max_varchar:description",
+        true as "stats:max_varchar:include",
+
+        -- exclude this, as the data is strangely returned with null-byte characters
+        'Sort Key 1 Encoding' as "stats:sortkey1_enc:label",
+        sortkey1_enc as "stats:sortkey1_enc:value",
+        'Compression encoding of the first column in the sort key.' as "stats:sortkey1_enc:description",
+        false as "stats:sortkey1_enc:include",
+
+        '# Sort Keys' as "stats:sortkey_num:label",
+        sortkey_num as "stats:sortkey_num:value",
+        'Number of columns defined as sort keys.' as "stats:sortkey_num:description",
+        (sortkey_num > 0) as "stats:sortkey_num:include",
+
+        'Approximate Size' as "stats:size:label",
+        size * 1000000 as "stats:size:value",
+        'Approximate size of the table, calculated from a count of 1MB blocks'::text as "stats:size:description",
+        true as "stats:size:include",
+
+        'Disk Utilization' as "stats:pct_used:label",
+        pct_used / 100.0 as "stats:pct_used:value",
+        'Percent of available space that is used by the table.'::text as "stats:pct_used:description",
+        true as "stats:pct_used:include",
+
+        'Unsorted %' as "stats:unsorted:label",
+        unsorted / 100.0 as "stats:unsorted:value",
+        'Percent of unsorted rows in the table.'::text as "stats:unsorted:description",
+        (unsorted is not null) as "stats:unsorted:include",
+
+        'Stats Off' as "stats:stats_off:label",
+        stats_off as "stats:stats_off:value",
+        'Number that indicates how stale the table statistics are; 0 is current, 100 is out of date.'::text as "stats:stats_off:description",
+        true as "stats:stats_off:include",
+
+        'Approximate Row Count' as "stats:rows:label",
+        tbl_rows as "stats:rows:value",
+        'Approximate number of rows in the table. This value includes rows marked for deletion, but not yet vacuumed.'::text as "stats:rows:description",
+        true as "stats:rows:include",
+
+        'Sort Key Skew' as "stats:skew_sortkey1:label",
+        skew_sortkey1 as "stats:skew_sortkey1:value",
+        'Ratio of the size of the largest non-sort key column to the size of the first column of the sort key.'::text as "stats:skew_sortkey1:description",
+        (skew_sortkey1 is not null) as "stats:skew_sortkey1:include",
+
+        'Skew Rows' as "stats:skew_rows:label",
+        skew_rows as "stats:skew_rows:value",
+        'Ratio of the number of rows in the slice with the most rows to the number of rows in the slice with the fewest rows.'::text as "stats:skew_rows:description",
+        (skew_rows is not null) as "stats:skew_rows:include"
+
+    from svv_table_info
+
+        where ((
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('bing_ads_daily_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-intermediate')
+                and upper("table") = upper('deal_intermediate')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('salesforce_contact_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('salesforce_lead_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('hubspot_daily_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-mart')
+                and upper("table") = upper('utility_lead_prod')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('salesforce_opportunity_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-intermediate')
+                and upper("table") = upper('marketing_intermediate')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('salesforce_account_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('salesforce_meter_number_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('google_ads_daily_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('utility_lead_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-mart')
+                and upper("table") = upper('lead_prod')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('zoominfo_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-mart')
+                and upper("table") = upper('deal_prod')
+                ) or (
+                    upper("schema") = upper('prod-dbt-intermediate')
+                and upper("table") = upper('lead_intermediate')
+                ) or (
+                    upper("schema") = upper('prod-dbt-mart')
+                and upper("table") = upper('marketing_prod')
+                ) or (
+                    upper("schema") = upper('prod-dbt-intermediate')
+                and upper("table") = upper('utility_lead_intermediate')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('facebook_daily_base')
+                ) or (
+                    upper("schema") = upper('prod-dbt-base')
+                and upper("table") = upper('marketing_cost_base')
+                ))
+[0m11:47:07.193493 [debug] [ThreadPool]: SQL status: SUCCESS in 1.258 seconds
+[0m11:47:07.255944 [debug] [ThreadPool]: On integrity-db.information_schema: ROLLBACK
+[0m11:47:07.379900 [debug] [ThreadPool]: On integrity-db.information_schema: Close
+[0m11:47:07.804101 [info ] [MainThread]: Catalog written to C:\Users\2ewol\Documents\Clients\Integrity_Energy\integrity-energy-dbt\integrity_energy_dbt\target\catalog.json
+[0m11:47:07.807101 [debug] [MainThread]: Command `dbt docs generate` succeeded at 11:47:07.807101 after 7.13 seconds
+[0m11:47:07.808100 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m11:47:07.808100 [debug] [MainThread]: Connection 'integrity-db.information_schema' was properly closed.
+[0m11:47:07.809102 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023688584D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002368D6B8790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002368BDCC690>]}
+[0m11:47:07.810102 [debug] [MainThread]: Flushing usage events
+[0m11:47:08.404989 [debug] [MainThread]: An error was encountered while trying to flush usage events
