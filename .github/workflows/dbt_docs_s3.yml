@@ -22,11 +22,15 @@ jobs:
         run: |
           pip install dbt-redshift
 
+      - name: Install package dependencies
+        run: |
+          dbt deps
+
       - name: Generate dbt docs
         run: |
           dbt docs generate
 
-      - name: Sync to S3
+      - name: Serve to S3
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
