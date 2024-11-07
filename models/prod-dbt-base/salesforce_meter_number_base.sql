@@ -15,4 +15,4 @@ select
     account__c,
     dl_account__c,
     account_number__c
-from salesforce.meter_number__c
+from {{ source('salesforce', 'meter_number__c') }}

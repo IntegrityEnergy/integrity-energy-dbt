@@ -1,9 +1,12 @@
 
-
-  create view "integrity-db"."prod-dbt-base"."salesforce_contact_base__dbt_tmp" as (
-    
-
-select
+        create materialized view "integrity-db"."prod_dbt-base"."salesforce_contact_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
     id,
     name,
     email,
@@ -20,5 +23,8 @@ select
     rep_last_first__c,
     customer_account_number__c,
     contract_signer_phone_email__c
-from salesforce.contact
-  ) ;
+from "integrity-db"."salesforce"."contact"
+    )
+
+
+    

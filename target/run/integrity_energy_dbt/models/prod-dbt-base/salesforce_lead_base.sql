@@ -1,9 +1,12 @@
 
-
-  create view "integrity-db"."prod-dbt-base"."salesforce_lead_base__dbt_tmp" as (
-    
-
-select
+        create materialized view "integrity-db"."prod_dbt-base"."salesforce_lead_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
     id,
     city,
     name,
@@ -36,5 +39,8 @@ select
     marketing_generator__c,
     new_ready_to_work_date__c,
     last_activity_note_date__c
-from salesforce.lead
-  ) ;
+from "integrity-db"."salesforce"."lead"
+    )
+
+
+    

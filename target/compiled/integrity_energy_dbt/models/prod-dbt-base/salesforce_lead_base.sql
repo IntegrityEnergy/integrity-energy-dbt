@@ -33,4 +33,4 @@ select
     marketing_generator__c,
     new_ready_to_work_date__c,
     last_activity_note_date__c
-from salesforce.lead
+from "integrity-db"."salesforce"."lead"

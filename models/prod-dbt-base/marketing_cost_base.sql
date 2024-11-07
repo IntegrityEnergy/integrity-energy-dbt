@@ -18,4 +18,4 @@ select
     CAST(REPLACE(crowd_content_costs, ',', '') as decimal(10,2)) as crowd_content_costs,
     CAST(REPLACE(email_contractor_costs, ',', '') as decimal(10,2)) as email_contractor_costs,
     CAST(REPLACE(hubspot_contractor_costs, ',', '') as decimal(10,2)) as hubspot_contractor_costs
-from google_sheets.monthly_cost
+from {{ source('google_sheets', 'monthly_cost') }}

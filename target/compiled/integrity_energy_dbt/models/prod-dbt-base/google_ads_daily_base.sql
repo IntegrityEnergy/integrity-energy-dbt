@@ -5,4 +5,4 @@ select
     metrics_impressions as googleads_impressions,
     metrics_cost_micros  as googleads_cost, 
     metrics_clicks as googleads_clicks
-from google_ads.ads_campaignbasicstats_7446470445
+from "integrity-db"."google_ads"."ads_campaignbasicstats_7446470445"

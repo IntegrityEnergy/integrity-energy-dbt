@@ -1,5 +1,5 @@
-{{ config(materialized='table', tags=["lead","salesforce","prod"] ) }}
+{{ config( tags=["lead","salesforce","prod"] ) }}
 
 select
     *
-from {{source('lead_intermediate','lead_intermediate')}}
+from {{ ref('lead_intermediate') }}

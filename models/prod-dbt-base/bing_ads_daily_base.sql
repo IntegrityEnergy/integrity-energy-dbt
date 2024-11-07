@@ -7,4 +7,4 @@ select
     timeperiod,
     adgroupname,
     campaignname
-from bing_ads.ad_performance_report_daily
+from {{ source('bing_ads', 'ad_performance_report_daily') }}

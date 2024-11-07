@@ -1,9 +1,12 @@
 
-
-  create view "integrity-db"."prod-dbt-base"."salesforce_meter_number_base__dbt_tmp" as (
-    
-
-select
+        create materialized view "integrity-db"."prod_dbt-base"."salesforce_meter_number_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
     id,
     name,
     city__c,
@@ -18,5 +21,8 @@ select
     account__c,
     dl_account__c,
     account_number__c
-from salesforce.meter_number__c
-  ) ;
+from "integrity-db"."salesforce"."meter_number__c"
+    )
+
+
+    

@@ -7,5 +7,5 @@ select
     sum(spend) as facebook_spend, 
     sum(clicks) as facebook_clicks,
     sum(unique_clicks) as facebook_unique_clicks
-from facebook.ads_insights
+from "integrity-db"."facebook"."ads_insights"
 group by date_start

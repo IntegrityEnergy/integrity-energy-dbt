@@ -14,7 +14,7 @@ with meter_number as (
         service_address__c,
         status__c,
         account__c
-    from "integrity-db"."prod-dbt-base"."salesforce_meter_number_base"
+    from "integrity-db"."prod_dbt-base"."salesforce_meter_number_base"
 ),
 
 account as (
@@ -30,7 +30,7 @@ account as (
         billingpostalcode,
         billingstreet,
         main_phone__c
-    from "integrity-db"."prod-dbt-base"."salesforce_account_base"
+    from "integrity-db"."prod_dbt-base"."salesforce_account_base"
 ),
 
 utility_leads as (
@@ -49,7 +49,7 @@ utility_leads as (
         title,
         phone,
         email
-    from "integrity-db"."prod-dbt-base"."utility_lead_base"
+    from "integrity-db"."prod_dbt-base"."utility_lead_base"
 )
 
 select
