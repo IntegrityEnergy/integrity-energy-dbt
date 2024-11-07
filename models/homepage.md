@@ -1,7 +1,7 @@
 {% docs __overview__ %}
 {% raw %}
 
-![logo](/assets/integrity_logo_small.png "Image text-align: center;")
+![logo](/assets/integrity_logo_small.png "Image"){% style="display: block; margin: 0 auto" %}
 
 Link to [Github](<https://github.com/IntegrityEnergy/integrity-energy-dbt>)
 
