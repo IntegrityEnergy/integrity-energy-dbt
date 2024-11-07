@@ -1,3 +1,6 @@
 .idea/
 dbt_packages/
 target/
+logs/
+Pipfile
+Pipfile.lock
