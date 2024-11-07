@@ -1,9 +1,12 @@
 
-
-  create view "integrity-db"."prod-dbt-base"."utility_lead_base__dbt_tmp" as (
-    
-
-select
+        create materialized view "integrity-db"."prod_dbt-base"."utility_lead_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
         u.companyname,
         u.serviceaddress,
         u.servicecity,
@@ -18,8 +21,8 @@ select
         e."eru titledesc" as title,
         e."be telephone number10" as phone,
         e."bee email addr80" as email
-from utility_leads.utilitylead as u
-left join utility_leads.enriched as e 
+from "integrity-db"."utility_leads"."utilitylead" as u
+left join "integrity-db"."utility_leads"."enriched" as e
 on u.companyname = e.companyname 
 AND u.serviceaddress = e.serviceaddress
 AND u.utility = e.utility
@@ -27,4 +30,7 @@ AND u.servicecity = e.servicecity
 AND u.servicestate = e.servicestate
 AND u.ratecode = e.ratecode
 GROUP BY 1,2,3,4,5,6,7,8,9,10,11,12,13,14
-  ) ;
+    )
+
+
+    

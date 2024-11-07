@@ -4,7 +4,8 @@ with hubspot_daily as (
     SELECT
         (TIMESTAMP 'epoch' + created / 1000 * INTERVAL '1 second')::DATE AS converted_date,
         type
-    FROM "integrity-db"."hubspot"."email_events")
+    FROM {{ source('hubspot', 'email_events') }}
+)
 
 SELECT
     converted_date,
@@ -15,4 +16,3 @@ SELECT
     sum(case when type = 'SPAMREPORT' then 1 else 0 end) as spam_reports
 from hubspot_daily
 group by converted_date
-order by converted_date desc

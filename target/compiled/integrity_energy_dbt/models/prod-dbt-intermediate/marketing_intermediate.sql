@@ -6,7 +6,7 @@ with google_ads as (
         sum(googleads_impressions) as googleads_impressions,
         ROUND((sum(googleads_cost) / 1000000),2) as googleads_cost,
         sum(googleads_clicks) as googleads_clicks
-    from "integrity-db"."prod-dbt-base"."google_ads_daily_base"
+    from "integrity-db"."prod_dbt-base"."google_ads_daily_base"
     group by activity_date
 ),
 
@@ -16,7 +16,7 @@ bing_ads as (
         sum(spend) as bing_spend,
         sum(impressions) as bing_impressions,
         sum(clicks) as bing_clicks
-    from "integrity-db"."prod-dbt-base"."bing_ads_daily_base"
+    from "integrity-db"."prod_dbt-base"."bing_ads_daily_base"
     group by timeperiod
 ),
 
@@ -28,7 +28,7 @@ hubspot as (
         clicks as hubspot_clicks,
         bounces as hubspot_bounces,
         spam_reports as hubspot_spam_reports
-    from "integrity-db"."prod-dbt-base"."hubspot_daily_base"
+    from "integrity-db"."prod_dbt-base"."hubspot_daily_base"
 ),
 
 facebook as (
@@ -36,14 +36,14 @@ facebook as (
         date_start,
         facebook_impressions,
         facebook_reach,
-        facebook_spend, 
+        facebook_spend,
         facebook_clicks,
         facebook_unique_clicks
-    from "integrity-db"."prod-dbt-base"."facebook_daily_base"
+    from "integrity-db"."prod_dbt-base"."facebook_daily_base"
 ),
 
 opportunity_sold as (
-    SELECT 
+    SELECT
     sold_date__c,
     sum(case when iswon = true and status__c <> 'Cancelled' then 1 else 0 end) as total_won_opportunities,
     sum(case when iswon = true and status__c <> 'Cancelled' then points__c else 0 end) as total_won_points,
@@ -59,7 +59,7 @@ opportunity_sold as (
     sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Microsoft' then points__c else 0 end) as microsoft_won_points,
     sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Email' then 1 else 0 end) as email_won_opportunities,
     sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Email' then points__c else 0 end) as email_won_points
-from "integrity-db"."prod-dbt-base"."salesforce_opportunity_base"
+from "integrity-db"."prod_dbt-base"."salesforce_opportunity_base"
 where marketing_generator__c = '0035f00000G8KYcAAN'
 group by sold_date__c
 ),
@@ -69,7 +69,7 @@ SELECT
     cancel_date__c,
     sum(case when iswon = true and status__c = 'Cancelled' then 1 else 0 end) as total_cancelled_opportunities,
     sum(case when iswon = true and cancel_date__c <> NULL then cancelled_points__c else 0 end) as total_cancelled_points
-from "integrity-db"."prod-dbt-base"."salesforce_opportunity_base"
+from "integrity-db"."prod_dbt-base"."salesforce_opportunity_base"
 where marketing_generator__c = '0035f00000G8KYcAAN'
 group by cancel_date__c
 ),
@@ -93,13 +93,13 @@ select
     crowd_content_costs,
     email_contractor_costs,
     hubspot_contractor_costs
-from "integrity-db"."prod-dbt-base"."marketing_cost_base"
+from "integrity-db"."prod_dbt-base"."marketing_cost_base"
 ),
 
 base_dates as (
     select
         CAST(date as date)
-    from google_sheets.dates
+    from "integrity-db"."google_sheets"."dates"
 )
 
 select 

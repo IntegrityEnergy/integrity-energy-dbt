@@ -2,4 +2,4 @@
 
 select
     *
-from "integrity-db"."prod-dbt-intermediate"."deal_intermediate"
+from "integrity-db"."prod_dbt-intermediate"."deal_intermediate"

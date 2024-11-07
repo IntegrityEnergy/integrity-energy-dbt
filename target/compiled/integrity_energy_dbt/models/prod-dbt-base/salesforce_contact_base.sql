@@ -17,4 +17,4 @@ select
     rep_last_first__c,
     customer_account_number__c,
     contract_signer_phone_email__c
-from salesforce.contact
+from "integrity-db"."salesforce"."contact"

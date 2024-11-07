@@ -3156,3 +3156,2383 @@ Update your versions in packages.yml, then run dbt deps
 [0m14:08:34.698721 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220B9E8A4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220C01AB550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220B9E7E550>]}
 [0m14:08:34.699729 [debug] [MainThread]: Flushing usage events
 [0m14:08:35.313970 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:20:52.279745 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B512E5150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B5130C150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B5130C110>]}
+
+
+============================== 11:20:52.283746 | fb629d63-a043-4564-976d-fb2aafdbb683 ==============================
+[0m11:20:52.283746 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:20:52.286310 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt deps', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:20:52.485192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fb629d63-a043-4564-976d-fb2aafdbb683', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B5135D810>]}
+[0m11:20:52.525321 [debug] [MainThread]: Set downloads directory='C:\Users\2ewol\AppData\Local\Temp\dbt-downloads-dz82cvj8'
+[0m11:20:52.526472 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m11:20:52.695329 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m11:20:52.697347 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m11:20:52.762991 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m11:20:52.769560 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m11:20:53.247610 [info ] [MainThread]: Installed from version 1.0.0
+[0m11:20:53.248725 [info ] [MainThread]: Updated version available: 1.3.0
+[0m11:20:53.249759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'fb629d63-a043-4564-976d-fb2aafdbb683', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B513F3410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B51369610>]}
+[0m11:20:53.250762 [info ] [MainThread]: 
+[0m11:20:53.251764 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m11:20:53.253694 [debug] [MainThread]: Command `dbt deps` succeeded at 11:20:53.253694 after 1.16 seconds
+[0m11:20:53.254696 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B4B02A4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B4B01E4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026B4AD98290>]}
+[0m11:20:53.255695 [debug] [MainThread]: Flushing usage events
+[0m11:20:53.398783 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:21:05.464131 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029484BB7150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029484BB4A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029484BB5110>]}
+
+
+============================== 11:21:05.474276 | fee1ab4b-ca6f-4aa9-bcde-cb2664fd8589 ==============================
+[0m11:21:05.474276 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:21:05.474276 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt', 'log_path': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt clean', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:21:05.661740 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fee1ab4b-ca6f-4aa9-bcde-cb2664fd8589', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029484BA7210>]}
+[0m11:21:05.778802 [debug] [MainThread]: Command `dbt clean` succeeded at 11:21:05.778802 after 0.48 seconds
+[0m11:21:05.783844 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294FE9AA4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294840962D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294848D9D50>]}
+[0m11:21:05.783844 [debug] [MainThread]: Flushing usage events
+[0m11:21:05.886072 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:21:11.584209 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002898F5F5310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002898F5F5190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002898F5F51D0>]}
+
+
+============================== 11:21:11.589633 | a1da6a88-e9b6-494f-83cd-1d229ebd8594 ==============================
+[0m11:21:11.589633 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:21:11.590640 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:21:11.790245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a1da6a88-e9b6-494f-83cd-1d229ebd8594', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002898F707D90>]}
+[0m11:21:11.823319 [debug] [MainThread]: Set downloads directory='C:\Users\2ewol\AppData\Local\Temp\dbt-downloads-l46yj8lo'
+[0m11:21:11.825290 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m11:21:11.899068 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m11:21:11.900597 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m11:21:11.977291 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m11:21:11.982284 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m11:21:12.540654 [info ] [MainThread]: Installed from version 1.0.0
+[0m11:21:12.541654 [info ] [MainThread]: Updated version available: 1.3.0
+[0m11:21:12.542191 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'a1da6a88-e9b6-494f-83cd-1d229ebd8594', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002898F680290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002898F6829D0>]}
+[0m11:21:12.543225 [info ] [MainThread]: 
+[0m11:21:12.544231 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m11:21:12.547224 [debug] [MainThread]: Command `dbt deps` succeeded at 11:21:12.547224 after 1.13 seconds
+[0m11:21:12.548224 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002898F64B910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000289893FA4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000289893EE4D0>]}
+[0m11:21:12.548224 [debug] [MainThread]: Flushing usage events
+[0m11:21:12.649143 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:21:25.457950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A870F46C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A870F45450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A870F46E10>]}
+
+
+============================== 11:21:25.465525 | a5415818-9341-40b1-98f0-646377b7abdc ==============================
+[0m11:21:25.465525 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:21:25.467513 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt\\logs', 'profiles_dir': 'C:\\Users\\2ewol\\Documents\\Clients\\Integrity_Energy\\integrity-energy-dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --select tag:daily', 'send_anonymous_usage_stats': 'True'}
+[0m11:21:25.735522 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m11:21:25.736520 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m11:21:25.978603 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A87187A2D0>]}
+[0m11:21:26.057743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A86E0409D0>]}
+[0m11:21:26.059741 [info ] [MainThread]: Registered adapter: redshift=1.8.1
+[0m11:21:26.083866 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m11:21:26.086434 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m11:21:26.087434 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A871907090>]}
+[0m11:21:28.483505 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A870A7DD10>]}
+[0m11:21:28.632453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A870F4FFD0>]}
+[0m11:21:28.632453 [info ] [MainThread]: Found 20 models, 47 sources, 601 macros
+[0m11:21:28.632453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8716E3050>]}
+[0m11:21:28.638046 [info ] [MainThread]: 
+[0m11:21:28.638046 [info ] [MainThread]: Concurrency: 4 threads (target='prod')
+[0m11:21:28.638046 [info ] [MainThread]: 
+[0m11:21:28.643088 [debug] [MainThread]: Acquiring new redshift connection 'master'
+[0m11:21:28.648690 [debug] [ThreadPool]: Acquiring new redshift connection 'list_integrity-db'
+[0m11:21:28.648690 [debug] [ThreadPool]: Acquiring new redshift connection 'list_integrity-db'
+[0m11:21:28.670239 [debug] [ThreadPool]: Acquiring new redshift connection 'list_integrity-db'
+[0m11:21:28.680649 [debug] [ThreadPool]: Using redshift connection "list_integrity-db"
+[0m11:21:28.687988 [debug] [ThreadPool]: Using redshift connection "list_integrity-db"
+[0m11:21:28.691520 [debug] [ThreadPool]: Using redshift connection "list_integrity-db"
+[0m11:21:28.691520 [debug] [ThreadPool]: On list_integrity-db: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "list_integrity-db"} */
+
+    select distinct nspname from pg_namespace
+[0m11:21:28.691520 [debug] [ThreadPool]: On list_integrity-db: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "list_integrity-db"} */
+
+    select distinct nspname from pg_namespace
+[0m11:21:28.696602 [debug] [ThreadPool]: On list_integrity-db: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "list_integrity-db"} */
+
+    select distinct nspname from pg_namespace
+[0m11:21:28.696602 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:21:28.696602 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:21:28.696602 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:21:28.703725 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:28.703725 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:28.703725 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:28.703725 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:28.703725 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:28.703725 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:29.422819 [debug] [ThreadPool]: SQL status: SUCCESS in 0.726 seconds
+[0m11:21:29.422819 [debug] [ThreadPool]: SQL status: SUCCESS in 0.728 seconds
+[0m11:21:29.427671 [debug] [ThreadPool]: On list_integrity-db: Close
+[0m11:21:29.427671 [debug] [ThreadPool]: On list_integrity-db: Close
+[0m11:21:29.443484 [debug] [ThreadPool]: SQL status: SUCCESS in 0.745 seconds
+[0m11:21:29.448587 [debug] [ThreadPool]: On list_integrity-db: Close
+[0m11:21:29.455094 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_integrity-db, now create_integrity-db_prod_dbt-intermediate)
+[0m11:21:29.455094 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_integrity-db, now create_integrity-db_prod_dbt-mart)
+[0m11:21:29.455094 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_integrity-db, now create_integrity-db_prod_dbt-base)
+[0m11:21:29.455094 [debug] [ThreadPool]: Creating schema "database: "integrity-db"
+schema: "prod_dbt-intermediate"
+"
+[0m11:21:29.459644 [debug] [ThreadPool]: Creating schema "database: "integrity-db"
+schema: "prod_dbt-mart"
+"
+[0m11:21:29.459644 [debug] [ThreadPool]: Creating schema "database: "integrity-db"
+schema: "prod_dbt-base"
+"
+[0m11:21:29.470285 [debug] [ThreadPool]: Using redshift connection "create_integrity-db_prod_dbt-intermediate"
+[0m11:21:29.474861 [debug] [ThreadPool]: Using redshift connection "create_integrity-db_prod_dbt-mart"
+[0m11:21:29.480898 [debug] [ThreadPool]: Using redshift connection "create_integrity-db_prod_dbt-base"
+[0m11:21:29.480898 [debug] [ThreadPool]: On create_integrity-db_prod_dbt-intermediate: BEGIN
+[0m11:21:29.480898 [debug] [ThreadPool]: On create_integrity-db_prod_dbt-mart: BEGIN
+[0m11:21:29.485977 [debug] [ThreadPool]: On create_integrity-db_prod_dbt-base: BEGIN
+[0m11:21:29.485977 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:21:29.485977 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:21:29.485977 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:21:29.485977 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:29.489557 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:29.489557 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:29.491586 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:29.491586 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:29.491586 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:29.843492 [debug] [ThreadPool]: SQL status: SUCCESS in 0.356 seconds
+[0m11:21:29.843492 [debug] [ThreadPool]: Using redshift connection "create_integrity-db_prod_dbt-mart"
+[0m11:21:29.843492 [debug] [ThreadPool]: On create_integrity-db_prod_dbt-mart: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "create_integrity-db_prod_dbt-mart"} */
+create schema if not exists "prod_dbt-mart"
+[0m11:21:29.843492 [debug] [ThreadPool]: SQL status: SUCCESS in 0.359 seconds
+[0m11:21:29.843492 [debug] [ThreadPool]: SQL status: SUCCESS in 0.361 seconds
+[0m11:21:29.848542 [debug] [ThreadPool]: Using redshift connection "create_integrity-db_prod_dbt-base"
+[0m11:21:29.848542 [debug] [ThreadPool]: Using redshift connection "create_integrity-db_prod_dbt-intermediate"
+[0m11:21:29.848542 [debug] [ThreadPool]: On create_integrity-db_prod_dbt-base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "create_integrity-db_prod_dbt-base"} */
+create schema if not exists "prod_dbt-base"
+[0m11:21:29.848542 [debug] [ThreadPool]: On create_integrity-db_prod_dbt-intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "create_integrity-db_prod_dbt-intermediate"} */
+create schema if not exists "prod_dbt-intermediate"
+[0m11:21:29.947188 [debug] [ThreadPool]: SQL status: SUCCESS in 0.096 seconds
+[0m11:21:29.947188 [debug] [ThreadPool]: SQL status: SUCCESS in 0.098 seconds
+[0m11:21:29.950219 [debug] [ThreadPool]: SQL status: SUCCESS in 0.103 seconds
+[0m11:21:29.950219 [debug] [ThreadPool]: On create_integrity-db_prod_dbt-intermediate: COMMIT
+[0m11:21:29.950219 [debug] [ThreadPool]: On create_integrity-db_prod_dbt-base: COMMIT
+[0m11:21:29.955294 [debug] [ThreadPool]: On create_integrity-db_prod_dbt-mart: COMMIT
+[0m11:21:29.955294 [debug] [ThreadPool]: Using redshift connection "create_integrity-db_prod_dbt-intermediate"
+[0m11:21:29.955294 [debug] [ThreadPool]: Using redshift connection "create_integrity-db_prod_dbt-base"
+[0m11:21:29.955294 [debug] [ThreadPool]: Using redshift connection "create_integrity-db_prod_dbt-mart"
+[0m11:21:29.960835 [debug] [ThreadPool]: On create_integrity-db_prod_dbt-intermediate: COMMIT
+[0m11:21:29.960835 [debug] [ThreadPool]: On create_integrity-db_prod_dbt-base: COMMIT
+[0m11:21:29.960835 [debug] [ThreadPool]: On create_integrity-db_prod_dbt-mart: COMMIT
+[0m11:21:30.424562 [debug] [ThreadPool]: SQL status: SUCCESS in 0.461 seconds
+[0m11:21:30.424562 [debug] [ThreadPool]: On create_integrity-db_prod_dbt-base: Close
+[0m11:21:30.883223 [debug] [ThreadPool]: SQL status: SUCCESS in 0.921 seconds
+[0m11:21:30.886758 [debug] [ThreadPool]: On create_integrity-db_prod_dbt-mart: Close
+[0m11:21:30.891469 [debug] [ThreadPool]: SQL status: SUCCESS in 0.930 seconds
+[0m11:21:30.891469 [debug] [ThreadPool]: On create_integrity-db_prod_dbt-intermediate: Close
+[0m11:21:30.899578 [debug] [ThreadPool]: Acquiring new redshift connection 'list_integrity-db_prod_dbt-intermediate'
+[0m11:21:30.899578 [debug] [ThreadPool]: Acquiring new redshift connection 'list_integrity-db_prod_dbt-mart'
+[0m11:21:30.920907 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod_dbt-intermediate"
+[0m11:21:30.926016 [debug] [ThreadPool]: Acquiring new redshift connection 'list_integrity-db_prod_dbt-base'
+[0m11:21:30.931958 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod_dbt-mart"
+[0m11:21:30.931958 [debug] [ThreadPool]: On list_integrity-db_prod_dbt-intermediate: BEGIN
+[0m11:21:30.935354 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod_dbt-base"
+[0m11:21:30.935354 [debug] [ThreadPool]: On list_integrity-db_prod_dbt-mart: BEGIN
+[0m11:21:30.942482 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:21:30.942482 [debug] [ThreadPool]: On list_integrity-db_prod_dbt-base: BEGIN
+[0m11:21:30.942482 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:21:30.942482 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:30.942482 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:21:30.942482 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:30.947019 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:30.947019 [debug] [ThreadPool]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:30.947019 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:30.947019 [debug] [ThreadPool]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:31.283331 [debug] [ThreadPool]: SQL status: SUCCESS in 0.339 seconds
+[0m11:21:31.283331 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod_dbt-base"
+[0m11:21:31.283331 [debug] [ThreadPool]: On list_integrity-db_prod_dbt-base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "list_integrity-db_prod_dbt-base"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'prod_dbt-base'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'prod_dbt-base'
+[0m11:21:31.309699 [debug] [ThreadPool]: SQL status: SUCCESS in 0.370 seconds
+[0m11:21:31.309699 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod_dbt-intermediate"
+[0m11:21:31.309699 [debug] [ThreadPool]: On list_integrity-db_prod_dbt-intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "list_integrity-db_prod_dbt-intermediate"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'prod_dbt-intermediate'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'prod_dbt-intermediate'
+[0m11:21:31.358307 [debug] [ThreadPool]: SQL status: SUCCESS in 0.069 seconds
+[0m11:21:31.363355 [debug] [ThreadPool]: On list_integrity-db_prod_dbt-base: ROLLBACK
+[0m11:21:31.384818 [debug] [ThreadPool]: SQL status: SUCCESS in 0.070 seconds
+[0m11:21:31.390499 [debug] [ThreadPool]: On list_integrity-db_prod_dbt-intermediate: ROLLBACK
+[0m11:21:31.403222 [debug] [ThreadPool]: On list_integrity-db_prod_dbt-base: Close
+[0m11:21:31.433074 [debug] [ThreadPool]: On list_integrity-db_prod_dbt-intermediate: Close
+[0m11:21:31.826308 [debug] [ThreadPool]: SQL status: SUCCESS in 0.882 seconds
+[0m11:21:31.827337 [debug] [ThreadPool]: Using redshift connection "list_integrity-db_prod_dbt-mart"
+[0m11:21:31.827388 [debug] [ThreadPool]: On list_integrity-db_prod_dbt-mart: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "list_integrity-db_prod_dbt-mart"} */
+select
+        table_catalog as database,
+        table_name as name,
+        table_schema as schema,
+        'table' as type
+    from information_schema.tables
+    where table_schema ilike 'prod_dbt-mart'
+    and table_type = 'BASE TABLE'
+    union all
+    select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case
+        when view_definition ilike '%create materialized view%'
+          then 'materialized_view'
+        else 'view'
+      end as type
+    from information_schema.views
+    where table_schema ilike 'prod_dbt-mart'
+[0m11:21:31.885886 [debug] [ThreadPool]: SQL status: SUCCESS in 0.059 seconds
+[0m11:21:31.890388 [debug] [ThreadPool]: On list_integrity-db_prod_dbt-mart: ROLLBACK
+[0m11:21:31.931931 [debug] [ThreadPool]: On list_integrity-db_prod_dbt-mart: Close
+[0m11:21:31.946300 [debug] [MainThread]: Using redshift connection "master"
+[0m11:21:31.947299 [debug] [MainThread]: On master: BEGIN
+[0m11:21:31.947299 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:21:31.948299 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:31.949299 [debug] [MainThread]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:32.229911 [debug] [MainThread]: SQL status: SUCCESS in 0.282 seconds
+[0m11:21:32.230936 [debug] [MainThread]: Using redshift connection "master"
+[0m11:21:32.231926 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "connection_name": "master"} */
+with
+    relation as (
+        select
+            pg_class.oid as relation_id,
+            pg_class.relname as relation_name,
+            pg_class.relnamespace as schema_id,
+            pg_namespace.nspname as schema_name,
+            pg_class.relkind as relation_type
+        from pg_class
+        join pg_namespace
+          on pg_class.relnamespace = pg_namespace.oid
+        where pg_namespace.nspname != 'information_schema'
+          and pg_namespace.nspname not like 'pg\_%'
+    ),
+    dependency as (
+        select distinct
+            coalesce(pg_rewrite.ev_class, pg_depend.objid) as dep_relation_id,
+            pg_depend.refobjid as ref_relation_id,
+            pg_depend.refclassid as ref_class_id
+        from pg_depend
+        left join pg_rewrite
+          on pg_depend.objid = pg_rewrite.oid
+        where coalesce(pg_rewrite.ev_class, pg_depend.objid) != pg_depend.refobjid
+    )
+
+select distinct
+    dep.schema_name as dependent_schema,
+    dep.relation_name as dependent_name,
+    ref.schema_name as referenced_schema,
+    ref.relation_name as referenced_name
+from dependency
+join relation ref
+    on dependency.ref_relation_id = ref.relation_id
+join relation dep
+    on dependency.dep_relation_id = dep.relation_id
+[0m11:21:32.327982 [debug] [MainThread]: SQL status: SUCCESS in 0.095 seconds
+[0m11:21:32.330508 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A873066910>]}
+[0m11:21:32.331517 [debug] [MainThread]: On master: ROLLBACK
+[0m11:21:32.379636 [debug] [MainThread]: Using redshift connection "master"
+[0m11:21:32.381110 [debug] [MainThread]: On master: BEGIN
+[0m11:21:32.404308 [debug] [MainThread]: SQL status: SUCCESS in 0.022 seconds
+[0m11:21:32.405319 [debug] [MainThread]: On master: COMMIT
+[0m11:21:32.406325 [debug] [MainThread]: Using redshift connection "master"
+[0m11:21:32.407320 [debug] [MainThread]: On master: COMMIT
+[0m11:21:32.451360 [debug] [MainThread]: SQL status: SUCCESS in 0.043 seconds
+[0m11:21:32.452360 [debug] [MainThread]: On master: Close
+[0m11:21:32.485704 [debug] [Thread-1 (]: Began running node model.integrity_energy_dbt.bing_ads_daily_base
+[0m11:21:32.485704 [debug] [Thread-2 (]: Began running node model.integrity_energy_dbt.facebook_daily_base
+[0m11:21:32.486745 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.google_ads_daily_base
+[0m11:21:32.486745 [debug] [Thread-4 (]: Began running node model.integrity_energy_dbt.hubspot_daily_base
+[0m11:21:32.488765 [info ] [Thread-1 (]: 1 of 20 START sql materialized_view model prod_dbt-base.bing_ads_daily_base .... [RUN]
+[0m11:21:32.489950 [info ] [Thread-2 (]: 2 of 20 START sql materialized_view model prod_dbt-base.facebook_daily_base .... [RUN]
+[0m11:21:32.491208 [info ] [Thread-3 (]: 3 of 20 START sql materialized_view model prod_dbt-base.google_ads_daily_base .. [RUN]
+[0m11:21:32.494503 [debug] [Thread-1 (]: Acquiring new redshift connection 'model.integrity_energy_dbt.bing_ads_daily_base'
+[0m11:21:32.492489 [info ] [Thread-4 (]: 4 of 20 START sql materialized_view model prod_dbt-base.hubspot_daily_base ..... [RUN]
+[0m11:21:32.495501 [debug] [Thread-2 (]: Acquiring new redshift connection 'model.integrity_energy_dbt.facebook_daily_base'
+[0m11:21:32.496501 [debug] [Thread-3 (]: Acquiring new redshift connection 'model.integrity_energy_dbt.google_ads_daily_base'
+[0m11:21:32.496501 [debug] [Thread-1 (]: Began compiling node model.integrity_energy_dbt.bing_ads_daily_base
+[0m11:21:32.497501 [debug] [Thread-4 (]: Acquiring new redshift connection 'model.integrity_energy_dbt.hubspot_daily_base'
+[0m11:21:32.498501 [debug] [Thread-2 (]: Began compiling node model.integrity_energy_dbt.facebook_daily_base
+[0m11:21:32.500012 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.google_ads_daily_base
+[0m11:21:32.513566 [debug] [Thread-1 (]: Writing injected SQL for node "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:21:32.514571 [debug] [Thread-4 (]: Began compiling node model.integrity_energy_dbt.hubspot_daily_base
+[0m11:21:32.521855 [debug] [Thread-2 (]: Writing injected SQL for node "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:21:32.529572 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:21:32.540708 [debug] [Thread-4 (]: Writing injected SQL for node "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:21:32.547229 [debug] [Thread-2 (]: Began executing node model.integrity_energy_dbt.facebook_daily_base
+[0m11:21:32.547229 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.google_ads_daily_base
+[0m11:21:32.554774 [debug] [Thread-1 (]: Began executing node model.integrity_energy_dbt.bing_ads_daily_base
+[0m11:21:32.585442 [debug] [Thread-4 (]: Began executing node model.integrity_energy_dbt.hubspot_daily_base
+[0m11:21:32.611485 [debug] [Thread-2 (]: Writing runtime sql for node "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:21:32.620012 [debug] [Thread-3 (]: Writing runtime sql for node "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:21:32.625063 [debug] [Thread-1 (]: Writing runtime sql for node "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:21:32.630592 [debug] [Thread-4 (]: Writing runtime sql for node "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:21:32.636904 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:21:32.640436 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:21:32.644432 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:21:32.644432 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: BEGIN
+[0m11:21:32.649086 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:21:32.650309 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: BEGIN
+[0m11:21:32.650309 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: BEGIN
+[0m11:21:32.651575 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:21:32.652330 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: BEGIN
+[0m11:21:32.652330 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m11:21:32.653346 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m11:21:32.654806 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:32.655841 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m11:21:32.656858 [debug] [Thread-3 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:32.657839 [debug] [Thread-2 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:32.657839 [debug] [Thread-1 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:32.659351 [debug] [Thread-4 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:32.660383 [debug] [Thread-3 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:32.661507 [debug] [Thread-2 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:32.662866 [debug] [Thread-4 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:32.999305 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.347 seconds
+[0m11:21:32.999305 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:21:33.000895 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.bing_ads_daily_base"} */
+
+        create materialized view "integrity-db"."prod_dbt-base"."bing_ads_daily_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
+    spend,
+    impressions,
+    clicks,
+    timeperiod,
+    adgroupname,
+    campaignname
+from "integrity-db"."bing_ads"."ad_performance_report_daily"
+    )
+[0m11:21:33.009877 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.356 seconds
+[0m11:21:33.011464 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:21:33.011464 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.facebook_daily_base"} */
+
+        create materialized view "integrity-db"."prod_dbt-base"."facebook_daily_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
+    date_start, 
+    sum(impressions) as facebook_impressions,
+    sum(reach) as facebook_reach,
+    sum(spend) as facebook_spend, 
+    sum(clicks) as facebook_clicks,
+    sum(unique_clicks) as facebook_unique_clicks
+from "integrity-db"."facebook"."ads_insights"
+group by date_start
+    )
+[0m11:21:33.029816 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.373 seconds
+[0m11:21:33.029816 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:21:33.030746 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.hubspot_daily_base"} */
+
+        create materialized view "integrity-db"."prod_dbt-base"."hubspot_daily_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        with hubspot_daily as (
+    SELECT
+        (TIMESTAMP 'epoch' + created / 1000 * INTERVAL '1 second')::DATE AS converted_date,
+        type
+    FROM "integrity-db"."hubspot"."email_events"
+)
+
+SELECT
+    converted_date,
+    sum(case when type = 'SENT' then 1 else 0 end) as sent_emails,
+    sum(case when type = 'OPEN' then 1 else 0 end) as opened_emails,
+    sum(case when type = 'CLICK' then 1 else 0 end) as clicks,
+    sum(case when type = 'BOUNCE' then 1 else 0 end) as bounces,
+    sum(case when type = 'SPAMREPORT' then 1 else 0 end) as spam_reports
+from hubspot_daily
+group by converted_date
+    )
+[0m11:21:33.032837 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.380 seconds
+[0m11:21:33.032837 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:21:33.034743 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.google_ads_daily_base"} */
+
+        create materialized view "integrity-db"."prod_dbt-base"."google_ads_daily_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
+    DATE(_data_date) as activity_date, 
+    metrics_impressions as googleads_impressions,
+    metrics_cost_micros  as googleads_cost, 
+    metrics_clicks as googleads_clicks
+from "integrity-db"."google_ads"."ads_campaignbasicstats_7446470445"
+    )
+[0m11:21:33.390207 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.356 seconds
+[0m11:21:33.411593 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: COMMIT
+[0m11:21:33.412593 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:21:33.412593 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: COMMIT
+[0m11:21:34.298499 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.884 seconds
+[0m11:21:34.303867 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:21:34.303867 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: BEGIN
+[0m11:21:34.326361 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.021 seconds
+[0m11:21:34.338518 [debug] [Thread-3 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."google_ads_daily_base__dbt_backup"
+[0m11:21:34.347462 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:21:34.348739 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.google_ads_daily_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."google_ads_daily_base__dbt_backup"
+[0m11:21:34.396087 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.047 seconds
+[0m11:21:34.399602 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: COMMIT
+[0m11:21:34.400609 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:21:34.401613 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: COMMIT
+[0m11:21:35.207891 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.804 seconds
+[0m11:21:35.208886 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:21:35.208886 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: BEGIN
+[0m11:21:35.215671 [debug] [Thread-4 (]: SQL status: SUCCESS in 2.184 seconds
+[0m11:21:35.231648 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.022 seconds
+[0m11:21:35.233667 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: COMMIT
+[0m11:21:35.234645 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:21:35.235877 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: COMMIT
+[0m11:21:35.257498 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.021 seconds
+[0m11:21:35.259551 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:21:35.260543 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: BEGIN
+[0m11:21:35.283802 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.022 seconds
+[0m11:21:35.288754 [debug] [Thread-3 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."google_ads_daily_base__dbt_tmp"
+[0m11:21:35.290759 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:21:35.291760 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.google_ads_daily_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."google_ads_daily_base__dbt_tmp"
+[0m11:21:35.337049 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.044 seconds
+[0m11:21:35.339068 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: COMMIT
+[0m11:21:35.339068 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:21:35.340430 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: COMMIT
+[0m11:21:35.659229 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.318 seconds
+[0m11:21:35.661212 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.google_ads_daily_base"
+[0m11:21:35.662215 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: BEGIN
+[0m11:21:35.683957 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.021 seconds
+[0m11:21:35.687403 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: COMMIT
+[0m11:21:35.687934 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: ROLLBACK
+[0m11:21:35.689046 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:21:35.689989 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: COMMIT
+[0m11:21:35.732766 [debug] [Thread-3 (]: On model.integrity_energy_dbt.google_ads_daily_base: Close
+[0m11:21:35.735783 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A873409DD0>]}
+[0m11:21:35.736776 [info ] [Thread-3 (]: 3 of 20 OK created sql materialized_view model prod_dbt-base.google_ads_daily_base  [[32mSUCCESS[0m in 3.24s]
+[0m11:21:35.737776 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.google_ads_daily_base
+[0m11:21:35.738760 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.marketing_cost_base
+[0m11:21:35.739778 [info ] [Thread-3 (]: 5 of 20 START sql materialized_view model prod_dbt-base.marketing_cost_base .... [RUN]
+[0m11:21:35.740778 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.google_ads_daily_base, now model.integrity_energy_dbt.marketing_cost_base)
+[0m11:21:35.740778 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.marketing_cost_base
+[0m11:21:35.747336 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:21:35.748315 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.marketing_cost_base
+[0m11:21:35.754434 [debug] [Thread-3 (]: Writing runtime sql for node "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:21:35.763430 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:21:35.763966 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: BEGIN
+[0m11:21:35.765001 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m11:21:35.765983 [debug] [Thread-3 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:35.765983 [debug] [Thread-3 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:36.055726 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.291 seconds
+[0m11:21:36.056730 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:21:36.057714 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.marketing_cost_base"} */
+
+        create materialized view "integrity-db"."prod_dbt-base"."marketing_cost_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
+    team,
+    CAST(month as date) as month,
+    CAST(REPLACE(hom_cost, ',', '') as decimal(10,2)) as hom_cost,
+    CAST(REPLACE(ipr_cost, ',', '')  as decimal(10,2)) as ipr_cost,
+    CAST(REPLACE(copywriter, ',', '') as decimal(10,2)) as copywriter,
+    CAST(REPLACE(dango_costs, ',', '') as decimal(10,2)) as dango_costs,
+    CAST(REPLACE(designer_costs, ',', '') as decimal(10,2)) as designer_costs,
+    CAST(REPLACE(paid_lead_cost, ',', '') as decimal(10,2)) as paid_lead_cost,
+    CAST(REPLACE(data_contractor, ',', '') as decimal(10,2)) as data_contractor,
+    CAST(REPLACE(seo_lead_salary, ',', '') as decimal(10,2)) as seo_lead_salary,
+    CAST(REPLACE(contractor_costs, ',', '') as decimal(10,2)) as contractor_costs,
+    CAST(REPLACE(paid_agency_cost, ',', '') as decimal(10,2)) as paid_agency_cost,
+    CAST(REPLACE(paid_support_cost, ',', '') as decimal(10,2)) as paid_support_cost,
+    CAST(REPLACE(project_management, ',', '') as decimal(10,2)) as project_management,
+    CAST(REPLACE(crowd_content_costs, ',', '') as decimal(10,2)) as crowd_content_costs,
+    CAST(REPLACE(email_contractor_costs, ',', '') as decimal(10,2)) as email_contractor_costs,
+    CAST(REPLACE(hubspot_contractor_costs, ',', '') as decimal(10,2)) as hubspot_contractor_costs
+from "integrity-db"."google_sheets"."monthly_cost"
+    )
+[0m11:21:36.370510 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.680 seconds
+[0m11:21:36.372054 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:21:36.373085 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: BEGIN
+[0m11:21:36.396359 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.022 seconds
+[0m11:21:36.401881 [debug] [Thread-4 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."hubspot_daily_base__dbt_backup"
+[0m11:21:36.403712 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:21:36.405187 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.hubspot_daily_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."hubspot_daily_base__dbt_backup"
+[0m11:21:36.468640 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.063 seconds
+[0m11:21:36.471652 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: COMMIT
+[0m11:21:36.472653 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:21:36.473654 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: COMMIT
+[0m11:21:36.707980 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.650 seconds
+[0m11:21:37.156074 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.681 seconds
+[0m11:21:37.157394 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:21:37.158694 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: BEGIN
+[0m11:21:37.179950 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:21:37.180945 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: COMMIT
+[0m11:21:37.182474 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:21:37.182542 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: COMMIT
+[0m11:21:37.204801 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.021 seconds
+[0m11:21:37.205828 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:21:37.206828 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: BEGIN
+[0m11:21:37.227153 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:21:37.231268 [debug] [Thread-4 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."hubspot_daily_base__dbt_tmp"
+[0m11:21:37.232759 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:21:37.232759 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.hubspot_daily_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."hubspot_daily_base__dbt_tmp"
+[0m11:21:37.275094 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.041 seconds
+[0m11:21:37.277092 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: COMMIT
+[0m11:21:37.278622 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:21:37.278622 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: COMMIT
+[0m11:21:37.698147 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.418 seconds
+[0m11:21:37.700181 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.hubspot_daily_base"
+[0m11:21:37.701180 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: BEGIN
+[0m11:21:37.727890 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.026 seconds
+[0m11:21:37.729888 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: COMMIT
+[0m11:21:37.730888 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: ROLLBACK
+[0m11:21:37.731889 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:21:37.733888 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: COMMIT
+[0m11:21:37.781808 [debug] [Thread-4 (]: On model.integrity_energy_dbt.hubspot_daily_base: Close
+[0m11:21:37.785051 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A872D77650>]}
+[0m11:21:37.786055 [info ] [Thread-4 (]: 4 of 20 OK created sql materialized_view model prod_dbt-base.hubspot_daily_base  [[32mSUCCESS[0m in 5.29s]
+[0m11:21:37.788055 [debug] [Thread-4 (]: Finished running node model.integrity_energy_dbt.hubspot_daily_base
+[0m11:21:37.789054 [debug] [Thread-4 (]: Began running node model.integrity_energy_dbt.salesforce_account_base
+[0m11:21:37.790565 [info ] [Thread-4 (]: 6 of 20 START sql materialized_view model prod_dbt-base.salesforce_account_base  [RUN]
+[0m11:21:37.792593 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.hubspot_daily_base, now model.integrity_energy_dbt.salesforce_account_base)
+[0m11:21:37.792593 [debug] [Thread-4 (]: Began compiling node model.integrity_energy_dbt.salesforce_account_base
+[0m11:21:37.798523 [debug] [Thread-4 (]: Writing injected SQL for node "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:21:37.801044 [debug] [Thread-4 (]: Began executing node model.integrity_energy_dbt.salesforce_account_base
+[0m11:21:37.809922 [debug] [Thread-4 (]: Writing runtime sql for node "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:21:37.813446 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:21:37.814443 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: BEGIN
+[0m11:21:37.815617 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m11:21:37.816750 [debug] [Thread-4 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:37.816750 [debug] [Thread-4 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:38.108254 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.293 seconds
+[0m11:21:38.110289 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:21:38.110289 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.salesforce_account_base"} */
+
+        create materialized view "integrity-db"."prod_dbt-base"."salesforce_account_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
+    id,
+    name,
+    type,
+    phone,
+    industry,
+    billingcity,
+    billingcountry,
+    billingcountrycode,
+    billingpostalcode,
+    billingstreet,
+    main_phone__c
+    --utility_company__c
+from "integrity-db"."salesforce"."account"
+    )
+[0m11:21:38.254836 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.520 seconds
+[0m11:21:38.256966 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:21:38.256966 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: BEGIN
+[0m11:21:38.279196 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.021 seconds
+[0m11:21:38.444267 [debug] [Thread-3 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."marketing_cost_base__dbt_backup"
+[0m11:21:38.446768 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:21:38.447810 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.marketing_cost_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."marketing_cost_base__dbt_backup"
+[0m11:21:38.490621 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.042 seconds
+[0m11:21:38.494176 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: COMMIT
+[0m11:21:38.495322 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:21:38.497292 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: COMMIT
+[0m11:21:39.041834 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.544 seconds
+[0m11:21:39.043114 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:21:39.044245 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: BEGIN
+[0m11:21:39.065919 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.021 seconds
+[0m11:21:39.066961 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: COMMIT
+[0m11:21:39.067952 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:21:39.068950 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: COMMIT
+[0m11:21:39.089134 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.019 seconds
+[0m11:21:39.090238 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:21:39.090238 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: BEGIN
+[0m11:21:39.111140 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:21:39.115828 [debug] [Thread-3 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."marketing_cost_base__dbt_tmp"
+[0m11:21:39.116835 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:21:39.117835 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.marketing_cost_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."marketing_cost_base__dbt_tmp"
+[0m11:21:39.162453 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.044 seconds
+[0m11:21:39.164563 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: COMMIT
+[0m11:21:39.164563 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:21:39.166168 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: COMMIT
+[0m11:21:39.516360 [debug] [Thread-4 (]: SQL status: SUCCESS in 1.405 seconds
+[0m11:21:39.979968 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.813 seconds
+[0m11:21:39.981969 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_cost_base"
+[0m11:21:39.982968 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: BEGIN
+[0m11:21:40.037749 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.054 seconds
+[0m11:21:40.039680 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: ROLLBACK
+[0m11:21:40.039680 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: COMMIT
+[0m11:21:40.042212 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:21:40.043227 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: COMMIT
+[0m11:21:40.081757 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_cost_base: Close
+[0m11:21:40.082809 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A873591DD0>]}
+[0m11:21:40.083759 [info ] [Thread-3 (]: 5 of 20 OK created sql materialized_view model prod_dbt-base.marketing_cost_base  [[32mSUCCESS[0m in 4.34s]
+[0m11:21:40.085064 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.marketing_cost_base
+[0m11:21:40.086482 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.salesforce_contact_base
+[0m11:21:40.086482 [info ] [Thread-3 (]: 7 of 20 START sql materialized_view model prod_dbt-base.salesforce_contact_base  [RUN]
+[0m11:21:40.087532 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.marketing_cost_base, now model.integrity_energy_dbt.salesforce_contact_base)
+[0m11:21:40.088878 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.salesforce_contact_base
+[0m11:21:40.095780 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:21:40.097781 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.salesforce_contact_base
+[0m11:21:40.108611 [debug] [Thread-3 (]: Writing runtime sql for node "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:21:40.111858 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:21:40.112918 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: BEGIN
+[0m11:21:40.112918 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m11:21:40.113951 [debug] [Thread-3 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:40.113951 [debug] [Thread-3 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:40.412431 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.299 seconds
+[0m11:21:40.413672 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:21:40.414182 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.salesforce_contact_base"} */
+
+        create materialized view "integrity-db"."prod_dbt-base"."salesforce_contact_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
+    id,
+    name,
+    email,
+    phone,
+    mobilephone,
+    main_phone__c,
+    title,
+    createddate,
+    mailingcity,
+    mailingstate,
+    mailingstatecode,
+    mailingcountry,
+    accountid,
+    rep_last_first__c,
+    customer_account_number__c,
+    contract_signer_phone_email__c
+from "integrity-db"."salesforce"."contact"
+    )
+[0m11:21:40.703354 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.659 seconds
+[0m11:21:40.704355 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:21:40.705828 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: BEGIN
+[0m11:21:40.747156 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.040 seconds
+[0m11:21:40.752137 [debug] [Thread-4 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."salesforce_account_base__dbt_backup"
+[0m11:21:40.754155 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:21:40.755662 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.salesforce_account_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."salesforce_account_base__dbt_backup"
+[0m11:21:40.795361 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.039 seconds
+[0m11:21:40.797363 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: COMMIT
+[0m11:21:40.798361 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:21:40.798873 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: COMMIT
+[0m11:21:40.851860 [debug] [Thread-1 (]: SQL status: SUCCESS in 7.850 seconds
+[0m11:21:41.415636 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.615 seconds
+[0m11:21:41.417152 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:21:41.417343 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: BEGIN
+[0m11:21:41.444810 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.027 seconds
+[0m11:21:41.446811 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: COMMIT
+[0m11:21:41.447807 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:21:41.448831 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: COMMIT
+[0m11:21:41.468238 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.019 seconds
+[0m11:21:41.469231 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:21:41.470249 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: BEGIN
+[0m11:21:41.490185 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.019 seconds
+[0m11:21:41.494553 [debug] [Thread-4 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."salesforce_account_base__dbt_tmp"
+[0m11:21:41.497567 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:21:41.497567 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.salesforce_account_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."salesforce_account_base__dbt_tmp"
+[0m11:21:41.540861 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.042 seconds
+[0m11:21:41.542861 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: COMMIT
+[0m11:21:41.543860 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:21:41.544861 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: COMMIT
+[0m11:21:42.447892 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.903 seconds
+[0m11:21:42.447892 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_account_base"
+[0m11:21:42.447892 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: BEGIN
+[0m11:21:42.484281 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.033 seconds
+[0m11:21:42.484281 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: COMMIT
+[0m11:21:42.484281 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: ROLLBACK
+[0m11:21:42.489073 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:21:42.489073 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: COMMIT
+[0m11:21:42.530206 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_account_base: Close
+[0m11:21:42.531702 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A873581DD0>]}
+[0m11:21:42.533539 [info ] [Thread-4 (]: 6 of 20 OK created sql materialized_view model prod_dbt-base.salesforce_account_base  [[32mSUCCESS[0m in 4.74s]
+[0m11:21:42.533539 [debug] [Thread-4 (]: Finished running node model.integrity_energy_dbt.salesforce_account_base
+[0m11:21:42.537055 [debug] [Thread-4 (]: Began running node model.integrity_energy_dbt.salesforce_lead_base
+[0m11:21:42.537055 [info ] [Thread-4 (]: 8 of 20 START sql materialized_view model prod_dbt-base.salesforce_lead_base ... [RUN]
+[0m11:21:42.539296 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.salesforce_account_base, now model.integrity_energy_dbt.salesforce_lead_base)
+[0m11:21:42.540424 [debug] [Thread-4 (]: Began compiling node model.integrity_energy_dbt.salesforce_lead_base
+[0m11:21:42.544707 [debug] [Thread-4 (]: Writing injected SQL for node "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:21:42.547682 [debug] [Thread-4 (]: Began executing node model.integrity_energy_dbt.salesforce_lead_base
+[0m11:21:42.562423 [debug] [Thread-4 (]: Writing runtime sql for node "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:21:42.562423 [debug] [Thread-3 (]: SQL status: SUCCESS in 2.148 seconds
+[0m11:21:42.564208 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: COMMIT
+[0m11:21:42.564208 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:21:42.571238 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:21:42.571238 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: COMMIT
+[0m11:21:42.571238 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: BEGIN
+[0m11:21:42.572994 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m11:21:42.572994 [debug] [Thread-4 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:42.575881 [debug] [Thread-4 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:42.867995 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.296 seconds
+[0m11:21:42.871250 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:21:42.871250 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.salesforce_lead_base"} */
+
+        create materialized view "integrity-db"."prod_dbt-base"."salesforce_lead_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
+    id,
+    city,
+    name,
+    email,
+    phone,
+    state,
+    title,
+    status,
+    street,
+    company,
+    country,
+    firstname,
+    lastname,
+    source__c,
+    channel__c,
+    leadsource,
+    postalcode,
+    createddate,
+    CAST(createddate as DATE) as createdday,
+    isconverted,
+    commodity__c,
+    converteddate,
+    lastactivitydate,
+    convertedaccountid,
+    convertedcontactid,
+    lead_id_for_opp__c,
+    average_bill_amount__c,
+    convertedopportunityid,
+    converted_from_lead__c,
+    marketing_generator__c,
+    new_ready_to_work_date__c,
+    last_activity_note_date__c
+from "integrity-db"."salesforce"."lead"
+    )
+[0m11:21:43.870417 [debug] [Thread-1 (]: SQL status: SUCCESS in 1.386 seconds
+[0m11:21:43.870417 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:21:43.870417 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: BEGIN
+[0m11:21:43.891955 [debug] [Thread-3 (]: SQL status: SUCCESS in 1.319 seconds
+[0m11:21:43.922262 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.041 seconds
+[0m11:21:43.926845 [debug] [Thread-1 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."bing_ads_daily_base__dbt_backup"
+[0m11:21:43.929401 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:21:43.929862 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.bing_ads_daily_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."bing_ads_daily_base__dbt_backup"
+[0m11:21:43.968700 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.037 seconds
+[0m11:21:43.970762 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: COMMIT
+[0m11:21:43.971289 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:21:43.972322 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: COMMIT
+[0m11:21:44.398324 [debug] [Thread-2 (]: SQL status: SUCCESS in 11.385 seconds
+[0m11:21:44.720453 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.748 seconds
+[0m11:21:44.722699 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:21:44.722699 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: BEGIN
+[0m11:21:44.752252 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.028 seconds
+[0m11:21:44.754256 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:21:44.754256 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: BEGIN
+[0m11:21:44.798779 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.043 seconds
+[0m11:21:44.803692 [debug] [Thread-3 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."salesforce_contact_base__dbt_backup"
+[0m11:21:44.805694 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:21:44.805694 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.salesforce_contact_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."salesforce_contact_base__dbt_backup"
+[0m11:21:44.846874 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.040 seconds
+[0m11:21:44.849252 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: COMMIT
+[0m11:21:44.850281 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:21:44.850281 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: COMMIT
+[0m11:21:45.306054 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.455 seconds
+[0m11:21:45.308425 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:21:45.308425 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: BEGIN
+[0m11:21:45.332958 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.024 seconds
+[0m11:21:45.334954 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: COMMIT
+[0m11:21:45.335933 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:21:45.336956 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: COMMIT
+[0m11:21:45.356681 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:21:45.357722 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:21:45.358722 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: BEGIN
+[0m11:21:45.382559 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.023 seconds
+[0m11:21:45.388123 [debug] [Thread-1 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."bing_ads_daily_base__dbt_tmp"
+[0m11:21:45.390123 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:21:45.391123 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.bing_ads_daily_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."bing_ads_daily_base__dbt_tmp"
+[0m11:21:45.428193 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.036 seconds
+[0m11:21:45.430261 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: COMMIT
+[0m11:21:45.431213 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:21:45.432218 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: COMMIT
+[0m11:21:45.882275 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.449 seconds
+[0m11:21:45.884229 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.bing_ads_daily_base"
+[0m11:21:45.885354 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: BEGIN
+[0m11:21:45.904252 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.018 seconds
+[0m11:21:45.906272 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: COMMIT
+[0m11:21:45.907816 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:21:45.908856 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: COMMIT
+[0m11:21:45.929299 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:21:45.930759 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:21:45.931781 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: BEGIN
+[0m11:21:45.953400 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:21:45.961498 [debug] [Thread-3 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."salesforce_contact_base__dbt_tmp"
+[0m11:21:45.965488 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:21:45.965488 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.salesforce_contact_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."salesforce_contact_base__dbt_tmp"
+[0m11:21:46.005076 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.038 seconds
+[0m11:21:46.006437 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: COMMIT
+[0m11:21:46.007947 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:21:46.007947 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: COMMIT
+[0m11:21:46.436284 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.427 seconds
+[0m11:21:46.437256 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_contact_base"
+[0m11:21:46.438341 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: BEGIN
+[0m11:21:46.459972 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.021 seconds
+[0m11:21:46.460972 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: COMMIT
+[0m11:21:46.462484 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: ROLLBACK
+[0m11:21:46.462484 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: ROLLBACK
+[0m11:21:46.463510 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:21:46.464995 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: COMMIT
+[0m11:21:46.510191 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_contact_base: Close
+[0m11:21:46.511204 [debug] [Thread-1 (]: On model.integrity_energy_dbt.bing_ads_daily_base: Close
+[0m11:21:46.512222 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A871A7AD10>]}
+[0m11:21:46.513617 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A872CDD490>]}
+[0m11:21:46.514635 [info ] [Thread-3 (]: 7 of 20 OK created sql materialized_view model prod_dbt-base.salesforce_contact_base  [[32mSUCCESS[0m in 6.42s]
+[0m11:21:46.515629 [info ] [Thread-1 (]: 1 of 20 OK created sql materialized_view model prod_dbt-base.bing_ads_daily_base  [[32mSUCCESS[0m in 14.02s]
+[0m11:21:46.516743 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.salesforce_contact_base
+[0m11:21:46.518279 [debug] [Thread-1 (]: Finished running node model.integrity_energy_dbt.bing_ads_daily_base
+[0m11:21:46.519317 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.salesforce_meter_number_base
+[0m11:21:46.520308 [debug] [Thread-1 (]: Began running node model.integrity_energy_dbt.salesforce_opportunity_base
+[0m11:21:46.521292 [info ] [Thread-3 (]: 9 of 20 START sql materialized_view model prod_dbt-base.salesforce_meter_number_base  [RUN]
+[0m11:21:46.522307 [info ] [Thread-1 (]: 10 of 20 START sql materialized_view model prod_dbt-base.salesforce_opportunity_base  [RUN]
+[0m11:21:46.523312 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.salesforce_contact_base, now model.integrity_energy_dbt.salesforce_meter_number_base)
+[0m11:21:46.524312 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.bing_ads_daily_base, now model.integrity_energy_dbt.salesforce_opportunity_base)
+[0m11:21:46.524312 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.salesforce_meter_number_base
+[0m11:21:46.525312 [debug] [Thread-1 (]: Began compiling node model.integrity_energy_dbt.salesforce_opportunity_base
+[0m11:21:46.530060 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:21:46.535846 [debug] [Thread-1 (]: Writing injected SQL for node "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:21:46.537426 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.salesforce_meter_number_base
+[0m11:21:46.545403 [debug] [Thread-3 (]: Writing runtime sql for node "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:21:46.546762 [debug] [Thread-1 (]: Began executing node model.integrity_energy_dbt.salesforce_opportunity_base
+[0m11:21:46.553142 [debug] [Thread-1 (]: Writing runtime sql for node "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:21:46.557697 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:21:46.559194 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: BEGIN
+[0m11:21:46.559194 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m11:21:46.566804 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:21:46.567906 [debug] [Thread-3 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:46.567906 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: BEGIN
+[0m11:21:46.569486 [debug] [Thread-3 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:46.571478 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m11:21:46.573482 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:46.574478 [debug] [Thread-1 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:46.966217 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.406 seconds
+[0m11:21:46.967187 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:21:46.968200 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.salesforce_meter_number_base"} */
+
+        create materialized view "integrity-db"."prod_dbt-base"."salesforce_meter_number_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
+    id,
+    name,
+    city__c,
+    state__c,
+    street__c,
+    zip_code__c,
+    mils__c,
+    commodity__c,
+    createddate,
+    service_address__c,
+    status__c,
+    account__c,
+    dl_account__c,
+    account_number__c
+from "integrity-db"."salesforce"."meter_number__c"
+    )
+[0m11:21:46.969236 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.398 seconds
+[0m11:21:46.970179 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:21:46.971180 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.salesforce_opportunity_base"} */
+
+        create materialized view "integrity-db"."prod_dbt-base"."salesforce_opportunity_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
+    id,
+    name,
+    type,
+    iswon,
+    fiscal,
+    mils__c,
+    ownerid,
+    rate__c,
+    term__c,
+    team__c,
+    source__c,
+    marketing_generator__c,
+    isclosed,
+    notes__c,
+    accountid,
+    csdate__c,
+    closedate,
+    driver__c,
+    meters__c,
+    points__c,
+    stagename,
+    status__c,
+    channel__c,
+    dl_2000__c,
+    dl_4000__c,
+    dl_6000__c,
+    leadsource,
+    manager__c,
+    re_sold__c,
+    renewed__c,
+    createddate,
+    residual__c,
+    sp_rt_id__c,
+    subagent__c,
+    supplier__c,
+    commodity__c,
+    rate_type__c,
+    sp_points__c,
+    sold_date__c,
+    broker_fee__c,
+    cancel_fee__c,
+    usage_type__c,
+    cancel_date__c,
+    dl_1500_kwh__c,
+    dl_2500_kwh__c,
+    dl_3500_kwh__c,
+    dl_rate_gas__c,
+    dl_term_gas__c,
+    dl_owner_alias__c,
+    lost_reason__c,
+    meter_usage__c,
+    owner_title__c,
+    real_points__c,
+    total_usage__c,
+    dl_start_gas__c,
+    dl_usage_gas__c,
+    do_not_renew__c,
+    renewal_date__c,
+    sales_person__c,
+    total_points__c,
+    utility_text__c,
+    sales_manager__c,
+    supplier_text__c,
+    agent_takeback__c,
+    canceled_usage__c,
+    commodity_text__c,
+    contract_signer__c,
+    cancelled_points__c,
+    supplier_credits__c,
+    commission_matrix__c,
+    contract_end_date__c,
+    broker_fee_rounded__c,
+    commission_percent__c,
+    last_activity_note__c,
+    confirmation_number__c,
+    contract_start_date__c,
+    contract_signer_email__c,
+    contract_signer_phone_email__c,
+    contract_signer_facilitator__c
+from "integrity-db"."salesforce"."opportunity"
+    )
+[0m11:21:47.557221 [debug] [Thread-2 (]: SQL status: SUCCESS in 1.091 seconds
+[0m11:21:47.559223 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:21:47.560224 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: BEGIN
+[0m11:21:47.609352 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.048 seconds
+[0m11:21:47.614702 [debug] [Thread-2 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."facebook_daily_base__dbt_backup"
+[0m11:21:47.617215 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:21:47.617215 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.facebook_daily_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."facebook_daily_base__dbt_backup"
+[0m11:21:47.630351 [debug] [Thread-4 (]: SQL status: SUCCESS in 4.758 seconds
+[0m11:21:47.657561 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.039 seconds
+[0m11:21:47.659589 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: COMMIT
+[0m11:21:47.661590 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:21:47.662588 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: COMMIT
+[0m11:21:48.104453 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.442 seconds
+[0m11:21:48.105277 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:21:48.106476 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: BEGIN
+[0m11:21:48.130123 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.023 seconds
+[0m11:21:48.131473 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: COMMIT
+[0m11:21:48.132487 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:21:48.133510 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: COMMIT
+[0m11:21:48.154047 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:21:48.155031 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:21:48.156028 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: BEGIN
+[0m11:21:48.186074 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.029 seconds
+[0m11:21:48.190634 [debug] [Thread-2 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."facebook_daily_base__dbt_tmp"
+[0m11:21:48.192664 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:21:48.192664 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.facebook_daily_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."facebook_daily_base__dbt_tmp"
+[0m11:21:48.243859 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.050 seconds
+[0m11:21:48.246316 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: COMMIT
+[0m11:21:48.247348 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:21:48.247348 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: COMMIT
+[0m11:21:48.569899 [debug] [Thread-3 (]: SQL status: SUCCESS in 1.601 seconds
+[0m11:21:48.855301 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.607 seconds
+[0m11:21:48.857297 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.facebook_daily_base"
+[0m11:21:48.858300 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: BEGIN
+[0m11:21:48.878071 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.019 seconds
+[0m11:21:48.881073 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: COMMIT
+[0m11:21:48.881073 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: ROLLBACK
+[0m11:21:48.882074 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: COMMIT
+[0m11:21:48.884073 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:21:48.884586 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:21:48.885966 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: COMMIT
+[0m11:21:48.887408 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: COMMIT
+[0m11:21:48.933647 [debug] [Thread-2 (]: On model.integrity_energy_dbt.facebook_daily_base: Close
+[0m11:21:48.935724 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A87308ECD0>]}
+[0m11:21:48.937235 [info ] [Thread-2 (]: 2 of 20 OK created sql materialized_view model prod_dbt-base.facebook_daily_base  [[32mSUCCESS[0m in 16.44s]
+[0m11:21:48.938250 [debug] [Thread-2 (]: Finished running node model.integrity_energy_dbt.facebook_daily_base
+[0m11:21:48.939534 [debug] [Thread-2 (]: Began running node model.integrity_energy_dbt.utility_lead_base
+[0m11:21:48.940846 [info ] [Thread-2 (]: 11 of 20 START sql materialized_view model prod_dbt-base.utility_lead_base ..... [RUN]
+[0m11:21:48.941632 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.facebook_daily_base, now model.integrity_energy_dbt.utility_lead_base)
+[0m11:21:48.942660 [debug] [Thread-2 (]: Began compiling node model.integrity_energy_dbt.utility_lead_base
+[0m11:21:48.948156 [debug] [Thread-2 (]: Writing injected SQL for node "model.integrity_energy_dbt.utility_lead_base"
+[0m11:21:48.950182 [debug] [Thread-2 (]: Began executing node model.integrity_energy_dbt.utility_lead_base
+[0m11:21:48.956181 [debug] [Thread-2 (]: Writing runtime sql for node "model.integrity_energy_dbt.utility_lead_base"
+[0m11:21:48.961708 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_base"
+[0m11:21:48.962713 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: BEGIN
+[0m11:21:48.963724 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m11:21:48.965715 [debug] [Thread-2 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:48.966714 [debug] [Thread-2 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:49.373408 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.409 seconds
+[0m11:21:49.374703 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_base"
+[0m11:21:49.375714 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.utility_lead_base"} */
+
+        create materialized view "integrity-db"."prod_dbt-base"."utility_lead_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
+        u.companyname,
+        u.serviceaddress,
+        u.servicecity,
+        u.servicestate,
+        u.servicezip,
+        u.utility,
+        u.accountnumber,
+        u.annualusage,
+        u.ratecode,
+        e."eru lastname" as lastname,
+        e."eru firstname" as firstname,
+        e."eru titledesc" as title,
+        e."be telephone number10" as phone,
+        e."bee email addr80" as email
+from "integrity-db"."utility_leads"."utilitylead" as u
+left join "integrity-db"."utility_leads"."enriched" as e
+on u.companyname = e.companyname 
+AND u.serviceaddress = e.serviceaddress
+AND u.utility = e.utility
+AND u.servicecity = e.servicecity
+AND u.servicestate = e.servicestate
+AND u.ratecode = e.ratecode
+GROUP BY 1,2,3,4,5,6,7,8,9,10,11,12,13,14
+    )
+[0m11:21:50.130902 [debug] [Thread-3 (]: SQL status: SUCCESS in 1.242 seconds
+[0m11:21:50.132793 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:21:50.133788 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: BEGIN
+[0m11:21:50.181442 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.046 seconds
+[0m11:21:50.186602 [debug] [Thread-3 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."salesforce_meter_number_base__dbt_backup"
+[0m11:21:50.189170 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:21:50.189170 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.salesforce_meter_number_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."salesforce_meter_number_base__dbt_backup"
+[0m11:21:50.271802 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.081 seconds
+[0m11:21:50.273803 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: COMMIT
+[0m11:21:50.274799 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:21:50.276109 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: COMMIT
+[0m11:21:51.011027 [debug] [Thread-4 (]: SQL status: SUCCESS in 2.123 seconds
+[0m11:21:51.409539 [debug] [Thread-3 (]: SQL status: SUCCESS in 1.132 seconds
+[0m11:21:51.410548 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:21:51.412075 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: BEGIN
+[0m11:21:51.433451 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.021 seconds
+[0m11:21:51.434951 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:21:51.436010 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: BEGIN
+[0m11:21:51.456835 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:21:51.461037 [debug] [Thread-4 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."salesforce_lead_base__dbt_backup"
+[0m11:21:51.462236 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:21:51.463580 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.salesforce_lead_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."salesforce_lead_base__dbt_backup"
+[0m11:21:51.503572 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.039 seconds
+[0m11:21:51.505573 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: COMMIT
+[0m11:21:51.506553 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:21:51.506553 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: COMMIT
+[0m11:21:52.183943 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.676 seconds
+[0m11:21:52.185097 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:21:52.186128 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: BEGIN
+[0m11:21:52.213767 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.027 seconds
+[0m11:21:52.215780 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: COMMIT
+[0m11:21:52.217234 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:21:52.218248 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: COMMIT
+[0m11:21:52.238978 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.019 seconds
+[0m11:21:52.240982 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:21:52.240982 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: BEGIN
+[0m11:21:52.262461 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:21:52.276447 [debug] [Thread-3 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."salesforce_meter_number_base__dbt_tmp"
+[0m11:21:52.278852 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:21:52.280166 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.salesforce_meter_number_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."salesforce_meter_number_base__dbt_tmp"
+[0m11:21:52.326512 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.045 seconds
+[0m11:21:52.327649 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: COMMIT
+[0m11:21:52.329234 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:21:52.330253 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: COMMIT
+[0m11:21:52.920994 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.590 seconds
+[0m11:21:52.922960 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_meter_number_base"
+[0m11:21:52.923960 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: BEGIN
+[0m11:21:52.944090 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:21:52.945927 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: COMMIT
+[0m11:21:52.947598 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:21:52.948180 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: COMMIT
+[0m11:21:52.967890 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:21:52.970474 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:21:52.971583 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: BEGIN
+[0m11:21:52.995896 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.024 seconds
+[0m11:21:53.000448 [debug] [Thread-4 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."salesforce_lead_base__dbt_tmp"
+[0m11:21:53.002046 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:21:53.002797 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.salesforce_lead_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."salesforce_lead_base__dbt_tmp"
+[0m11:21:53.046336 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.042 seconds
+[0m11:21:53.047348 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: COMMIT
+[0m11:21:53.048339 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:21:53.048339 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: COMMIT
+[0m11:21:53.798810 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.749 seconds
+[0m11:21:53.799819 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_lead_base"
+[0m11:21:53.801777 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: BEGIN
+[0m11:21:53.828496 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.026 seconds
+[0m11:21:53.830493 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: ROLLBACK
+[0m11:21:53.830493 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: ROLLBACK
+[0m11:21:53.835024 [debug] [Thread-2 (]: SQL status: SUCCESS in 4.458 seconds
+[0m11:21:53.838576 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: COMMIT
+[0m11:21:53.839762 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_base"
+[0m11:21:53.839762 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: COMMIT
+[0m11:21:53.873067 [debug] [Thread-4 (]: On model.integrity_energy_dbt.salesforce_lead_base: Close
+[0m11:21:53.873067 [debug] [Thread-3 (]: On model.integrity_energy_dbt.salesforce_meter_number_base: Close
+[0m11:21:53.875280 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A87355A950>]}
+[0m11:21:53.875793 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8702E6E90>]}
+[0m11:21:53.876802 [info ] [Thread-4 (]: 8 of 20 OK created sql materialized_view model prod_dbt-base.salesforce_lead_base  [[32mSUCCESS[0m in 11.34s]
+[0m11:21:53.877802 [info ] [Thread-3 (]: 9 of 20 OK created sql materialized_view model prod_dbt-base.salesforce_meter_number_base  [[32mSUCCESS[0m in 7.35s]
+[0m11:21:53.878821 [debug] [Thread-4 (]: Finished running node model.integrity_energy_dbt.salesforce_lead_base
+[0m11:21:53.879850 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.salesforce_meter_number_base
+[0m11:21:53.881293 [debug] [Thread-4 (]: Began running node model.integrity_energy_dbt.zoominfo_base
+[0m11:21:53.882303 [info ] [Thread-4 (]: 12 of 20 START sql materialized_view model prod_dbt-base.zoominfo_base ......... [RUN]
+[0m11:21:53.883301 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.salesforce_lead_base, now model.integrity_energy_dbt.zoominfo_base)
+[0m11:21:53.883301 [debug] [Thread-4 (]: Began compiling node model.integrity_energy_dbt.zoominfo_base
+[0m11:21:53.888292 [debug] [Thread-4 (]: Writing injected SQL for node "model.integrity_energy_dbt.zoominfo_base"
+[0m11:21:53.889307 [debug] [Thread-4 (]: Began executing node model.integrity_energy_dbt.zoominfo_base
+[0m11:21:53.899310 [debug] [Thread-4 (]: Writing runtime sql for node "model.integrity_energy_dbt.zoominfo_base"
+[0m11:21:53.899310 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.zoominfo_base"
+[0m11:21:53.899310 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: BEGIN
+[0m11:21:53.899310 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m11:21:53.899310 [debug] [Thread-4 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:53.899310 [debug] [Thread-4 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:54.240256 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.336 seconds
+[0m11:21:54.240256 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.zoominfo_base"
+[0m11:21:54.240256 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.zoominfo_base"} */
+
+        create materialized view "integrity-db"."prod_dbt-base"."zoominfo_base"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        select
+    *
+from
+    "integrity-db"."zoominfo"."zoominfo_upload_09202024"
+    )
+[0m11:21:54.683984 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.844 seconds
+[0m11:21:54.686518 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_base"
+[0m11:21:54.687596 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: BEGIN
+[0m11:21:54.709134 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:21:54.711717 [debug] [Thread-2 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."utility_lead_base__dbt_backup"
+[0m11:21:54.714813 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_base"
+[0m11:21:54.716673 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.utility_lead_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."utility_lead_base__dbt_backup"
+[0m11:21:54.753662 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.040 seconds
+[0m11:21:54.760179 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: COMMIT
+[0m11:21:54.761298 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_base"
+[0m11:21:54.761298 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: COMMIT
+[0m11:21:55.117548 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.355 seconds
+[0m11:21:55.117548 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_base"
+[0m11:21:55.120157 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: BEGIN
+[0m11:21:55.139295 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.019 seconds
+[0m11:21:55.139295 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: COMMIT
+[0m11:21:55.139295 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_base"
+[0m11:21:55.139295 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: COMMIT
+[0m11:21:55.167763 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.024 seconds
+[0m11:21:55.167763 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_base"
+[0m11:21:55.167763 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: BEGIN
+[0m11:21:55.188341 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.019 seconds
+[0m11:21:55.194442 [debug] [Thread-2 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."utility_lead_base__dbt_tmp"
+[0m11:21:55.194442 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_base"
+[0m11:21:55.194442 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.utility_lead_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."utility_lead_base__dbt_tmp"
+[0m11:21:55.230532 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.040 seconds
+[0m11:21:55.240508 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: COMMIT
+[0m11:21:55.241262 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_base"
+[0m11:21:55.242277 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: COMMIT
+[0m11:21:55.612201 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.369 seconds
+[0m11:21:55.614711 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_base"
+[0m11:21:55.615892 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: BEGIN
+[0m11:21:55.636063 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.019 seconds
+[0m11:21:55.636063 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: ROLLBACK
+[0m11:21:55.679204 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_base: Close
+[0m11:21:55.679204 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A87186FD50>]}
+[0m11:21:55.679204 [info ] [Thread-2 (]: 11 of 20 OK created sql materialized_view model prod_dbt-base.utility_lead_base  [[32mSUCCESS[0m in 6.74s]
+[0m11:21:55.684365 [debug] [Thread-2 (]: Finished running node model.integrity_energy_dbt.utility_lead_base
+[0m11:21:55.686894 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.utility_lead_intermediate
+[0m11:21:55.686894 [info ] [Thread-3 (]: 13 of 20 START sql view model prod_dbt-intermediate.utility_lead_intermediate .. [RUN]
+[0m11:21:55.686894 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.salesforce_meter_number_base, now model.integrity_energy_dbt.utility_lead_intermediate)
+[0m11:21:55.689408 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.utility_lead_intermediate
+[0m11:21:55.691317 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.utility_lead_intermediate"
+[0m11:21:55.702989 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.utility_lead_intermediate
+[0m11:21:55.734769 [debug] [Thread-3 (]: Writing runtime sql for node "model.integrity_energy_dbt.utility_lead_intermediate"
+[0m11:21:55.753670 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_intermediate"
+[0m11:21:55.753670 [debug] [Thread-3 (]: On model.integrity_energy_dbt.utility_lead_intermediate: BEGIN
+[0m11:21:55.759608 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m11:21:55.759608 [debug] [Thread-3 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:55.759608 [debug] [Thread-3 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:56.053826 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.294 seconds
+[0m11:21:56.054809 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_intermediate"
+[0m11:21:56.055813 [debug] [Thread-3 (]: On model.integrity_energy_dbt.utility_lead_intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.utility_lead_intermediate"} */
+
+
+  create view "integrity-db"."prod_dbt-intermediate"."utility_lead_intermediate__dbt_tmp" as (
+    
+
+with meter_number as (
+    select
+        id,
+        name,
+        city__c,
+        state__c,
+        street__c,
+        zip_code__c,
+        mils__c,
+        commodity__c,
+        createddate,
+        service_address__c,
+        status__c,
+        account__c
+    from "integrity-db"."prod_dbt-base"."salesforce_meter_number_base"
+),
+
+account as (
+    select
+        id,
+        name,
+        type,
+        phone,
+        industry,
+        billingcity,
+        billingcountry,
+        billingcountrycode,
+        billingpostalcode,
+        billingstreet,
+        main_phone__c
+    from "integrity-db"."prod_dbt-base"."salesforce_account_base"
+),
+
+utility_leads as (
+    select
+        companyname,
+        serviceaddress,
+        servicecity,
+        servicestate,
+        servicezip,
+        utility,
+        accountnumber,
+        annualusage,
+        ratecode,
+        lastname,
+        firstname,
+        title,
+        phone,
+        email
+    from "integrity-db"."prod_dbt-base"."utility_lead_base"
+)
+
+select
+    m.id as meter_number_id,
+    MIN(m.name) as meter_number_name,
+    MIN(m.city__c) as meter_number_city,
+    MIN(m.state__c) as meter_number_state,
+    MIN(m.street__c) as meter_number_street,
+    MIN(m.zip_code__c) as meter_number_zip_code,
+    MIN(m.mils__c) as meter_number_mils,
+    MIN(m.commodity__c) as meter_number_commodity,
+    MIN(m.createddate) as meter_number_createddate,
+    MIN(m.service_address__c) as meter_number_service_address,
+    MIN(m.status__c) as meter_number_status,
+    MIN(m.account__c) as meter_number_account_id,
+    MIN(a.id) as account_id,
+    MIN(a.name) as account_name,
+    MIN(a.type) as account_type,
+    MIN(a.phone) as account_phone,
+    MIN(a.industry) as account_industry,
+    MIN(a.billingcity) as account_billingcity,
+    MIN(a.billingcountry) as account_billingcountry,
+    MIN(a.billingcountrycode) as account_billingcountrycode,
+    MIN(a.billingpostalcode) as account_billingpostalcode,
+    MIN(a.billingstreet) as account_billingstreet,
+    MIN(a.main_phone__c) as account_main_phone,
+    MIN(u.companyname) as utility_companyname,
+    MIN(u.serviceaddress) as utility_serviceaddress,
+    MIN(u.servicecity) as utility_servicecity,
+    MIN(u.servicestate) as utility_servicestate,
+    MIN(u.servicezip) as utility_servicezip,
+    MIN(u.utility) as utility_utility,
+    MIN(u.accountnumber) as utility_accountnumber,
+    MIN(u.annualusage) as utility_annualusage,
+    MIN(u.ratecode) as utility_ratecode,
+    MIN(u.firstname) as utility_firstname,
+    MIN(u.lastname) as utility_lastname,
+    MIN(u.title) as utility_title,
+    MIN(u.phone) as utility_phone,
+    MIN(u.email) as utility_email
+from meter_number as m
+left join account as a on m.account__c = a.id
+left join utility_leads as u 
+on 
+    (trim(lower(a.name)) = trim(lower(u.companyname)) AND
+    trim(m.zip_code__c) = trim(u.servicezip) AND
+    trim(lower(m.city__c)) = trim(lower(u.servicecity)) AND
+    regexp_substr(m.street__c, '^[0-9]+') = regexp_substr(u.serviceaddress, '^[0-9]+'))
+    --OR (trim(lower(m.street__c)) = trim(lower(u.serviceaddress)))
+group by m.id
+  ) ;
+[0m11:21:56.255935 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.199 seconds
+[0m11:21:56.267774 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_intermediate"
+[0m11:21:56.268787 [debug] [Thread-3 (]: On model.integrity_energy_dbt.utility_lead_intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.utility_lead_intermediate"} */
+alter table "integrity-db"."prod_dbt-intermediate"."utility_lead_intermediate__dbt_tmp" rename to "utility_lead_intermediate"
+[0m11:21:56.328047 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.059 seconds
+[0m11:21:56.331609 [debug] [Thread-3 (]: On model.integrity_energy_dbt.utility_lead_intermediate: COMMIT
+[0m11:21:56.332637 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_intermediate"
+[0m11:21:56.332637 [debug] [Thread-3 (]: On model.integrity_energy_dbt.utility_lead_intermediate: COMMIT
+[0m11:21:56.736062 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.401 seconds
+[0m11:21:56.737090 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_intermediate"
+[0m11:21:56.738094 [debug] [Thread-3 (]: On model.integrity_energy_dbt.utility_lead_intermediate: BEGIN
+[0m11:21:56.777884 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.039 seconds
+[0m11:21:56.783044 [debug] [Thread-3 (]: Applying DROP to: "integrity-db"."prod_dbt-intermediate"."utility_lead_intermediate__dbt_backup"
+[0m11:21:56.788044 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_intermediate"
+[0m11:21:56.788044 [debug] [Thread-3 (]: On model.integrity_energy_dbt.utility_lead_intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.utility_lead_intermediate"} */
+drop view if exists "integrity-db"."prod_dbt-intermediate"."utility_lead_intermediate__dbt_backup" cascade
+[0m11:21:56.830749 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.041 seconds
+[0m11:21:56.833711 [debug] [Thread-3 (]: On model.integrity_energy_dbt.utility_lead_intermediate: COMMIT
+[0m11:21:56.833711 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_intermediate"
+[0m11:21:56.835347 [debug] [Thread-3 (]: On model.integrity_energy_dbt.utility_lead_intermediate: COMMIT
+[0m11:21:56.870034 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.034 seconds
+[0m11:21:56.872034 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_intermediate"
+[0m11:21:56.872034 [debug] [Thread-3 (]: On model.integrity_energy_dbt.utility_lead_intermediate: BEGIN
+[0m11:21:56.893466 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:21:56.895056 [debug] [Thread-3 (]: On model.integrity_energy_dbt.utility_lead_intermediate: ROLLBACK
+[0m11:21:56.938307 [debug] [Thread-3 (]: On model.integrity_energy_dbt.utility_lead_intermediate: Close
+[0m11:21:56.939337 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A871B56010>]}
+[0m11:21:56.940355 [info ] [Thread-3 (]: 13 of 20 OK created sql view model prod_dbt-intermediate.utility_lead_intermediate  [[32mSUCCESS[0m in 1.25s]
+[0m11:21:56.942218 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.utility_lead_intermediate
+[0m11:21:56.943239 [debug] [Thread-2 (]: Began running node model.integrity_energy_dbt.utility_lead_prod
+[0m11:21:56.944252 [info ] [Thread-2 (]: 14 of 20 START sql table model prod_dbt-mart.utility_lead_prod ................. [RUN]
+[0m11:21:56.945450 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.utility_lead_base, now model.integrity_energy_dbt.utility_lead_prod)
+[0m11:21:56.946252 [debug] [Thread-2 (]: Began compiling node model.integrity_energy_dbt.utility_lead_prod
+[0m11:21:56.951645 [debug] [Thread-2 (]: Writing injected SQL for node "model.integrity_energy_dbt.utility_lead_prod"
+[0m11:21:56.953626 [debug] [Thread-2 (]: Began executing node model.integrity_energy_dbt.utility_lead_prod
+[0m11:21:57.003723 [debug] [Thread-2 (]: Writing runtime sql for node "model.integrity_energy_dbt.utility_lead_prod"
+[0m11:21:57.007232 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_prod"
+[0m11:21:57.007232 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_prod: BEGIN
+[0m11:21:57.008249 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m11:21:57.009249 [debug] [Thread-2 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:21:57.009249 [debug] [Thread-2 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:21:57.418423 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.410 seconds
+[0m11:21:57.420447 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_prod"
+[0m11:21:57.420447 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_prod: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.utility_lead_prod"} */
+
+  
+    
+
+  create  table
+    "integrity-db"."prod_dbt-mart"."utility_lead_prod__dbt_tmp"
+    
+    
+    
+  as (
+    
+
+select
+    *
+from "integrity-db"."prod_dbt-intermediate"."utility_lead_intermediate"
+  );
+[0m11:22:01.594347 [debug] [Thread-1 (]: SQL status: SUCCESS in 14.623 seconds
+[0m11:22:01.597279 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: COMMIT
+[0m11:22:01.599120 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:22:01.599938 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: COMMIT
+[0m11:22:02.272324 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.672 seconds
+[0m11:22:02.272324 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:22:02.274901 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: BEGIN
+[0m11:22:02.320092 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.045 seconds
+[0m11:22:02.324201 [debug] [Thread-1 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."salesforce_opportunity_base__dbt_backup"
+[0m11:22:02.326731 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:22:02.327767 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.salesforce_opportunity_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."salesforce_opportunity_base__dbt_backup"
+[0m11:22:02.368527 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.040 seconds
+[0m11:22:02.370988 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: COMMIT
+[0m11:22:02.371499 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:22:02.371499 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: COMMIT
+[0m11:22:02.819108 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.452 seconds
+[0m11:22:02.826850 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:22:02.826850 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: BEGIN
+[0m11:22:02.847047 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.025 seconds
+[0m11:22:02.847047 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: COMMIT
+[0m11:22:02.847047 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:22:02.847047 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: COMMIT
+[0m11:22:02.874157 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:22:02.874157 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:22:02.879167 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: BEGIN
+[0m11:22:02.900608 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:22:02.905119 [debug] [Thread-1 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."salesforce_opportunity_base__dbt_tmp"
+[0m11:22:02.905119 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:22:02.905119 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.salesforce_opportunity_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."salesforce_opportunity_base__dbt_tmp"
+[0m11:22:02.950756 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.041 seconds
+[0m11:22:02.953460 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: COMMIT
+[0m11:22:02.955196 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:22:02.955196 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: COMMIT
+[0m11:22:03.340394 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.386 seconds
+[0m11:22:03.340394 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.salesforce_opportunity_base"
+[0m11:22:03.345232 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: BEGIN
+[0m11:22:03.364444 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.019 seconds
+[0m11:22:03.366340 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: ROLLBACK
+[0m11:22:03.409212 [debug] [Thread-1 (]: On model.integrity_energy_dbt.salesforce_opportunity_base: Close
+[0m11:22:03.412307 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A872BF9810>]}
+[0m11:22:03.414543 [info ] [Thread-1 (]: 10 of 20 OK created sql materialized_view model prod_dbt-base.salesforce_opportunity_base  [[32mSUCCESS[0m in 16.89s]
+[0m11:22:03.414543 [debug] [Thread-1 (]: Finished running node model.integrity_energy_dbt.salesforce_opportunity_base
+[0m11:22:03.416407 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.deal_intermediate
+[0m11:22:03.416407 [debug] [Thread-1 (]: Began running node model.integrity_energy_dbt.lead_intermediate
+[0m11:22:03.417743 [info ] [Thread-3 (]: 15 of 20 START sql view model prod_dbt-intermediate.deal_intermediate .......... [RUN]
+[0m11:22:03.419155 [info ] [Thread-1 (]: 16 of 20 START sql view model prod_dbt-intermediate.lead_intermediate .......... [RUN]
+[0m11:22:03.419155 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.utility_lead_intermediate, now model.integrity_energy_dbt.deal_intermediate)
+[0m11:22:03.419155 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.salesforce_opportunity_base, now model.integrity_energy_dbt.lead_intermediate)
+[0m11:22:03.422725 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.deal_intermediate
+[0m11:22:03.423021 [debug] [Thread-1 (]: Began compiling node model.integrity_energy_dbt.lead_intermediate
+[0m11:22:03.431663 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.deal_intermediate"
+[0m11:22:03.448914 [debug] [Thread-1 (]: Writing injected SQL for node "model.integrity_energy_dbt.lead_intermediate"
+[0m11:22:03.455078 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.deal_intermediate
+[0m11:22:03.465731 [debug] [Thread-3 (]: Writing runtime sql for node "model.integrity_energy_dbt.deal_intermediate"
+[0m11:22:03.467934 [debug] [Thread-1 (]: Began executing node model.integrity_energy_dbt.lead_intermediate
+[0m11:22:03.474857 [debug] [Thread-1 (]: Writing runtime sql for node "model.integrity_energy_dbt.lead_intermediate"
+[0m11:22:03.490335 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.deal_intermediate"
+[0m11:22:03.490335 [debug] [Thread-3 (]: On model.integrity_energy_dbt.deal_intermediate: BEGIN
+[0m11:22:03.508113 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.lead_intermediate"
+[0m11:22:03.513040 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m11:22:03.513040 [debug] [Thread-1 (]: On model.integrity_energy_dbt.lead_intermediate: BEGIN
+[0m11:22:03.513040 [debug] [Thread-3 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:22:03.513040 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m11:22:03.513040 [debug] [Thread-3 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:22:03.516978 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:22:03.518992 [debug] [Thread-1 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:22:03.828117 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.318 seconds
+[0m11:22:03.828117 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.321 seconds
+[0m11:22:03.828117 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.lead_intermediate"
+[0m11:22:03.835973 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.deal_intermediate"
+[0m11:22:03.835973 [debug] [Thread-1 (]: On model.integrity_energy_dbt.lead_intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.lead_intermediate"} */
+
+
+  create view "integrity-db"."prod_dbt-intermediate"."lead_intermediate__dbt_tmp" as (
+    
+
+with salesforce_leads as (
+    select
+        id as lead_id,
+        city as lead_city,
+        name as lead_name,
+        email as lead_email,
+        phone as lead_phone,
+        state as lead_state,
+        title as lead_title,
+        status as lead_status,
+        street as lead_street,
+        company as lead_company,
+        country as lead_country,
+        firstname as lead_firstname,
+        lastname as lead_lastname,
+        source__c as lead_source,
+        channel__c as lead_channel,
+        leadsource as lead_leadsource,
+        postalcode as lead_postalcode,
+        createddate as lead_createddate,
+        createdday as lead_createdday,
+        isconverted as lead_isconverted,
+        commodity__c as lead_commodity,
+        converteddate as lead_converteddate,
+        lastactivitydate as lead_lastactivitydate,
+        convertedaccountid as lead_convertedaccountid,
+        convertedcontactid as lead_convertedcontactid,
+        average_bill_amount__c as lead_average_bill_amount,
+        convertedopportunityid as lead_convertedopportunityid,
+        marketing_generator__c as lead_marketing_generator,
+        new_ready_to_work_date__c as lead_new_ready_to_work_date,
+        Concat(company,regexp_substr(street, '^[0-9]+')) as util_join
+    from "integrity-db"."prod_dbt-base"."salesforce_lead_base"
+),
+
+salesforce_contacts as (
+    select
+        id as contact_id,
+        name as contact_name,
+        email as contact_email,
+        phone as contact_phone,
+        mobilephone as contact_mobilephone,
+        main_phone__c as contact_mainphone,
+        title as contact_title,
+        createddate as contact_createddate,
+        mailingcity as contact_mailingcity,
+        mailingstate as contact_mailingstate,
+        mailingstatecode as contact_mailingstatecode,
+        mailingcountry as contact_mailingcountry,
+        accountid as contact_accountid,
+        rep_last_first__c as contact_rep_last_first,
+        customer_account_number__c as contact_customer_account_number,
+        contract_signer_phone_email__c as contact_contract_signer_phone_email
+    from "integrity-db"."prod_dbt-base"."salesforce_contact_base"
+),
+
+salesforce_opportunities as (
+    select
+        contract_signer__c as opp_contract_signer,
+        count(distinct(id)) as total_opportunities,
+        sum((case when iswon = true then 1 else 0 end)) as won_opportunities,
+        sum((case when iswon = true then points__c else 0 end)) as won_points,
+        sum((case when iswon = false and isclosed = true then 1 else 0 end)) as lost_opportunities,
+        sum((case when isclosed = false then 1 else 0 end)) as open_opportunities,
+        sum((case when isclosed = true then 1 else 0 end)) as closed_opportunities
+    from "integrity-db"."prod_dbt-base"."salesforce_opportunity_base"
+    group by opp_contract_signer
+),
+
+utility_lead as (
+    select
+        companyname as utility_companyname,
+        serviceaddress as utility_serviceaddress,
+        servicecity as utility_servicecity,
+        servicezip as utility_servicezip,
+        phone as utility_phone,
+        Concat(companyname,regexp_substr(serviceaddress, '^[0-9]+')) as lead_join
+    from "integrity-db"."prod_dbt-base"."utility_lead_base"
+)
+
+select
+(NVL(l.lead_id,'-') || NVL(c.contact_id,'-') || NVL(u.lead_join,'-')) as lead_master_id,
+*
+from salesforce_leads as l
+full join salesforce_contacts as c on l.lead_convertedcontactid = c.contact_id
+full join utility_lead as u on l.util_join = u.lead_join
+left join salesforce_opportunities as o on c.contact_id = o.opp_contract_signer
+  ) ;
+[0m11:22:03.838002 [debug] [Thread-3 (]: On model.integrity_energy_dbt.deal_intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.deal_intermediate"} */
+
+
+  create view "integrity-db"."prod_dbt-intermediate"."deal_intermediate__dbt_tmp" as (
+    
+
+with salesforce_opportunities as (
+    select
+        id,
+        name,
+        type,
+        iswon,
+        fiscal,
+        mils__c,
+        ownerid,
+        rate__c,
+        term__c,
+        team__c,
+        source__c,
+        marketing_generator__c,
+        isclosed,
+        notes__c,
+        accountid,
+        csdate__c,
+        closedate,
+        driver__c,
+        meters__c,
+        points__c,
+        stagename,
+        status__c,
+        channel__c,
+        leadsource,
+        manager__c,
+        re_sold__c,
+        renewed__c,
+        createddate,
+        residual__c,
+        sp_rt_id__c,
+        subagent__c,
+        supplier__c,
+        commodity__c,
+        rate_type__c,
+        sp_points__c,
+        sold_date__c,
+        broker_fee__c,
+        cancel_fee__c,
+        usage_type__c,
+        cancel_date__c,
+        dl_rate_gas__c,
+        dl_owner_alias__c,
+        dl_term_gas__c,
+        lost_reason__c,
+        meter_usage__c,
+        owner_title__c,
+        real_points__c,
+        total_usage__c,
+        dl_start_gas__c,
+        dl_usage_gas__c,
+        do_not_renew__c,
+        renewal_date__c,
+        sales_person__c,
+        total_points__c,
+        utility_text__c,
+        sales_manager__c,
+        supplier_text__c,
+        agent_takeback__c,
+        canceled_usage__c,
+        commodity_text__c,
+        contract_signer__c,
+        cancelled_points__c,
+        supplier_credits__c,
+        commission_matrix__c,
+        contract_end_date__c,
+        broker_fee_rounded__c,
+        commission_percent__c,
+        last_activity_note__c,
+        confirmation_number__c,
+        contract_start_date__c,
+        contract_signer_email__c,
+        contract_signer_phone_email__c,
+        contract_signer_facilitator__c
+    from "integrity-db"."prod_dbt-base"."salesforce_opportunity_base"
+),
+
+salesforce_contacts as (
+    select
+        id as contact_id,
+        name as contact_name,
+        email as contact_email,
+        phone as contact_phone,
+        mobilephone as contact_mobilephone,
+        main_phone__c as contact_mainphone,
+        title as contact_title,
+        createddate as contact_createddate,
+        mailingcity as contact_mailingcity,
+        mailingstate as contact_mailingstate,
+        mailingstatecode as contact_mailingstatecode,
+        mailingcountry as contact_mailingcountry,
+        accountid as contact_accountid,
+        rep_last_first__c as contact_rep_last_first,
+        customer_account_number__c as contact_customer_account_number,
+        contract_signer_phone_email__c as contact_contract_signer_phone_email
+    from "integrity-db"."prod_dbt-base"."salesforce_contact_base"
+),
+
+salesforce_leads as (
+    select
+        id as lead_id,
+        city as lead_city,
+        name as lead_name,
+        email as lead_email,
+        phone as lead_phone,
+        state as lead_state,
+        title as lead_title,
+        status as lead_status,
+        street as lead_street,
+        company as lead_company,
+        country as lead_country,
+        firstname as lead_firstname,
+        lastname as lead_lastname,
+        source__c as lead_source,
+        channel__c as lead_channel,
+        leadsource as lead_leadsource,
+        postalcode as lead_postalcode,
+        createddate as lead_createddate,
+        isconverted as lead_isconverted,
+        commodity__c as lead_commodity,
+        converteddate as lead_converteddate,
+        lastactivitydate as lead_lastactivitydate,
+        convertedaccountid as lead_convertedaccountid,
+        convertedcontactid as lead_convertedcontactid,
+        average_bill_amount__c as lead_average_bill_amount,
+        convertedopportunityid as lead_convertedopportunityid,
+        marketing_generator__c as lead_marketing_generator,
+        new_ready_to_work_date__c as lead_new_ready_to_work_date
+    from "integrity-db"."prod_dbt-base"."salesforce_lead_base"
+)
+
+select
+*
+from salesforce_opportunities as o
+left join salesforce_leads as l on l.lead_convertedcontactid = o.contract_signer__c
+left join salesforce_contacts as c on c.contact_id = o.contract_signer__c
+  ) ;
+[0m11:22:04.079659 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.240 seconds
+[0m11:22:04.086952 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.lead_intermediate"
+[0m11:22:04.088967 [debug] [Thread-1 (]: On model.integrity_energy_dbt.lead_intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.lead_intermediate"} */
+alter table "integrity-db"."prod_dbt-intermediate"."lead_intermediate__dbt_tmp" rename to "lead_intermediate"
+[0m11:22:04.133861 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.293 seconds
+[0m11:22:04.143127 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.deal_intermediate"
+[0m11:22:04.145126 [debug] [Thread-3 (]: On model.integrity_energy_dbt.deal_intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.deal_intermediate"} */
+alter table "integrity-db"."prod_dbt-intermediate"."deal_intermediate__dbt_tmp" rename to "deal_intermediate"
+[0m11:22:04.177445 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.088 seconds
+[0m11:22:04.181390 [debug] [Thread-1 (]: On model.integrity_energy_dbt.lead_intermediate: COMMIT
+[0m11:22:04.183401 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.lead_intermediate"
+[0m11:22:04.183401 [debug] [Thread-1 (]: On model.integrity_energy_dbt.lead_intermediate: COMMIT
+[0m11:22:04.210510 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.065 seconds
+[0m11:22:04.216621 [debug] [Thread-3 (]: On model.integrity_energy_dbt.deal_intermediate: COMMIT
+[0m11:22:04.218637 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.deal_intermediate"
+[0m11:22:04.220133 [debug] [Thread-3 (]: On model.integrity_energy_dbt.deal_intermediate: COMMIT
+[0m11:22:05.391102 [debug] [Thread-2 (]: SQL status: SUCCESS in 7.970 seconds
+[0m11:22:05.392545 [debug] [Thread-1 (]: SQL status: SUCCESS in 1.208 seconds
+[0m11:22:05.399209 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_prod"
+[0m11:22:05.399209 [debug] [Thread-3 (]: SQL status: SUCCESS in 1.178 seconds
+[0m11:22:05.400212 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.lead_intermediate"
+[0m11:22:05.401715 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_prod: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.utility_lead_prod"} */
+alter table "integrity-db"."prod_dbt-mart"."utility_lead_prod__dbt_tmp" rename to "utility_lead_prod"
+[0m11:22:05.402743 [debug] [Thread-1 (]: On model.integrity_energy_dbt.lead_intermediate: BEGIN
+[0m11:22:05.440980 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.037 seconds
+[0m11:22:05.446971 [debug] [Thread-1 (]: Applying DROP to: "integrity-db"."prod_dbt-intermediate"."lead_intermediate__dbt_backup"
+[0m11:22:05.447992 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.lead_intermediate"
+[0m11:22:05.449503 [debug] [Thread-1 (]: On model.integrity_energy_dbt.lead_intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.lead_intermediate"} */
+drop view if exists "integrity-db"."prod_dbt-intermediate"."lead_intermediate__dbt_backup" cascade
+[0m11:22:05.484583 [debug] [Thread-4 (]: SQL status: SUCCESS in 11.242 seconds
+[0m11:22:05.488757 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.039 seconds
+[0m11:22:05.489774 [debug] [Thread-1 (]: On model.integrity_energy_dbt.lead_intermediate: COMMIT
+[0m11:22:05.490757 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.lead_intermediate"
+[0m11:22:05.491770 [debug] [Thread-1 (]: On model.integrity_energy_dbt.lead_intermediate: COMMIT
+[0m11:22:05.520887 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.028 seconds
+[0m11:22:05.522159 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.lead_intermediate"
+[0m11:22:05.523179 [debug] [Thread-1 (]: On model.integrity_energy_dbt.lead_intermediate: BEGIN
+[0m11:22:05.524735 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.121 seconds
+[0m11:22:05.542380 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.019 seconds
+[0m11:22:05.544148 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.deal_intermediate"
+[0m11:22:05.545725 [debug] [Thread-3 (]: On model.integrity_energy_dbt.deal_intermediate: BEGIN
+[0m11:22:05.586822 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.040 seconds
+[0m11:22:05.592535 [debug] [Thread-3 (]: Applying DROP to: "integrity-db"."prod_dbt-intermediate"."deal_intermediate__dbt_backup"
+[0m11:22:05.594535 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.deal_intermediate"
+[0m11:22:05.595535 [debug] [Thread-3 (]: On model.integrity_energy_dbt.deal_intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.deal_intermediate"} */
+drop view if exists "integrity-db"."prod_dbt-intermediate"."deal_intermediate__dbt_backup" cascade
+[0m11:22:05.634706 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.039 seconds
+[0m11:22:05.636108 [debug] [Thread-3 (]: On model.integrity_energy_dbt.deal_intermediate: COMMIT
+[0m11:22:05.637712 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.deal_intermediate"
+[0m11:22:05.637712 [debug] [Thread-3 (]: On model.integrity_energy_dbt.deal_intermediate: COMMIT
+[0m11:22:05.665103 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.026 seconds
+[0m11:22:05.667132 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.deal_intermediate"
+[0m11:22:05.667132 [debug] [Thread-3 (]: On model.integrity_energy_dbt.deal_intermediate: BEGIN
+[0m11:22:05.697156 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.028 seconds
+[0m11:22:05.698429 [debug] [Thread-1 (]: On model.integrity_energy_dbt.lead_intermediate: ROLLBACK
+[0m11:22:05.699459 [debug] [Thread-3 (]: On model.integrity_energy_dbt.deal_intermediate: ROLLBACK
+[0m11:22:05.700463 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: COMMIT
+[0m11:22:05.700463 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_prod: COMMIT
+[0m11:22:05.702450 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.zoominfo_base"
+[0m11:22:05.703474 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_prod"
+[0m11:22:05.703474 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: COMMIT
+[0m11:22:05.704463 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_prod: COMMIT
+[0m11:22:05.743144 [debug] [Thread-3 (]: On model.integrity_energy_dbt.deal_intermediate: Close
+[0m11:22:05.744190 [debug] [Thread-1 (]: On model.integrity_energy_dbt.lead_intermediate: Close
+[0m11:22:05.745158 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A872C23810>]}
+[0m11:22:05.746610 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A873444550>]}
+[0m11:22:05.747716 [info ] [Thread-3 (]: 15 of 20 OK created sql view model prod_dbt-intermediate.deal_intermediate ..... [[32mSUCCESS[0m in 2.33s]
+[0m11:22:05.748246 [info ] [Thread-1 (]: 16 of 20 OK created sql view model prod_dbt-intermediate.lead_intermediate ..... [[32mSUCCESS[0m in 2.33s]
+[0m11:22:05.749711 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.deal_intermediate
+[0m11:22:05.750866 [debug] [Thread-1 (]: Finished running node model.integrity_energy_dbt.lead_intermediate
+[0m11:22:05.752021 [debug] [Thread-3 (]: Began running node model.integrity_energy_dbt.marketing_intermediate
+[0m11:22:05.753038 [debug] [Thread-1 (]: Began running node model.integrity_energy_dbt.deal_prod
+[0m11:22:05.754053 [info ] [Thread-3 (]: 17 of 20 START sql materialized_view model prod_dbt-intermediate.marketing_intermediate  [RUN]
+[0m11:22:05.755053 [info ] [Thread-1 (]: 18 of 20 START sql table model prod_dbt-mart.deal_prod ......................... [RUN]
+[0m11:22:05.756053 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.deal_intermediate, now model.integrity_energy_dbt.marketing_intermediate)
+[0m11:22:05.757058 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.lead_intermediate, now model.integrity_energy_dbt.deal_prod)
+[0m11:22:05.758037 [debug] [Thread-3 (]: Began compiling node model.integrity_energy_dbt.marketing_intermediate
+[0m11:22:05.758037 [debug] [Thread-1 (]: Began compiling node model.integrity_energy_dbt.deal_prod
+[0m11:22:05.766838 [debug] [Thread-3 (]: Writing injected SQL for node "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:22:05.771113 [debug] [Thread-1 (]: Writing injected SQL for node "model.integrity_energy_dbt.deal_prod"
+[0m11:22:05.773832 [debug] [Thread-3 (]: Began executing node model.integrity_energy_dbt.marketing_intermediate
+[0m11:22:05.774834 [debug] [Thread-1 (]: Began executing node model.integrity_energy_dbt.deal_prod
+[0m11:22:05.783358 [debug] [Thread-3 (]: Writing runtime sql for node "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:22:05.791882 [debug] [Thread-1 (]: Writing runtime sql for node "model.integrity_energy_dbt.deal_prod"
+[0m11:22:05.822806 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.deal_prod"
+[0m11:22:05.847299 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:22:05.848285 [debug] [Thread-1 (]: On model.integrity_energy_dbt.deal_prod: BEGIN
+[0m11:22:05.849362 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: BEGIN
+[0m11:22:05.850284 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m11:22:05.850284 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m11:22:05.851683 [debug] [Thread-1 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:22:05.852711 [debug] [Thread-3 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:22:05.853711 [debug] [Thread-1 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:22:05.853711 [debug] [Thread-3 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:22:06.251488 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.401 seconds
+[0m11:22:06.251488 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.402 seconds
+[0m11:22:06.251488 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:22:06.254227 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.deal_prod"
+[0m11:22:06.254227 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.marketing_intermediate"} */
+
+        create materialized view "integrity-db"."prod_dbt-intermediate"."marketing_intermediate"
+        backup yes
+        diststyle even
+        
+        
+        auto refresh no
+    as (
+        with google_ads as (
+    select
+        activity_date,
+        sum(googleads_impressions) as googleads_impressions,
+        ROUND((sum(googleads_cost) / 1000000),2) as googleads_cost,
+        sum(googleads_clicks) as googleads_clicks
+    from "integrity-db"."prod_dbt-base"."google_ads_daily_base"
+    group by activity_date
+),
+
+bing_ads as (
+    select
+        timeperiod,
+        sum(spend) as bing_spend,
+        sum(impressions) as bing_impressions,
+        sum(clicks) as bing_clicks
+    from "integrity-db"."prod_dbt-base"."bing_ads_daily_base"
+    group by timeperiod
+),
+
+hubspot as (
+    select
+        converted_date,
+        sent_emails as hubspot_sent_emails,
+        opened_emails as hubspot_opened_emails,
+        clicks as hubspot_clicks,
+        bounces as hubspot_bounces,
+        spam_reports as hubspot_spam_reports
+    from "integrity-db"."prod_dbt-base"."hubspot_daily_base"
+),
+
+facebook as (
+    select
+        date_start,
+        facebook_impressions,
+        facebook_reach,
+        facebook_spend,
+        facebook_clicks,
+        facebook_unique_clicks
+    from "integrity-db"."prod_dbt-base"."facebook_daily_base"
+),
+
+opportunity_sold as (
+    SELECT
+    sold_date__c,
+    sum(case when iswon = true and status__c <> 'Cancelled' then 1 else 0 end) as total_won_opportunities,
+    sum(case when iswon = true and status__c <> 'Cancelled' then points__c else 0 end) as total_won_points,
+    sum(case when iswon = true and status__c <> 'Cancelled' and team__c = 'Paid' then 1 else 0 end) as paid_won_opportunities,
+    sum(case when iswon = true and status__c <> 'Cancelled' and team__c = 'Paid' then points__c else 0 end) as paid_won_points,
+    sum(case when iswon = true and status__c <> 'Cancelled' and team__c = 'Earned' then 1 else 0 end) as earned_won_opportunities,
+    sum(case when iswon = true and status__c <> 'Cancelled' and team__c = 'Earned' then points__c else 0 end) as earned_won_points,
+    sum(case when iswon = true and status__c <> 'Cancelled' and team__c = 'Owned' then 1 else 0 end) as owned_won_opportunities,
+    sum(case when iswon = true and status__c <> 'Cancelled' and team__c = 'Owned' then points__c else 0 end) as owned_won_points,
+    sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Google' then 1 else 0 end) as google_won_opportunities,
+    sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Google' then points__c else 0 end) as google_won_points,
+    sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Microsoft' then 1 else 0 end) as microsoft_won_opportunities,
+    sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Microsoft' then points__c else 0 end) as microsoft_won_points,
+    sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Email' then 1 else 0 end) as email_won_opportunities,
+    sum(case when iswon = true and status__c <> 'Cancelled' and source__c = 'Email' then points__c else 0 end) as email_won_points
+from "integrity-db"."prod_dbt-base"."salesforce_opportunity_base"
+where marketing_generator__c = '0035f00000G8KYcAAN'
+group by sold_date__c
+),
+
+opportunity_cancelled as (
+SELECT
+    cancel_date__c,
+    sum(case when iswon = true and status__c = 'Cancelled' then 1 else 0 end) as total_cancelled_opportunities,
+    sum(case when iswon = true and cancel_date__c <> NULL then cancelled_points__c else 0 end) as total_cancelled_points
+from "integrity-db"."prod_dbt-base"."salesforce_opportunity_base"
+where marketing_generator__c = '0035f00000G8KYcAAN'
+group by cancel_date__c
+),
+
+marketing_cost as (
+select
+    team,
+    month,
+    hom_cost,
+    ipr_cost,
+    copywriter,
+    dango_costs,
+    designer_costs,
+    paid_lead_cost,
+    data_contractor,
+    seo_lead_salary,
+    contractor_costs,
+    paid_agency_cost,
+    paid_support_cost,
+    project_management,
+    crowd_content_costs,
+    email_contractor_costs,
+    hubspot_contractor_costs
+from "integrity-db"."prod_dbt-base"."marketing_cost_base"
+),
+
+base_dates as (
+    select
+        CAST(date as date)
+    from "integrity-db"."google_sheets"."dates"
+)
+
+select 
+    COALESCE(d.date, o.sold_date__c, b.timeperiod, h.converted_date, f.date_start, g.activity_date, c.cancel_date__c, m.month) AS activity_date,
+    COALESCE(g.googleads_cost, 0) AS googleads_cost,
+    COALESCE(g.googleads_impressions, 0) AS googleads_impressions,
+    COALESCE(g.googleads_clicks, 0) AS googleads_clicks,
+    COALESCE(b.bing_spend, 0) AS bing_spend,
+    COALESCE(b.bing_impressions, 0) AS bing_impressions,
+    COALESCE(b.bing_clicks, 0) AS bing_clicks,
+    COALESCE(h.hubspot_sent_emails, 0) AS hubspot_sent_emails,
+    COALESCE(h.hubspot_opened_emails, 0) AS hubspot_opened_emails,
+    COALESCE(h.hubspot_clicks, 0) AS hubspot_clicks,
+    COALESCE(h.hubspot_bounces, 0) AS hubspot_bounces,
+    COALESCE(h.hubspot_spam_reports, 0) AS hubspot_spam_reports,
+    COALESCE(f.facebook_impressions, 0) AS facebook_impressions,
+    COALESCE(f.facebook_reach, 0) AS facebook_reach,
+    COALESCE(f.facebook_spend, 0) AS facebook_spend, 
+    COALESCE(f.facebook_clicks, 0) AS facebook_clicks,
+    COALESCE(f.facebook_unique_clicks, 0) AS facebook_unique_clicks,
+    COALESCE(o.total_won_opportunities, 0) AS total_won_opportunities,
+    COALESCE(o.total_won_points, 0) AS total_won_points,
+    COALESCE(o.paid_won_opportunities, 0) AS paid_won_opportunities,
+    COALESCE(o.paid_won_points, 0) AS paid_won_points,
+    COALESCE(o.earned_won_opportunities, 0) AS earned_won_opportunities,
+    COALESCE(o.earned_won_points, 0) AS earned_won_points,
+    COALESCE(o.owned_won_opportunities, 0) AS owned_won_opportunities,
+    COALESCE(o.owned_won_points, 0) AS owned_won_points,
+    COALESCE(o.google_won_opportunities, 0) AS google_won_opportunities,
+    COALESCE(o.google_won_points, 0) AS google_won_points,
+    COALESCE(o.microsoft_won_opportunities, 0) AS microsoft_won_opportunities,
+    COALESCE(o.microsoft_won_points, 0) AS microsoft_won_points,
+    COALESCE(o.email_won_opportunities, 0) AS email_won_opportunities,
+    COALESCE(o.email_won_points, 0) AS email_won_points,
+    COALESCE(c.total_cancelled_opportunities, 0) AS total_cancelled_opportunities,
+    COALESCE(c.total_cancelled_points, 0) AS total_cancelled_points,
+    m.team AS team,
+    m.month AS cost_month,
+    COALESCE(m.hom_cost, 0) AS hom_cost,
+    COALESCE(m.ipr_cost, 0) AS ipr_cost,
+    COALESCE(m.copywriter, 0) AS copywriter,
+    COALESCE(m.dango_costs, 0) AS dango_costs,
+    COALESCE(m.designer_costs, 0) AS designer_costs,
+    COALESCE(m.paid_lead_cost, 0) AS paid_lead_cost,
+    COALESCE(m.data_contractor, 0) AS data_contractor,
+    COALESCE(m.seo_lead_salary, 0) AS seo_lead_salary,
+    COALESCE(m.contractor_costs, 0) AS contractor_costs,
+    COALESCE(m.paid_agency_cost, 0) AS paid_agency_cost,
+    COALESCE(m.paid_support_cost, 0) AS paid_support_cost,
+    COALESCE(m.project_management, 0) AS project_management,
+    COALESCE(m.crowd_content_costs, 0) AS crowd_content_costs,
+    COALESCE(m.email_contractor_costs, 0) AS email_contractor_costs,
+    COALESCE(m.hubspot_contractor_costs, 0) AS hubspot_contractor_costs,
+    COALESCE(SUM(COALESCE(m.data_contractor, 0) + COALESCE(m.hubspot_contractor_costs, 0) + COALESCE(m.email_contractor_costs, 0)),0) as total_contractor_costs,
+    COALESCE(SUM(COALESCE(m.hom_cost, 0) + COALESCE(m.ipr_cost, 0) + COALESCE(m.copywriter, 0) + COALESCE(m.designer_costs, 0) + COALESCE(m.paid_lead_cost, 0) + COALESCE(m.seo_lead_salary, 0) + COALESCE(m.paid_support_cost, 0) + COALESCE(m.project_management, 0)),0) as operational_costs, 
+    COALESCE(SUM(COALESCE(g.googleads_cost,0) + COALESCE(b.bing_spend,0) + COALESCE(f.facebook_spend,0)),0) as total_spend,
+    COALESCE(SUM(COALESCE(g.googleads_clicks,0) + COALESCE(b.bing_clicks,0) + COALESCE(f.facebook_clicks,0)),0) as total_clicks,
+    COALESCE(SUM(COALESCE(g.googleads_impressions,0) + COALESCE(b.bing_impressions,0) + COALESCE(f.facebook_impressions,0)),0) as total_impressions,
+    CASE
+        WHEN COALESCE(SUM(COALESCE(g.googleads_clicks,0) + COALESCE(b.bing_clicks,0) + COALESCE(f.facebook_clicks,0)),0) = 0 THEN 0
+        ELSE COALESCE(SUM(COALESCE(g.googleads_cost,0) + COALESCE(b.bing_spend,0) + COALESCE(f.facebook_spend,0)),0) / COALESCE(SUM(COALESCE(g.googleads_clicks,0) + COALESCE(b.bing_clicks,0) + COALESCE(f.facebook_clicks,0)),0)
+    END AS cost_per_click,
+    CASE
+        WHEN COALESCE(SUM(COALESCE(g.googleads_impressions,0) + COALESCE(b.bing_impressions,0) + COALESCE(f.facebook_impressions,0)),0) = 0 THEN 0
+        ELSE COALESCE(SUM(COALESCE(g.googleads_cost,0) + COALESCE(b.bing_spend,0) + COALESCE(f.facebook_spend,0)),0) / COALESCE(SUM(COALESCE(g.googleads_impressions,0) + COALESCE(b.bing_impressions,0) + COALESCE(f.facebook_impressions,0)),0)
+    END AS cost_per_impression,
+    CASE
+        WHEN COALESCE(SUM(o.total_won_opportunities), 0) = 0 THEN 0
+        ELSE COALESCE(SUM(COALESCE(g.googleads_cost,0) + COALESCE(b.bing_spend,0) + COALESCE(f.facebook_spend,0)),0) / COALESCE(SUM(o.total_won_opportunities), 0)
+    END AS cost_per_deal,
+    CASE
+        WHEN COALESCE(SUM(COALESCE(g.googleads_cost,0) + COALESCE(b.bing_spend,0) + COALESCE(f.facebook_spend,0)),0) = 0 THEN 0
+        ELSE (((SUM(o.total_won_points) * 100) / COALESCE(SUM(COALESCE(g.googleads_cost,0) + COALESCE(b.bing_spend,0) + COALESCE(f.facebook_spend,0)),0)) / 100)
+    END AS return_on_investment
+from base_dates as d 
+left outer join opportunity_sold as o on d.date = o.sold_date__c
+left outer join hubspot as h on d.date = h.converted_date
+left outer join bing_ads as b on b.timeperiod = d.date
+left outer join facebook as f on f.date_start = d.date
+left outer join google_ads as g on g.activity_date = d.date
+left outer join opportunity_cancelled as c on c.cancel_date__c = d.date
+left outer join marketing_cost as m on d.date = m.month
+group by 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50
+    )
+[0m11:22:06.254227 [debug] [Thread-1 (]: On model.integrity_energy_dbt.deal_prod: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.deal_prod"} */
+
+  
+    
+
+  create  table
+    "integrity-db"."prod_dbt-mart"."deal_prod__dbt_tmp"
+    
+    
+    
+  as (
+    
+
+select
+    *
+from "integrity-db"."prod_dbt-intermediate"."deal_intermediate"
+  );
+[0m11:22:08.206870 [debug] [Thread-2 (]: SQL status: SUCCESS in 2.501 seconds
+[0m11:22:08.208874 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_prod"
+[0m11:22:08.209874 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_prod: BEGIN
+[0m11:22:08.224932 [debug] [Thread-4 (]: SQL status: SUCCESS in 2.520 seconds
+[0m11:22:08.249401 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.038 seconds
+[0m11:22:08.253424 [debug] [Thread-2 (]: Applying DROP to: "integrity-db"."prod_dbt-mart"."utility_lead_prod__dbt_backup"
+[0m11:22:08.260989 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_prod"
+[0m11:22:08.261987 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_prod: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.utility_lead_prod"} */
+drop table if exists "integrity-db"."prod_dbt-mart"."utility_lead_prod__dbt_backup" cascade
+[0m11:22:08.301920 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.039 seconds
+[0m11:22:08.304109 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_prod: COMMIT
+[0m11:22:08.305137 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_prod"
+[0m11:22:08.305137 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_prod: COMMIT
+[0m11:22:08.392924 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.087 seconds
+[0m11:22:08.395067 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.utility_lead_prod"
+[0m11:22:08.395067 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_prod: BEGIN
+[0m11:22:08.417535 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.021 seconds
+[0m11:22:08.420563 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.zoominfo_base"
+[0m11:22:08.421567 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: BEGIN
+[0m11:22:08.465462 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.043 seconds
+[0m11:22:08.470424 [debug] [Thread-4 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."zoominfo_base__dbt_backup"
+[0m11:22:08.472829 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.zoominfo_base"
+[0m11:22:08.472829 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.zoominfo_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."zoominfo_base__dbt_backup"
+[0m11:22:08.516979 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.043 seconds
+[0m11:22:08.519979 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: COMMIT
+[0m11:22:08.520980 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.zoominfo_base"
+[0m11:22:08.521977 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: COMMIT
+[0m11:22:08.939778 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.416 seconds
+[0m11:22:08.941778 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.zoominfo_base"
+[0m11:22:08.942779 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: BEGIN
+[0m11:22:08.965015 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.022 seconds
+[0m11:22:08.966591 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_prod: ROLLBACK
+[0m11:22:08.966591 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: COMMIT
+[0m11:22:08.968627 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.zoominfo_base"
+[0m11:22:08.968627 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: COMMIT
+[0m11:22:08.987998 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.019 seconds
+[0m11:22:08.989341 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.zoominfo_base"
+[0m11:22:08.991223 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: BEGIN
+[0m11:22:09.010851 [debug] [Thread-2 (]: On model.integrity_energy_dbt.utility_lead_prod: Close
+[0m11:22:09.017164 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.025 seconds
+[0m11:22:09.021830 [debug] [Thread-4 (]: Applying DROP to: "integrity-db"."prod_dbt-base"."zoominfo_base__dbt_tmp"
+[0m11:22:09.023629 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.zoominfo_base"
+[0m11:22:09.024394 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.zoominfo_base"} */
+drop materialized view if exists "integrity-db"."prod_dbt-base"."zoominfo_base__dbt_tmp"
+[0m11:22:09.067937 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.043 seconds
+[0m11:22:09.070825 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: COMMIT
+[0m11:22:09.071825 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.zoominfo_base"
+[0m11:22:09.071825 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: COMMIT
+[0m11:22:09.767988 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.695 seconds
+[0m11:22:09.769930 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.zoominfo_base"
+[0m11:22:09.771055 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: BEGIN
+[0m11:22:09.794393 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.023 seconds
+[0m11:22:09.796379 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A872C49DD0>]}
+[0m11:22:09.797366 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: ROLLBACK
+[0m11:22:09.798363 [info ] [Thread-2 (]: 14 of 20 OK created sql table model prod_dbt-mart.utility_lead_prod ............ [[32mSUCCESS[0m in 12.85s]
+[0m11:22:09.800371 [debug] [Thread-2 (]: Finished running node model.integrity_energy_dbt.utility_lead_prod
+[0m11:22:09.801816 [debug] [Thread-2 (]: Began running node model.integrity_energy_dbt.lead_prod
+[0m11:22:09.802878 [info ] [Thread-2 (]: 19 of 20 START sql table model prod_dbt-mart.lead_prod ......................... [RUN]
+[0m11:22:09.804847 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.utility_lead_prod, now model.integrity_energy_dbt.lead_prod)
+[0m11:22:09.805861 [debug] [Thread-2 (]: Began compiling node model.integrity_energy_dbt.lead_prod
+[0m11:22:09.810861 [debug] [Thread-2 (]: Writing injected SQL for node "model.integrity_energy_dbt.lead_prod"
+[0m11:22:09.814926 [debug] [Thread-2 (]: Began executing node model.integrity_energy_dbt.lead_prod
+[0m11:22:09.821971 [debug] [Thread-2 (]: Writing runtime sql for node "model.integrity_energy_dbt.lead_prod"
+[0m11:22:09.826742 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.lead_prod"
+[0m11:22:09.826742 [debug] [Thread-2 (]: On model.integrity_energy_dbt.lead_prod: BEGIN
+[0m11:22:09.827746 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m11:22:09.828772 [debug] [Thread-2 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:22:09.829767 [debug] [Thread-2 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:22:09.859942 [debug] [Thread-4 (]: On model.integrity_energy_dbt.zoominfo_base: Close
+[0m11:22:09.862909 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8703658D0>]}
+[0m11:22:09.863909 [info ] [Thread-4 (]: 12 of 20 OK created sql materialized_view model prod_dbt-base.zoominfo_base .... [[32mSUCCESS[0m in 15.98s]
+[0m11:22:09.865905 [debug] [Thread-4 (]: Finished running node model.integrity_energy_dbt.zoominfo_base
+[0m11:22:10.124869 [debug] [Thread-3 (]: SQL status: SUCCESS in 3.867 seconds
+[0m11:22:10.128871 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: COMMIT
+[0m11:22:10.130873 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:22:10.130873 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: COMMIT
+[0m11:22:10.831072 [debug] [Thread-2 (]: SQL status: SUCCESS in 1.003 seconds
+[0m11:22:10.833055 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.lead_prod"
+[0m11:22:10.834055 [debug] [Thread-2 (]: On model.integrity_energy_dbt.lead_prod: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.lead_prod"} */
+
+  
+    
+
+  create  table
+    "integrity-db"."prod_dbt-mart"."lead_prod__dbt_tmp"
+    
+    
+    
+  as (
+    
+
+select
+    *
+from "integrity-db"."prod_dbt-intermediate"."lead_intermediate"
+  );
+[0m11:22:11.705142 [debug] [Thread-3 (]: SQL status: SUCCESS in 1.573 seconds
+[0m11:22:11.708035 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:22:11.709287 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: BEGIN
+[0m11:22:11.730427 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:22:11.735591 [debug] [Thread-3 (]: Applying DROP to: "integrity-db"."prod_dbt-intermediate"."marketing_intermediate__dbt_backup"
+[0m11:22:11.737110 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:22:11.738148 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.marketing_intermediate"} */
+drop materialized view if exists "integrity-db"."prod_dbt-intermediate"."marketing_intermediate__dbt_backup"
+[0m11:22:11.780627 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.042 seconds
+[0m11:22:11.782626 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: COMMIT
+[0m11:22:11.783627 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:22:11.784625 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: COMMIT
+[0m11:22:12.258958 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.474 seconds
+[0m11:22:12.258958 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:22:12.262540 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: BEGIN
+[0m11:22:12.281292 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.021 seconds
+[0m11:22:12.281292 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: COMMIT
+[0m11:22:12.286308 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:22:12.287495 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: COMMIT
+[0m11:22:12.307588 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:22:12.308614 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:22:12.310099 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: BEGIN
+[0m11:22:12.331254 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.021 seconds
+[0m11:22:12.336048 [debug] [Thread-3 (]: Applying DROP to: "integrity-db"."prod_dbt-intermediate"."marketing_intermediate__dbt_tmp"
+[0m11:22:12.340860 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:22:12.340914 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.marketing_intermediate"} */
+drop materialized view if exists "integrity-db"."prod_dbt-intermediate"."marketing_intermediate__dbt_tmp"
+[0m11:22:12.383273 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.042 seconds
+[0m11:22:12.387054 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: COMMIT
+[0m11:22:12.387580 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:22:12.388956 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: COMMIT
+[0m11:22:12.912638 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.526 seconds
+[0m11:22:12.912638 [debug] [Thread-3 (]: Using redshift connection "model.integrity_energy_dbt.marketing_intermediate"
+[0m11:22:12.916728 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: BEGIN
+[0m11:22:12.937820 [debug] [Thread-3 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:22:12.940770 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: ROLLBACK
+[0m11:22:12.984703 [debug] [Thread-3 (]: On model.integrity_energy_dbt.marketing_intermediate: Close
+[0m11:22:12.984703 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A872C07FD0>]}
+[0m11:22:12.984703 [info ] [Thread-3 (]: 17 of 20 OK created sql materialized_view model prod_dbt-intermediate.marketing_intermediate  [[32mSUCCESS[0m in 7.23s]
+[0m11:22:12.984703 [debug] [Thread-3 (]: Finished running node model.integrity_energy_dbt.marketing_intermediate
+[0m11:22:12.984703 [debug] [Thread-4 (]: Began running node model.integrity_energy_dbt.marketing_prod
+[0m11:22:12.991215 [info ] [Thread-4 (]: 20 of 20 START sql table model prod_dbt-mart.marketing_prod .................... [RUN]
+[0m11:22:12.992414 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.integrity_energy_dbt.zoominfo_base, now model.integrity_energy_dbt.marketing_prod)
+[0m11:22:12.992414 [debug] [Thread-4 (]: Began compiling node model.integrity_energy_dbt.marketing_prod
+[0m11:22:12.995749 [debug] [Thread-4 (]: Writing injected SQL for node "model.integrity_energy_dbt.marketing_prod"
+[0m11:22:12.995749 [debug] [Thread-4 (]: Began executing node model.integrity_energy_dbt.marketing_prod
+[0m11:22:13.006813 [debug] [Thread-4 (]: Writing runtime sql for node "model.integrity_energy_dbt.marketing_prod"
+[0m11:22:13.008145 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.marketing_prod"
+[0m11:22:13.012711 [debug] [Thread-4 (]: On model.integrity_energy_dbt.marketing_prod: BEGIN
+[0m11:22:13.012711 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m11:22:13.012711 [debug] [Thread-4 (]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:22:13.012711 [debug] [Thread-4 (]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:22:13.575275 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.563 seconds
+[0m11:22:13.577787 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.marketing_prod"
+[0m11:22:13.577787 [debug] [Thread-4 (]: On model.integrity_energy_dbt.marketing_prod: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.marketing_prod"} */
+
+  
+    
+
+  create  table
+    "integrity-db"."prod_dbt-mart"."marketing_prod__dbt_tmp"
+    
+    
+    
+  as (
+    
+
+select
+    *
+from "integrity-db"."prod_dbt-intermediate"."marketing_intermediate"
+where activity_date IS NOT NULL
+  );
+[0m11:22:18.554555 [debug] [Thread-1 (]: SQL status: SUCCESS in 12.300 seconds
+[0m11:22:18.564616 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.deal_prod"
+[0m11:22:18.564616 [debug] [Thread-1 (]: On model.integrity_energy_dbt.deal_prod: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.deal_prod"} */
+alter table "integrity-db"."prod_dbt-mart"."deal_prod__dbt_tmp" rename to "deal_prod"
+[0m11:22:18.701148 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.134 seconds
+[0m11:22:18.701148 [debug] [Thread-1 (]: On model.integrity_energy_dbt.deal_prod: COMMIT
+[0m11:22:18.701148 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.deal_prod"
+[0m11:22:18.701148 [debug] [Thread-1 (]: On model.integrity_energy_dbt.deal_prod: COMMIT
+[0m11:22:19.359932 [debug] [Thread-4 (]: SQL status: SUCCESS in 5.785 seconds
+[0m11:22:19.370059 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.marketing_prod"
+[0m11:22:19.370059 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.664 seconds
+[0m11:22:19.371510 [debug] [Thread-4 (]: On model.integrity_energy_dbt.marketing_prod: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.marketing_prod"} */
+alter table "integrity-db"."prod_dbt-mart"."marketing_prod__dbt_tmp" rename to "marketing_prod"
+[0m11:22:19.371510 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.deal_prod"
+[0m11:22:19.371510 [debug] [Thread-1 (]: On model.integrity_energy_dbt.deal_prod: BEGIN
+[0m11:22:19.413400 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.040 seconds
+[0m11:22:19.415666 [debug] [Thread-1 (]: Applying DROP to: "integrity-db"."prod_dbt-mart"."deal_prod__dbt_backup"
+[0m11:22:19.415666 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.deal_prod"
+[0m11:22:19.415666 [debug] [Thread-1 (]: On model.integrity_energy_dbt.deal_prod: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.deal_prod"} */
+drop table if exists "integrity-db"."prod_dbt-mart"."deal_prod__dbt_backup" cascade
+[0m11:22:19.463474 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.041 seconds
+[0m11:22:19.465984 [debug] [Thread-1 (]: On model.integrity_energy_dbt.deal_prod: COMMIT
+[0m11:22:19.465984 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.deal_prod"
+[0m11:22:19.465984 [debug] [Thread-1 (]: On model.integrity_energy_dbt.deal_prod: COMMIT
+[0m11:22:19.494751 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.121 seconds
+[0m11:22:19.501900 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.037 seconds
+[0m11:22:19.501900 [debug] [Thread-1 (]: Using redshift connection "model.integrity_energy_dbt.deal_prod"
+[0m11:22:19.501900 [debug] [Thread-1 (]: On model.integrity_energy_dbt.deal_prod: BEGIN
+[0m11:22:19.530112 [debug] [Thread-1 (]: SQL status: SUCCESS in 0.021 seconds
+[0m11:22:19.532984 [debug] [Thread-1 (]: On model.integrity_energy_dbt.deal_prod: ROLLBACK
+[0m11:22:19.532984 [debug] [Thread-4 (]: On model.integrity_energy_dbt.marketing_prod: COMMIT
+[0m11:22:19.534632 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.marketing_prod"
+[0m11:22:19.535163 [debug] [Thread-4 (]: On model.integrity_energy_dbt.marketing_prod: COMMIT
+[0m11:22:19.574946 [debug] [Thread-1 (]: On model.integrity_energy_dbt.deal_prod: Close
+[0m11:22:19.574946 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A87340A650>]}
+[0m11:22:19.574946 [info ] [Thread-1 (]: 18 of 20 OK created sql table model prod_dbt-mart.deal_prod .................... [[32mSUCCESS[0m in 13.82s]
+[0m11:22:19.574946 [debug] [Thread-1 (]: Finished running node model.integrity_energy_dbt.deal_prod
+[0m11:22:20.812689 [debug] [Thread-4 (]: SQL status: SUCCESS in 1.276 seconds
+[0m11:22:20.814187 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.marketing_prod"
+[0m11:22:20.814727 [debug] [Thread-4 (]: On model.integrity_energy_dbt.marketing_prod: BEGIN
+[0m11:22:20.852845 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.043 seconds
+[0m11:22:20.863616 [debug] [Thread-4 (]: Applying DROP to: "integrity-db"."prod_dbt-mart"."marketing_prod__dbt_backup"
+[0m11:22:20.865577 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.marketing_prod"
+[0m11:22:20.865577 [debug] [Thread-4 (]: On model.integrity_energy_dbt.marketing_prod: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.marketing_prod"} */
+drop table if exists "integrity-db"."prod_dbt-mart"."marketing_prod__dbt_backup" cascade
+[0m11:22:20.908732 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.040 seconds
+[0m11:22:20.910511 [debug] [Thread-4 (]: On model.integrity_energy_dbt.marketing_prod: COMMIT
+[0m11:22:20.910511 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.marketing_prod"
+[0m11:22:20.910511 [debug] [Thread-4 (]: On model.integrity_energy_dbt.marketing_prod: COMMIT
+[0m11:22:20.942660 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.032 seconds
+[0m11:22:20.948018 [debug] [Thread-4 (]: Using redshift connection "model.integrity_energy_dbt.marketing_prod"
+[0m11:22:20.948018 [debug] [Thread-4 (]: On model.integrity_energy_dbt.marketing_prod: BEGIN
+[0m11:22:20.964500 [debug] [Thread-4 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:22:20.970065 [debug] [Thread-4 (]: On model.integrity_energy_dbt.marketing_prod: ROLLBACK
+[0m11:22:21.013518 [debug] [Thread-4 (]: On model.integrity_energy_dbt.marketing_prod: Close
+[0m11:22:21.013518 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A87364A750>]}
+[0m11:22:21.013518 [info ] [Thread-4 (]: 20 of 20 OK created sql table model prod_dbt-mart.marketing_prod ............... [[32mSUCCESS[0m in 8.02s]
+[0m11:22:21.047691 [debug] [Thread-4 (]: Finished running node model.integrity_energy_dbt.marketing_prod
+[0m11:22:23.025651 [debug] [Thread-2 (]: SQL status: SUCCESS in 12.191 seconds
+[0m11:22:23.032558 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.lead_prod"
+[0m11:22:23.032558 [debug] [Thread-2 (]: On model.integrity_energy_dbt.lead_prod: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.lead_prod"} */
+alter table "integrity-db"."prod_dbt-mart"."lead_prod__dbt_tmp" rename to "lead_prod"
+[0m11:22:23.154686 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.121 seconds
+[0m11:22:23.158205 [debug] [Thread-2 (]: On model.integrity_energy_dbt.lead_prod: COMMIT
+[0m11:22:23.159216 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.lead_prod"
+[0m11:22:23.160220 [debug] [Thread-2 (]: On model.integrity_energy_dbt.lead_prod: COMMIT
+[0m11:22:24.720907 [debug] [Thread-2 (]: SQL status: SUCCESS in 1.559 seconds
+[0m11:22:24.722889 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.lead_prod"
+[0m11:22:24.722889 [debug] [Thread-2 (]: On model.integrity_energy_dbt.lead_prod: BEGIN
+[0m11:22:24.765260 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.041 seconds
+[0m11:22:24.773765 [debug] [Thread-2 (]: Applying DROP to: "integrity-db"."prod_dbt-mart"."lead_prod__dbt_backup"
+[0m11:22:24.776763 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.lead_prod"
+[0m11:22:24.776763 [debug] [Thread-2 (]: On model.integrity_energy_dbt.lead_prod: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "integrity_energy_dbt", "target_name": "prod", "node_id": "model.integrity_energy_dbt.lead_prod"} */
+drop table if exists "integrity-db"."prod_dbt-mart"."lead_prod__dbt_backup" cascade
+[0m11:22:24.820049 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.041 seconds
+[0m11:22:24.823570 [debug] [Thread-2 (]: On model.integrity_energy_dbt.lead_prod: COMMIT
+[0m11:22:24.824571 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.lead_prod"
+[0m11:22:24.825574 [debug] [Thread-2 (]: On model.integrity_energy_dbt.lead_prod: COMMIT
+[0m11:22:24.855105 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.028 seconds
+[0m11:22:24.856104 [debug] [Thread-2 (]: Using redshift connection "model.integrity_energy_dbt.lead_prod"
+[0m11:22:24.856104 [debug] [Thread-2 (]: On model.integrity_energy_dbt.lead_prod: BEGIN
+[0m11:22:24.877174 [debug] [Thread-2 (]: SQL status: SUCCESS in 0.020 seconds
+[0m11:22:24.879170 [debug] [Thread-2 (]: On model.integrity_energy_dbt.lead_prod: ROLLBACK
+[0m11:22:24.919457 [debug] [Thread-2 (]: On model.integrity_energy_dbt.lead_prod: Close
+[0m11:22:24.920471 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a5415818-9341-40b1-98f0-646377b7abdc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A872BF8ED0>]}
+[0m11:22:24.921938 [info ] [Thread-2 (]: 19 of 20 OK created sql table model prod_dbt-mart.lead_prod .................... [[32mSUCCESS[0m in 15.12s]
+[0m11:22:24.923215 [debug] [Thread-2 (]: Finished running node model.integrity_energy_dbt.lead_prod
+[0m11:22:24.926400 [debug] [MainThread]: Using redshift connection "master"
+[0m11:22:24.926914 [debug] [MainThread]: On master: BEGIN
+[0m11:22:24.927505 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m11:22:24.928444 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m11:22:24.929806 [debug] [MainThread]: Redshift adapter: Connecting to redshift with username/password based auth...
+[0m11:22:25.222774 [debug] [MainThread]: SQL status: SUCCESS in 0.295 seconds
+[0m11:22:25.223936 [debug] [MainThread]: On master: COMMIT
+[0m11:22:25.224963 [debug] [MainThread]: Using redshift connection "master"
+[0m11:22:25.224963 [debug] [MainThread]: On master: COMMIT
+[0m11:22:25.267104 [debug] [MainThread]: SQL status: SUCCESS in 0.040 seconds
+[0m11:22:25.268114 [debug] [MainThread]: On master: Close
+[0m11:22:25.269135 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:22:25.270210 [debug] [MainThread]: Connection 'create_integrity-db_prod_dbt-mart' was properly closed.
+[0m11:22:25.270210 [debug] [MainThread]: Connection 'create_integrity-db_prod_dbt-intermediate' was properly closed.
+[0m11:22:25.271603 [debug] [MainThread]: Connection 'create_integrity-db_prod_dbt-base' was properly closed.
+[0m11:22:25.271603 [debug] [MainThread]: Connection 'list_integrity-db_prod_dbt-intermediate' was properly closed.
+[0m11:22:25.272633 [debug] [MainThread]: Connection 'list_integrity-db_prod_dbt-mart' was properly closed.
+[0m11:22:25.272633 [debug] [MainThread]: Connection 'list_integrity-db_prod_dbt-base' was properly closed.
+[0m11:22:25.273632 [debug] [MainThread]: Connection 'model.integrity_energy_dbt.deal_prod' was properly closed.
+[0m11:22:25.274620 [debug] [MainThread]: Connection 'model.integrity_energy_dbt.lead_prod' was properly closed.
+[0m11:22:25.274620 [debug] [MainThread]: Connection 'model.integrity_energy_dbt.marketing_intermediate' was properly closed.
+[0m11:22:25.275625 [debug] [MainThread]: Connection 'model.integrity_energy_dbt.marketing_prod' was properly closed.
+[0m11:22:25.275625 [info ] [MainThread]: 
+[0m11:22:25.276620 [info ] [MainThread]: Finished running 13 materialized view models, 4 table models, 3 view models in 0 hours 0 minutes and 56.63 seconds (56.63s).
+[0m11:22:25.282302 [debug] [MainThread]: Command end result
+[0m11:22:25.355669 [info ] [MainThread]: 
+[0m11:22:25.357736 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:22:25.358748 [info ] [MainThread]: 
+[0m11:22:25.360747 [info ] [MainThread]: Done. PASS=20 WARN=0 ERROR=0 SKIP=0 TOTAL=20
+[0m11:22:25.362747 [debug] [MainThread]: Command `dbt run` succeeded at 11:22:25.362747 after 60.05 seconds
+[0m11:22:25.363770 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A86AC6E890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A870F9F490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A870F9F810>]}
+[0m11:22:25.365259 [debug] [MainThread]: Flushing usage events
+[0m11:22:25.583713 [debug] [MainThread]: An error was encountered while trying to flush usage events
