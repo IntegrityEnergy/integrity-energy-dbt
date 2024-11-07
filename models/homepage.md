@@ -1,6 +1,6 @@
 {% docs __overview__ %}
 
-![](https://drive.google.com/file/d/16CsV9J1zckFfsYT7ASVaVXFhUTAAjxc0/view?usp=sharing)
+<img height="100" src="https://github.com/IntegrityEnergy/integrity-energy-dbt/blob/main/integrity_logo.svg" width="300"/>
 
 Link to [Github](<https://github.com/IntegrityEnergy/integrity-energy-dbt>)
 
