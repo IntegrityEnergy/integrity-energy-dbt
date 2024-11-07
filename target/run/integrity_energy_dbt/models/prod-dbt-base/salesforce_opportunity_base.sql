@@ -1,5 +1,5 @@
 
-        create materialized view "integrity-db-prod"."dbt-base"."salesforce_opportunity_base"
+        create materialized view "integrity-db"."dbt-base"."salesforce_opportunity_base"
         backup yes
         diststyle even
         

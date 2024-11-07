@@ -3,7 +3,7 @@
     
 
   create  table
-    "integrity-db-prod"."dbt-mart"."utility_lead_prod__dbt_tmp"
+    "integrity-db"."dbt-mart"."utility_lead_prod__dbt_tmp"
     
     
     
@@ -12,6 +12,6 @@
 
 select
     *
-from "integrity-db-prod"."dbt-intermediate"."utility_lead_intermediate"
+from "integrity-db"."dbt-intermediate"."utility_lead_intermediate"
   );
   

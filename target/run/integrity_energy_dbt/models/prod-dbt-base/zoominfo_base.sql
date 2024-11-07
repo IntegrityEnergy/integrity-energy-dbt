@@ -1,5 +1,5 @@
 
-        create materialized view "integrity-db-prod"."dbt-base"."zoominfo_base"
+        create materialized view "integrity-db"."dbt-base"."zoominfo_base"
         backup yes
         diststyle even
         

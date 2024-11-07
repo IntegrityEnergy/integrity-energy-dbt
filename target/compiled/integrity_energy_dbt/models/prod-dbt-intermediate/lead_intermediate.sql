@@ -32,7 +32,7 @@ with salesforce_leads as (
         marketing_generator__c as lead_marketing_generator,
         new_ready_to_work_date__c as lead_new_ready_to_work_date,
         Concat(company,regexp_substr(street, '^[0-9]+')) as util_join
-    from "integrity-db-prod"."dbt-base"."salesforce_lead_base"
+    from "integrity-db"."dbt-base"."salesforce_lead_base"
 ),
 
 salesforce_contacts as (
@@ -53,7 +53,7 @@ salesforce_contacts as (
         rep_last_first__c as contact_rep_last_first,
         customer_account_number__c as contact_customer_account_number,
         contract_signer_phone_email__c as contact_contract_signer_phone_email
-    from "integrity-db-prod"."dbt-base"."salesforce_contact_base"
+    from "integrity-db"."dbt-base"."salesforce_contact_base"
 ),
 
 salesforce_opportunities as (
@@ -65,7 +65,7 @@ salesforce_opportunities as (
         sum((case when iswon = false and isclosed = true then 1 else 0 end)) as lost_opportunities,
         sum((case when isclosed = false then 1 else 0 end)) as open_opportunities,
         sum((case when isclosed = true then 1 else 0 end)) as closed_opportunities
-    from "integrity-db-prod"."dbt-base"."salesforce_opportunity_base"
+    from "integrity-db"."dbt-base"."salesforce_opportunity_base"
     group by opp_contract_signer
 ),
 
@@ -77,7 +77,7 @@ utility_lead as (
         servicezip as utility_servicezip,
         phone as utility_phone,
         Concat(companyname,regexp_substr(serviceaddress, '^[0-9]+')) as lead_join
-    from "integrity-db-prod"."dbt-base"."utility_lead_base"
+    from "integrity-db"."dbt-base"."utility_lead_base"
 )
 
 select

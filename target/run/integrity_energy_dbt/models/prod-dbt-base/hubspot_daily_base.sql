@@ -1,5 +1,5 @@
 
-        create materialized view "integrity-db-prod"."dbt-base"."hubspot_daily_base"
+        create materialized view "integrity-db"."dbt-base"."hubspot_daily_base"
         backup yes
         diststyle even
         

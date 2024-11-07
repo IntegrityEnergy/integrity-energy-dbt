@@ -1,6 +1,6 @@
 
 
-  create view "integrity-db-prod"."dbt-intermediate"."utility_lead_intermediate__dbt_tmp" as (
+  create view "integrity-db"."dbt-intermediate"."utility_lead_intermediate__dbt_tmp" as (
     
 
 with meter_number as (
@@ -17,7 +17,7 @@ with meter_number as (
         service_address__c,
         status__c,
         account__c
-    from "integrity-db-prod"."dbt-base"."salesforce_meter_number_base"
+    from "integrity-db"."dbt-base"."salesforce_meter_number_base"
 ),
 
 account as (
@@ -33,7 +33,7 @@ account as (
         billingpostalcode,
         billingstreet,
         main_phone__c
-    from "integrity-db-prod"."dbt-base"."salesforce_account_base"
+    from "integrity-db"."dbt-base"."salesforce_account_base"
 ),
 
 utility_leads as (
@@ -52,7 +52,7 @@ utility_leads as (
         title,
         phone,
         email
-    from "integrity-db-prod"."dbt-base"."utility_lead_base"
+    from "integrity-db"."dbt-base"."utility_lead_base"
 )
 
 select

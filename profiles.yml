@@ -1,18 +1,18 @@
 integrity_energy_dbt:
   outputs:
     prod:
-      dbname: integrity-db-prod
+      dbname: integrity-db
       schema: prod
-      host: integrity-energy-redshift.cm7f5da54gqs.us-east-1.redshift.amazonaws.com
+      host: integrity-energy-prod.cm7f5da54gqs.us-east-1.redshift.amazonaws.com
       password: Integrity123
       port: 5439
       threads: 4
       type: redshift
       user: integrityadmin
     dev:
-      dbname: integrity-db-dev
+      dbname: integrity-db
       schema: dev
-      host: integrity-energy-redshift.cm7f5da54gqs.us-east-1.redshift.amazonaws.com
+      host: integrity-energy-prod.cm7f5da54gqs.us-east-1.redshift.amazonaws.com
       password: Integrity123
       port: 5439
       threads: 4

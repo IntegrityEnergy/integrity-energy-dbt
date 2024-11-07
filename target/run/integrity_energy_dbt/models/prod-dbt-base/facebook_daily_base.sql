@@ -1,5 +1,5 @@
 
-        create materialized view "integrity-db-prod"."dbt-base"."facebook_daily_base"
+        create materialized view "integrity-db"."dbt-base"."facebook_daily_base"
         backup yes
         diststyle even
         

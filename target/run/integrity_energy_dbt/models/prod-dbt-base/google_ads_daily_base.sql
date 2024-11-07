@@ -1,5 +1,5 @@
 
-        create materialized view "integrity-db-prod"."dbt-base"."google_ads_daily_base"
+        create materialized view "integrity-db"."dbt-base"."google_ads_daily_base"
         backup yes
         diststyle even
         
