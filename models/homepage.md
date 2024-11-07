@@ -1,4 +1,4 @@
-{% docs macro_display_image %}
+{% docs __overview__ %}
 {% raw %}
 ![image](/assets/integrity_logo.svg "Image")
 {% endraw %}
