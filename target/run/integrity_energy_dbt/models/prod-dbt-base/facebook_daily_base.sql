@@ -1,4 +1,11 @@
 
+        
+
+    
+
+    
+
+    drop materialized view if exists "integrity-db"."prod_dbt-base"."facebook_daily_base";
         create materialized view "integrity-db"."prod_dbt-base"."facebook_daily_base"
         backup yes
         diststyle even
