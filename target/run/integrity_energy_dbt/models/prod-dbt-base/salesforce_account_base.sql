@@ -1,4 +1,11 @@
 
+        
+
+    
+
+    
+
+    drop materialized view if exists "integrity-db"."prod_dbt-base"."salesforce_account_base";
         create materialized view "integrity-db"."prod_dbt-base"."salesforce_account_base"
         backup yes
         diststyle even
