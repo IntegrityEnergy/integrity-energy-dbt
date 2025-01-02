@@ -22,7 +22,7 @@ WITH base AS (
         ROW_NUMBER() OVER (
           PARTITION BY
             REGEXP_REPLACE(phone, '[- ]', ''), -- Remove spaces and hyphens from phone numbers
-            LOWER(TRIM(REGEXP_REPLACE(email, '[- ]', ''))), -- Normalize email by converting to lowercase
+            LOWER(TRIM(email)), -- Normalize email by converting to lowercase
             LOWER(TRIM(name)) -- Normalize name by converting to lowercase
           ORDER BY
             COALESCE(lastactivitydate, createddate) DESC -- Order by last activity date or created date
