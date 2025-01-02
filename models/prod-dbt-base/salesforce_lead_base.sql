@@ -39,8 +39,8 @@ WITH base AS (
           PARTITION BY
             REGEXP_REPLACE(phone, '[- ]', ''), -- Remove spaces and hyphens from phone numbers
             LOWER(TRIM(email)), -- Normalize email by converting to lowercase
-            LOWER(TRIM(REGEXP_REPLACE(firstname, '[^a-zA-Z]', ''))) AS firstname,
-            LOWER(TRIM(REGEXP_REPLACE(lastname, '[^a-zA-Z]', ''))) AS lastname, -- Normalize name by converting to lowercase
+            LOWER(TRIM(REGEXP_REPLACE(firstname, '[^a-zA-Z]', ''))),
+            LOWER(TRIM(REGEXP_REPLACE(lastname, '[^a-zA-Z]', ''))),
           ORDER BY
             COALESCE(lastactivitydate, createddate) DESC -- Order by last activity date or created date
         ) AS rn
