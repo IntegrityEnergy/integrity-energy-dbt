@@ -1,33 +1,4 @@
 
-        
-
-    
-
-    
-
-    drop materialized view if exists "integrity-db"."prod_dbt-base"."salesforce_account_base";
-        create materialized view "integrity-db"."prod_dbt-base"."salesforce_account_base"
-        backup yes
-        diststyle even
-        
-        
-        auto refresh no
-    as (
-        select
-    id,
-    name,
-    type,
-    phone,
-    industry,
-    billingcity,
-    billingcountry,
-    billingcountrycode,
-    billingpostalcode,
-    billingstreet,
-    main_phone__c
-    --utility_company__c
-from "integrity-db"."salesforce"."account"
-    )
-
+        refresh materialized view "integrity-db"."prod_dbt-base"."salesforce_account_base"
 
     

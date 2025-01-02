@@ -1,4 +1,4 @@
-{{ config( tags=["base","deal","lead","opportunity","salesforce"] ) }}
+{{ config( tags=["deal","lead","opportunity","salesforce"] ) }}
 
 WITH base AS (
 

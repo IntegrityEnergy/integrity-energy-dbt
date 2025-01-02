@@ -1,4 +1,4 @@
-{{ config( tags=["base","marketing","googleads"] ) }}
+{{ config( tags=["marketing","googleads"] ) }}
 
 select
     DATE(_data_date) as activity_date, 

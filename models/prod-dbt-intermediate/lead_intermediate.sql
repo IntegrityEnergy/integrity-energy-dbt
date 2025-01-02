@@ -1,4 +1,4 @@
-{{ config( tags=["lead","salesforce","intermediate"] ) }}
+{{ config( tags=["lead","salesforce"] ) }}
 
 with salesforce_leads as (
     select

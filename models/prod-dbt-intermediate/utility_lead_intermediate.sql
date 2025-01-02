@@ -1,4 +1,4 @@
-{{ config( tags=["utility_lead","intermediate"] ) }}
+{{ config( tags=["utility_lead"] ) }}
 
 with meter_number as (
     select

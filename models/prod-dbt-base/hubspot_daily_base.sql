@@ -1,4 +1,4 @@
-{{ config( tags=["base","marketing","hubspot"] ) }}
+{{ config( tags=["marketing","hubspot"] ) }}
 
 with hubspot_daily as (
     SELECT

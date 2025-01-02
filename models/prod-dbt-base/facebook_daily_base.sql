@@ -1,4 +1,4 @@
-{{ config( tags=["base","marketing","facebook"] ) }}
+{{ config( tags=["marketing","facebook"] ) }}
 
 select
     date_start, 

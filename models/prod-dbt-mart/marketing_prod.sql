@@ -1,4 +1,4 @@
-{{ config( tags=["marketing","prod"] ) }}
+{{ config( tags=["marketing"] ) }}
 
 select
     *

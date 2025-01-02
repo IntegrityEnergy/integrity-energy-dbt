@@ -1,4 +1,4 @@
-{{ config( tags=["base","marketing","cost"] ) }}
+{{ config( tags=["marketing","cost"] ) }}
 
 select
     team,

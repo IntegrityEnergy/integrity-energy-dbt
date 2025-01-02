@@ -1,4 +1,4 @@
-{{ config( tags=["marketing","bing","hubspot","opportunity","intermediate"], materialized='materialized_view' ) }}
+{{ config( tags=["marketing","bing","hubspot","opportunity"], materialized='materialized_view' ) }}
 
 with google_ads as (
     select

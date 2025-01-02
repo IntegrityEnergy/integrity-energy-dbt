@@ -1,4 +1,4 @@
-{{ config( tags=["utility_lead","prod"] ) }}
+{{ config( tags=["utility_lead"] ) }}
 
 select
     *

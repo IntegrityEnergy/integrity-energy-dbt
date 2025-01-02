@@ -19,15 +19,15 @@ clean-targets:
 models:
   integrity_energy_dbt:
     prod-dbt-base:
-      +tags: [ daily ]
+      +tags: [ daily, base ]
       +materialized: 'materialized_view'
       +schema: dbt-base
     prod-dbt-intermediate:
-      +tags: [ daily ]
+      +tags: [ daily, intermediate ]
       +materialized: 'view'
       +schema: dbt-intermediate
     prod-dbt-mart:
-      +tags: [ daily ]
+      +tags: [ daily, mart, prod ]
       +materialized: 'table'
       +schema: dbt-mart
     prod-dbt-probabilistic-unification:
