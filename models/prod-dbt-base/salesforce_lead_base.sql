@@ -1,4 +1,4 @@
-{{ config( tags=["base","lead","deal","salesforce"] ) }}
+{{ config( tags=["lead","deal","salesforce"] ) }}
 
 WITH base AS (
 
@@ -6,16 +6,16 @@ WITH base AS (
         id,
         city,
         name,
-        email,
-        phone,
+        LOWER(TRIM(email)) AS email,
+        REGEXP_REPLACE(phone, '[- ', '') AS phone,
         state,
         title,
         status,
         street,
         company,
         country,
-        firstname,
-        lastname,
+        LOWER(TRIM(REGEXP_REPLACE(firstname, '[^a-zA-Z]', ''))) AS firstname,
+        LOWER(TRIM(REGEXP_REPLACE(lastname, '[^a-zA-Z]', ''))) AS lastname,
         source__c,
         channel__c,
         leadsource,
@@ -38,8 +38,9 @@ WITH base AS (
         ROW_NUMBER() OVER (
           PARTITION BY
             REGEXP_REPLACE(phone, '[- ]', ''), -- Remove spaces and hyphens from phone numbers
-            LOWER(email), -- Normalize email by converting to lowercase
-            LOWER(name) -- Normalize name by converting to lowercase
+            LOWER(TRIM(email)), -- Normalize email by converting to lowercase
+            LOWER(TRIM(REGEXP_REPLACE(firstname, '[^a-zA-Z]', ''))),
+            LOWER(TRIM(REGEXP_REPLACE(lastname, '[^a-zA-Z]', ''))),
           ORDER BY
             COALESCE(lastactivitydate, createddate) DESC -- Order by last activity date or created date
         ) AS rn

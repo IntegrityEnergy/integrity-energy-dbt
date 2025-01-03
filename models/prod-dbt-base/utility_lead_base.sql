@@ -1,4 +1,4 @@
-{{ config( tags=["base","lead","utility_lead"] ) }}
+{{ config( tags=["lead","utility_lead"] ) }}
 
 WITH utilitylead_base AS (
 
@@ -53,11 +53,11 @@ select
         u.accountnumber,
         u.annualusage,
         u.ratecode,
-        e.lastname,
-        e.firstname,
+        REGEXP_REPLACE(e.lastname, '[^a-zA-Z]', '') AS lastname,
+        REGEXP_REPLACE(e.firstname, '[^a-zA-Z]', '') AS firstname,
         e.title,
-        e.phone,
-        e.email
+        REGEXP_REPLACE(e.phone, '[- ]', '') AS phone,
+        LOWER(TRIM(e.email)) AS email,
 FROM
     utilitylead_base AS u
     LEFT JOIN enriched_base AS e

@@ -1,4 +1,4 @@
-{{ config( tags=["base","marketing","bing"] ) }}
+{{ config( tags=["marketing","bing"] ) }}
 
 select
     spend,

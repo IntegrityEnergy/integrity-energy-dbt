@@ -1,4 +1,4 @@
-{{ config( tags=["deal","salesforce","intermediate"] ) }}
+{{ config( tags=["deal","salesforce"] ) }}
 
 with salesforce_opportunities as (
     select

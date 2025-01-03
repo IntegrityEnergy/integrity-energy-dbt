@@ -1,4 +1,4 @@
-{{ config( tags=["base","zoom","zoominfo"] ) }}
+{{ config( tags=["zoom","zoominfo"] ) }}
 
 select
     *
