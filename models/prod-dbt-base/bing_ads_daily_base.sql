@@ -8,3 +8,4 @@ select
     adgroupname,
     campaignname
 from {{ source('bing_ads', 'ad_performance_report_daily') }}
+
