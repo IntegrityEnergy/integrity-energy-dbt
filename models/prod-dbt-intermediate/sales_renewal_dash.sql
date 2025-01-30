@@ -43,7 +43,7 @@ added_custom_column AS (
 
     SELECT
         *
-        ,'Team' AS team_prefix
+        ,CAST('Team' AS VARCHAR) AS team_prefix
     FROM
         merged_contacts
 
@@ -66,7 +66,7 @@ merged_columns AS (
 
     SELECT
         *
-        ,CONCAT(team_prefix, ' ', rc_lastname) AS "Team"
+        ,team_prefix || ' ' || rc_lastname AS team
     FROM
         filtered_rows
 
@@ -78,9 +78,9 @@ replaced_value AS (
     SELECT
         *
         ,CASE
-           WHEN "Team" = 'Team Leads' THEN 'Website Leads'
-           ELSE "Team"
-        END AS "Team Updated"
+           WHEN team = 'Team Leads' THEN 'Website Leads'
+           ELSE team
+        END AS team_updated
     FROM
         merged_columns
 
@@ -91,7 +91,7 @@ duplicated_column AS (
 
     SELECT
         *
-        ,department AS "Renewals Distinction"
+        ,department AS renewals_distinction
     FROM
         replaced_value
 
@@ -103,20 +103,20 @@ updated_renewals AS (
     SELECT
         *
         ,CASE
-           WHEN "Renewals Distinction" = 'Lead Generator'
+           WHEN renewals_distinction = 'Lead Generator'
             THEN 'Inside Sales'
-           WHEN "Renewals Distinction" = 'New Sales'
+           WHEN renewals_distinction = 'New Sales'
             THEN 'Inside Sales'
-           WHEN "Renewals Distinction" = 'Sub Agent'
+           WHEN renewals_distinction = 'Sub Agent'
             THEN 'SubAgent'
-           WHEN "Renewals Distinction" = 'Renewals'
+           WHEN renewals_distinction = 'Renewals'
             THEN 'Inside Sales'
-           WHEN "Renewals Distinction" = 'Sales Director'
+           WHEN renewals_distinction = 'Sales Director'
             THEN 'Inside Sales'
-           WHEN "Renewals Distinction" = 'Retention'
+           WHEN renewals_distinction = 'Retention'
             THEN 'Inside Sales'
-           ELSE "Renewals Distinction"
-        END AS "Renewals Distinction Updated"
+           ELSE renewals_distinction
+        END AS renewals_distinction_Updated
     FROM
         duplicated_column
 
