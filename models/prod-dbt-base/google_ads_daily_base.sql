@@ -1,4 +1,4 @@
-{{ config( tags=["marketing","googleads"] ) }}
+{{ config( materialized="table", tags=["marketing","googleads"] ) }}
 
 select
     DATE(_data_date) as activity_date, 

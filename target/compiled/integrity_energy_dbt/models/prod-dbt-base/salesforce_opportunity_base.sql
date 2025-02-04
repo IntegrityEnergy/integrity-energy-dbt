@@ -81,7 +81,7 @@ WITH base AS (
         contract_start_date__c,
         contract_signer_email__c,
         contract_signer_phone_email__c,
-        contract_signer_facilitator__c,
+--        contract_signer_facilitator__c,
         ROW_NUMBER() OVER (
           PARTITION BY
             id
@@ -171,8 +171,8 @@ SELECT
     confirmation_number__c,
     contract_start_date__c,
     contract_signer_email__c,
-    contract_signer_phone_email__c,
-    contract_signer_facilitator__c
+    contract_signer_phone_email__c
+--    contract_signer_facilitator__c
 FROM
     base
 WHERE

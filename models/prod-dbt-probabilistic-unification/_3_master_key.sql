@@ -8,7 +8,8 @@ SELECT
 FROM
     (SELECT
          fuzzy_match_key,
-         group_key
+         group_key,
+         lead_company
      FROM
         (SELECT
           fuzzy_match_key,

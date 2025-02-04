@@ -7,7 +7,7 @@ WITH base AS (
         city,
         name,
         LOWER(TRIM(email)) AS email,
-        REGEXP_REPLACE(phone, '[- ', '') AS phone,
+        REGEXP_REPLACE(phone, '[- ]', '') AS phone,
         state,
         title,
         status,
@@ -40,7 +40,7 @@ WITH base AS (
             REGEXP_REPLACE(phone, '[- ]', ''), -- Remove spaces and hyphens from phone numbers
             LOWER(TRIM(email)), -- Normalize email by converting to lowercase
             LOWER(TRIM(REGEXP_REPLACE(firstname, '[^a-zA-Z]', ''))),
-            LOWER(TRIM(REGEXP_REPLACE(lastname, '[^a-zA-Z]', ''))),
+            LOWER(TRIM(REGEXP_REPLACE(lastname, '[^a-zA-Z]', '')))
           ORDER BY
             COALESCE(lastactivitydate, createddate) DESC -- Order by last activity date or created date
         ) AS rn
