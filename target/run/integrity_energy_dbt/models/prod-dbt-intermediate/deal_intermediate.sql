@@ -76,8 +76,8 @@ with salesforce_opportunities as (
         confirmation_number__c,
         contract_start_date__c,
         contract_signer_email__c,
-        contract_signer_phone_email__c,
-        contract_signer_facilitator__c
+        contract_signer_phone_email__c
+--        contract_signer_facilitator__c
     from "integrity-db"."prod_dbt-base"."salesforce_opportunity_base"
 ),
 

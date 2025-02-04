@@ -19,7 +19,7 @@ WITH clean_data AS (
                 )
             )
         ) AS fuzzy_match_company_key
-        ,LOWER(TRIM(REGEXP_REPLACE(REGEXP_REPLACE(lead_company, '[^a-zA-Z]', ''),, '\\s', ''))) AS lead_company
+        ,LOWER(TRIM(REGEXP_REPLACE(REGEXP_REPLACE(lead_company, '[^a-zA-Z]', ''), '\\s', ''))) AS lead_company
     FROM
         {{ ref('lead_intermediate') }}
 
