@@ -12,7 +12,9 @@ WITH ratio AS (
         seq_nbr
     FROM
         {{ ref('_3_master_key') }}
-
+    WHERE 
+        fuzzy_match_key IS NOT NULL
+        AND master_key IS NOT NULL
 )
 
 SELECT
