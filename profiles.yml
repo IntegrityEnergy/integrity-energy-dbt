@@ -4,18 +4,18 @@ integrity_energy_dbt:
       dbname: integrity-db
       schema: prod
       host: integrity-energy-prod.cm7f5da54gqs.us-east-1.redshift.amazonaws.com
-      password: Integrity123
+      password: {{ env_var('DBT_PASSWORD') }}
       port: 5439
       threads: 4
       type: redshift
-      user: integrityadmin
+      user: {{ env_var('DBT_USER') }}
     dev:
       dbname: integrity-db
       schema: dev
       host: integrity-energy-prod.cm7f5da54gqs.us-east-1.redshift.amazonaws.com
-      password: Integrity123
+      password: {{ env_var('DBT_PASSWORD') }}
       port: 5439
       threads: 4
       type: redshift
-      user: integrityadmin
+      user: {{ env_var('DBT_USER') }}
   target: prod
